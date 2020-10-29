@@ -135,7 +135,7 @@ highlights:
   TSParameterReference: "cyan"
   TSMethod: "blue"
   TSField: "red"
-  TSProperty: "blue"
+  TSProperty: "yellow"
   TSConstructor: "cyan"
   # Keywords
   TSConditional: "purple"
