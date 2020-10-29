@@ -28,7 +28,7 @@ palette:
 highlights:
   Normal: "fg bg"
 
-  Comment: "green - i"
+  Comment: "line_grey - i"
   Constant: "yellow"
   String: "green - i"
   Character: "green"
@@ -128,8 +128,8 @@ highlights:
   TSAttribute: "cyan"
   TSNamespace: "#FF00FF"
   # Functions
-  TSFuncBuiltin: "yellow"
-  TSFunction: "yellow"
+  TSFuncBuiltin: "blue"
+  TSFunction: "blue"
   TSFuncMacro: "yellow"
   TSParameter: "cyan"
   TSParameterReference: "cyan"
