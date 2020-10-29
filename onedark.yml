@@ -131,10 +131,10 @@ highlights:
   TSFuncBuiltin: "yellow"
   TSFunction: "yellow"
   TSFuncMacro: "yellow"
-  TSParameter: "blue"
-  TSParameterReference: "blue"
+  TSParameter: "cyan"
+  TSParameterReference: "cyan"
   TSMethod: "yellow"
-  TSField: "blue"
+  TSField: "red"
   TSProperty: "blue"
   TSConstructor: "cyan"
   # Keywords
@@ -144,7 +144,7 @@ highlights:
   # Does not work for yield and return they should be diff then class and def
   TSKeyword: "purple"
   TSKeywordFunction: "#FF00FF"
-  TSKeywordOperator: "blue"
+  TSKeywordOperator: "purple"
   TSOperator: "white"
   TSException: "purple"
   TSType: "yellow"
@@ -152,8 +152,8 @@ highlights:
   TSStructure: "#FF00FF"
   TSInclude: "purple"
   # Variable
-  TSVariable: "blue"
-  TSVariableBuiltin: "blue"
+  TSVariable: "yellow"
+  TSVariableBuiltin: "yellow"
   # Text
   TSText: "#FFFF00"
   TSStrong: "#FFFF00"
@@ -163,7 +163,7 @@ highlights:
   TSLiteral: "#FFFF00"
   TSURI: "#FFFF00"
   # Tags
-  TSTag: "blue"
+  TSTag: "red"
   TSTagDelimiter: "line_grey"
   # -- END Treesitter --
 
