@@ -239,7 +239,7 @@ highlights:
   # -- END Easymotion --
 
   # -- START Startify --
-  StartifyNumber: "green"
+  StartifyNumber: "orange"
   StartifySelect: "green"
   StartifyBracket: "blue"
   StartifySpecial: "cyan"
