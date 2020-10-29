@@ -11,6 +11,7 @@ palette:
   error_red: "#F44747"
   green: "#98C379"
   yellow: "#E5C07B"
+  orange: "#D19A66"
   blue: "#61AFEF"
   purple: "#C586C0"
   cyan: "#56B6C2"
@@ -112,8 +113,8 @@ highlights:
   TSPunctBracket: "white"
   TSPunctSpecial: "white"
   # Constants
-  TSConstant: "yellow"
-  TSConstBuiltin: "blue"
+  TSConstant: "blue"
+  TSConstBuiltin: "orange"
   # Not sure about this guy
   TSConstMacro: "cyan"
   TSStringRegex: "green"
@@ -141,12 +142,12 @@ highlights:
   TSRepeat: "purple"
   TSLabel: "blue"
   # Does not work for yield and return they should be diff then class and def
-  TSKeyword: "blue"
+  TSKeyword: "purple"
   TSKeywordFunction: "#FF00FF"
   TSKeywordOperator: "blue"
   TSOperator: "white"
   TSException: "purple"
-  TSType: "cyan"
+  TSType: "yellow"
   TSTypeBuiltin: "blue"
   TSStructure: "#FF00FF"
   TSInclude: "purple"
