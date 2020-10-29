@@ -8,6 +8,10 @@
 - onedark
 - nord (coming soon)
 
+## Credit
+
+The generate script comes from this repo: https://github.com/felipec/vim-felipec
+
 This Colorscheme requires treesitter and Neovim > 0.5 to work and look good
 
 ## Installing
@@ -130,7 +134,3 @@ highlight TSURI guifg=#FF00FF
 highlight TSTag guifg=#569CD6
 highlight TSTagDelimiter guifg=#5C6370
 ```
-
-## Credit
-
-The generate script comes from this repo: https://github.com/felipec/vim-felipec
