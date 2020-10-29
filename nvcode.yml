@@ -249,7 +249,7 @@ highlights:
   StartifySpecial: "cyan"
   StartifyVar: "blue"
   StartifyPath: "blue"
-  StartifyFile: "vivid_blue"
+  StartifyFile: "cyan"
   StartifySlash: "blue"
   StartifyHeader: "green"
   StartifySection: "purple"
