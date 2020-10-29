@@ -5,7 +5,7 @@
 **Included Themes**
 
 - nvcode (basically just dark+)
-- onedark (still in development)
+- onedark
 - nord (coming soon)
 
 This Colorscheme requires treesitter and Neovim > 0.5 to work and look good
