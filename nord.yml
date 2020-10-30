@@ -35,7 +35,7 @@ highlights:
 
   Comment: "nord3 - i"
   Constant: "nord13"
-  String: "nord12 - i"
+  String: "nord14 - i"
   Character: "nord12"
   Number: "nord15"
   Boolean: "nord10"
@@ -122,8 +122,8 @@ highlights:
   TSConstBuiltin: "nord10"
   # Not sure about this guy
   TSConstMacro: "nord7"
-  TSStringRegex: "nord13"
-  TSString: "nord13"
+  TSStringRegex: "nord14"
+  TSString: "nord14"
   TSStringEscape: "nord8"
   TSCharacter: "nord13"
   TSNumber: "nord15"
