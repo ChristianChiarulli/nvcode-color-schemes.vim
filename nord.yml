@@ -133,17 +133,17 @@ highlights:
   TSAttribute: "nord7"
   TSNamespace: "#FF00FF"
   # Functions
-  TSFuncBuiltin: "nord13"
+  TSFuncBuiltin: "nord8"
   TSFunction: "nord8"
-  TSFuncMacro: "nord13"
-  TSParameter: "nord9"
-  TSParameterReference: "nord9"
-  TSMethod: "nord13"
-  TSField: "nord9"
+  TSFuncMacro: "nord8"
+  TSParameter: "nord10"
+  TSParameterReference: "nord10"
+  TSMethod: "nord8"
+  TSField: "nord5"
   TSProperty: "nord9"
   TSConstructor: "nord7"
   # Keywords
-  TSConditional: "nord15"
+  TSConditional: "nord9"
   TSRepeat: "nord15"
   TSLabel: "nord9"
   # Does not work for yield and return they should be diff then class and def
@@ -157,8 +157,8 @@ highlights:
   TSStructure: "#FF00FF"
   TSInclude: "nord15"
   # Variable
-  TSVariable: "nord9"
-  TSVariableBuiltin: "nord9"
+  TSVariable: "nord5"
+  TSVariableBuiltin: "nord5"
   # Text
   TSText: "#FFFF00"
   TSStrong: "#FFFF00"
@@ -168,7 +168,7 @@ highlights:
   TSLiteral: "#FFFF00"
   TSURI: "#FFFF00"
   # Tags
-  TSTag: "nord10"
+  TSTag: "nord9"
   TSTagDelimiter: "line_grey"
   # -- END Treesitter --
 
