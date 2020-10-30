@@ -6,7 +6,7 @@
 
 - nvcode (basically just dark+)
 - onedark
-- nord (coming soon)
+- nord
 
 ## Credit
 
