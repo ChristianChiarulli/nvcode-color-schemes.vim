@@ -30,7 +30,7 @@ highlights:
 
   Comment: "line_grey - i"
   Constant: "yellow"
-  String: "green - i"
+  String: "green"
   Character: "green"
   Number: "orange"
   Boolean: "blue"
@@ -64,7 +64,7 @@ highlights:
   ColorColumn: "- cursor_grey"
   CursorLineNr: "white - b"
   SignColumn: "- bg"
-  Conceal: ""
+  Conceal: "line_grey"
   CursorColumn: "- cursor_grey"
   CursorLine: "- cursor_grey"
   Directory: "blue"
