@@ -158,7 +158,7 @@ highlights:
   TSInclude: "nord15"
   # Variable
   TSVariable: "nord5"
-  TSVariableBuiltin: "nord5"
+  TSVariableBuiltin: "nord10"
   # Text
   TSText: "#FFFF00"
   TSStrong: "#FFFF00"
