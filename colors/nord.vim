@@ -7,7 +7,7 @@ if exists('syntax_on')
 endif
 let g:colors_name='nord'
 
-hi Normal guifg=#d8dee9 ctermfg=254 guibg=#4c566a ctermbg=240 gui=NONE cterm=NONE
+hi Normal guifg=#d8dee9 ctermfg=254 guibg=#2e3440 ctermbg=237 gui=NONE cterm=NONE
 hi Comment guifg=#a3be8c ctermfg=144 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#d08770 ctermfg=173 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -42,15 +42,15 @@ hi Underlined guifg=#8fbcbb ctermfg=109 gui=underline cterm=underline
 hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#2c323c ctermbg=236 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#eceff4 ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi SignColumn guifg=NONE ctermfg=NONE guibg=#4c566a ctermbg=240 gui=NONE cterm=NONE
+hi SignColumn guifg=NONE ctermfg=NONE guibg=#2e3440 ctermbg=237 gui=NONE cterm=NONE
 hi Conceal guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#2c323c ctermbg=236 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#2c323c ctermbg=236 gui=NONE cterm=NONE
 hi Directory guifg=#5e81ac ctermfg=67 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffAdd guifg=#4c566a ctermfg=240 guibg=#a3be8c ctermbg=144 gui=NONE cterm=NONE
+hi DiffAdd guifg=#2e3440 ctermfg=237 guibg=#a3be8c ctermbg=144 gui=NONE cterm=NONE
 hi DiffChange guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi DiffDelete guifg=#4c566a ctermfg=240 guibg=#bf616a ctermbg=131 gui=NONE cterm=NONE
-hi DiffText guifg=#4c566a ctermfg=240 guibg=#ebcb8b ctermbg=222 gui=NONE cterm=NONE
+hi DiffDelete guifg=#2e3440 ctermfg=237 guibg=#bf616a ctermbg=131 gui=NONE cterm=NONE
+hi DiffText guifg=#2e3440 ctermfg=237 guibg=#ebcb8b ctermbg=222 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#181a1f ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#5c6370 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -60,12 +60,12 @@ hi LineNr guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#5e81ac ctermfg=67 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi NonText guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Pmenu guifg=#eceff4 ctermfg=255 guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
-hi PmenuSel guifg=#4c566a ctermfg=240 guibg=#5e81ac ctermbg=67 gui=NONE cterm=NONE
+hi PmenuSel guifg=#2e3440 ctermfg=237 guibg=#5e81ac ctermbg=67 gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#3b4048 ctermbg=238 gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#eceff4 ctermbg=255 gui=NONE cterm=NONE
 hi Question guifg=#b48ead ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi QuickFixLine guifg=#4c566a ctermfg=240 guibg=#ebcb8b ctermbg=222 gui=NONE cterm=NONE
-hi Search guifg=#4c566a ctermfg=240 guibg=#ebcb8b ctermbg=222 gui=NONE cterm=NONE
+hi QuickFixLine guifg=#2e3440 ctermfg=237 guibg=#ebcb8b ctermbg=222 gui=NONE cterm=NONE
+hi Search guifg=#2e3440 ctermfg=237 guibg=#ebcb8b ctermbg=222 gui=NONE cterm=NONE
 hi SpecialKey guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi SpellCap guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -77,13 +77,13 @@ hi StatusLineTerm guifg=#eceff4 ctermfg=255 guibg=#2c323c ctermbg=236 gui=NONE c
 hi StatusLineTermNC guifg=#2c323c ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLine guifg=#5c6370 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineSel guifg=#eceff4 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TabLineFill guifg=NONE ctermfg=NONE guibg=#4c566a ctermbg=240 gui=NONE cterm=NONE
-hi Terminal guifg=#eceff4 ctermfg=255 guibg=#4c566a ctermbg=240 gui=NONE cterm=NONE
+hi TabLineFill guifg=NONE ctermfg=NONE guibg=#2e3440 ctermbg=237 gui=NONE cterm=NONE
+hi Terminal guifg=#eceff4 ctermfg=255 guibg=#2e3440 ctermbg=237 gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#3e4452 ctermbg=238 gui=NONE cterm=NONE
 hi VisualNOS guifg=#3e4452 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WarningMsg guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi WildMenu guifg=#4c566a ctermfg=240 guibg=#5e81ac ctermbg=67 gui=NONE cterm=NONE
-hi EndOfBuffer guifg=#4c566a ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi WildMenu guifg=#2e3440 ctermfg=237 guibg=#5e81ac ctermbg=67 gui=NONE cterm=NONE
+hi EndOfBuffer guifg=#2e3440 ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSError guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctDelimiter guifg=#eceff4 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctBracket guifg=#eceff4 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
