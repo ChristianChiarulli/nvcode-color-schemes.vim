@@ -118,7 +118,7 @@ highlights:
   TSPunctBracket: "nord6"
   TSPunctSpecial: "nord6"
   # Constants
-  TSConstant: "nord13"
+  TSConstant: "nord8"
   TSConstBuiltin: "nord10"
   # Not sure about this guy
   TSConstMacro: "nord7"
@@ -136,14 +136,14 @@ highlights:
   TSFuncBuiltin: "nord8"
   TSFunction: "nord8"
   TSFuncMacro: "nord8"
-  TSParameter: "nord10"
+  TSParameter: "nord5"
   TSParameterReference: "nord10"
   TSMethod: "nord8"
   TSField: "nord5"
   TSProperty: "nord9"
   TSConstructor: "nord7"
   # Keywords
-  TSConditional: "nord9"
+  TSConditional: "nord10"
   TSRepeat: "nord15"
   TSLabel: "nord9"
   # Does not work for yield and return they should be diff then class and def
