@@ -21,7 +21,7 @@ This Colorscheme requires treesitter and Neovim > 0.5 to work and look good
 
 With `Vim-plug`
 
-```
+```viml
 Plug 'christianchiarulli/nvcode-color-schemes.vim'
 Plug 'nvim-treesitter/nvim-treesitter'
 ```
@@ -30,7 +30,7 @@ Plug 'nvim-treesitter/nvim-treesitter'
 
 Just pop this in your `init.vim`
 
-```
+```viml
 lua << EOF
 require'nvim-treesitter.configs'.setup {
   ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
@@ -44,7 +44,7 @@ EOF
 
 And put this in your `init.vim`
 
-```
+```viml
 let g:nvcode_termcolors=256
 
 syntax on
@@ -68,7 +68,7 @@ endif
 
 These are the highlight groups you wanna pay the most attention to.
 
-```
+```viml
 " Misc
 highlight TSError guifg=#F44747
 highlight TSPunctDelimiter guifg=#ABB2BF
