@@ -7,6 +7,7 @@
 - nvcode (basically just dark+)
 - onedark
 - nord
+- snazzy (Based on [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy/) by [Sindre Sorhus](https://sindresorhus.com))
 
 ## Credit
 
