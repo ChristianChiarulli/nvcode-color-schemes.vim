@@ -274,3 +274,9 @@ highlights:
   # ToolbarButton: "suvagray - r"
   debugPc: "- nord7"
   debugBreakpoint: "nord11 - r"
+
+  # GitGutter
+  GitGutterAdd: "nord14"
+  GitGutterChange: "nord13"
+  GitGutterChangeDelete: "nord11"
+  GitGutterDelete: "nord11"
