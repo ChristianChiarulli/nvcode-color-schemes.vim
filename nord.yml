@@ -78,8 +78,15 @@ highlights:
   DiffChange: "nord13 - u"
   DiffDelete: "bg nord11"
   DiffText: "bg nord13"
+  diffAdded: "nord14"
+  diffRemoved: "nord11"
+  diffFileId: "nord10 - br"
+  diffFile: "special_grey"
+  diffNewFile: "nord14"
+  diffOldFile: "nord11"
+  debugPc: "- nord7"
+  debugBreakpoint: "nord11 - r"
   ErrorMsg: "nord11"
-  nord4: "nord4"
   Folded: "line_grey"
   FoldColumn: ""
   IncSearch: "nord13 line_grey"
@@ -106,6 +113,7 @@ highlights:
   TabLineSel: "nord6"
   TabLineFill: "- bg"
   Terminal: "nord6 bg"
+  VertSplit: "nord2"
   Visual: "- nord2"
   VisualNOS: "visual_grey"
   WarningMsg: "nord13"
@@ -263,17 +271,6 @@ highlights:
   WhichKeyGroup: "nord10"
   WhichKeyDesc: "nord10"
   # -- END WhichKey --
-  # old stuff
-  diffAdded: "nord14"
-  diffRemoved: "nord11"
-  diffFileId: "nord10 - br"
-  diffFile: "special_grey"
-  diffNewFile: "nord14"
-  diffOldFile: "nord11"
-  # ToolbarLine: ". darkgray"
-  # ToolbarButton: "suvagray - r"
-  debugPc: "- nord7"
-  debugBreakpoint: "nord11 - r"
 
   # GitGutter
   GitGutterAdd: "nord14"
@@ -283,5 +280,17 @@ highlights:
   
   # Fugitive
   gitcommitDiscardedFile: "nord11"
+  gitcommitSelectedFile: "nord14"
   gitcommitUntrackedFile: "nord11"
-  gitcommitSelect: "nord14"
+  gitconfigVariable: "nord7"
+
+  # Nvim LSP
+  LSPDiagnosticsWarning: "nord13"
+  LspDiagnosticsError: "nord11"
+  LspDiagnosticsInformation: "nord8"
+  LspDiagnosticsHint: "nord10"
+  LspDiagnosticsUnderlineWarning: "nord13"
+  LspDiagnosticsUnderlineError: "nord11"
+  LspDiagnosticsUnderlineInformation: "nord8"
+  LspDiagnosticsUnderlineHint: "nord10"
+
