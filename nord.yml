@@ -11,6 +11,7 @@ palette:
   nord1: "#3B4252"
   nord2: "#434C5E"
   nord3: "#4C566A"
+  nord3_gui_bright: "#616E88"
   nord4: "#D8DEE9"
   nord5: "#E5E9F0"
   nord6: "#ECEFF4"
@@ -33,7 +34,7 @@ palette:
 highlights:
   Normal: "fg bg"
 
-  Comment: "nord3 - i"
+  Comment: "nord3_gui_bright - i"
   Constant: "nord13"
   String: "nord14"
   Character: "nord12"
@@ -273,22 +274,3 @@ highlights:
   # ToolbarButton: "suvagray - r"
   debugPc: "- nord7"
   debugBreakpoint: "nord11 - r"
-  # terminal: "bg nord11 nord14 nord13 nord10 magenta nord7 silver gray nord11 nord14 nord13 nord10 magenta nord7 fg"
-  # -- Other junk you can define --
-  # Debug
-  # Ignore
-  # Tag
-  # Delimiter
-  # SpecialChar
-  # Cursor", { "fg": s:bg, "bg": s:nord10 }) " the character under the cursor
-  # CursorIM", {}) " like Cursor, but used when in IME mode
-  # FoldColumn", {}) " 'foldcolumn'
-  # CursorLineNr", {}) " Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
-  # MoreMsg", {}) " more-prompt
-  # ModeMsg", {}) " 'showmode' message (e.g., "-- INSERT --")
-  # ErrorMsg: "nord11 - br"
-  # WarningMsg: "nord12 - br"
-  # ModeMsg: "nord13 - br"
-  # MoreMsg: "nord14 - br"
-  # Question: "nord7 - br"
-  # Directory: "nord10 - b"
