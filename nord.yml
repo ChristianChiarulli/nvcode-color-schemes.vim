@@ -280,3 +280,8 @@ highlights:
   GitGutterChange: "nord13"
   GitGutterChangeDelete: "nord11"
   GitGutterDelete: "nord11"
+  
+  # Fugitive
+  gitcommitDiscardedFile: "nord11"
+  gitcommitUntrackedFile: "nord11"
+  gitcommitSelect: "nord14"
