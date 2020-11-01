@@ -240,17 +240,12 @@ highlights:
   CocExplorerFileModified: "nord15"
   CocExplorerFileHidden: "line_grey"
   CocExplorerHelpLine: "nord15"
-  # -- END CoC --
 
   # -- START Easymotion --
   EasyMotionTarget: "nord11 - b"
   EasyMotionTarget2First: "nord11 - b"
   EasyMotionTarget2Second: "nord11 - b"
   EasyMotionShade: ""
-  # EasyMotionIncSearch:
-  # EasyMotionMoveHL:
-
-  # -- END Easymotion --
 
   # -- START Startify --
   StartifyNumber: "nord15"
@@ -264,13 +259,11 @@ highlights:
   StartifyHeader: "nord14"
   StartifySection: "nord15"
   StartifyFooter: "nord14"
-  # -- END Startify --
+
   # -- START WhichKey --
   WhichKey: "nord15"
   WhichKeySeperator: "nord14"
   WhichKeyGroup: "nord10"
-  WhichKeyDesc: "nord10"
-  # -- END WhichKey --
 
   # GitGutter
   GitGutterAdd: "nord14"
