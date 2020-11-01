@@ -73,7 +73,7 @@ highlights:
   Conceal: ""
   CursorColumn: "- cursor_grey"
   CursorLine: "- cursor_grey"
-  Directory: "nord10"
+  Directory: "nord8"
   DiffAdd: "bg nord14"
   DiffChange: "nord13 - u"
   DiffDelete: "bg nord11"
