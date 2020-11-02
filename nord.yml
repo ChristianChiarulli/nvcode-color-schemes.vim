@@ -145,7 +145,7 @@ highlights:
 
   # -- Start Treesitter --
   # Misc
-  TSError: "nord11"
+  TSError: "nord11 - u"
   TSPunctDelimiter: "nord6"
   TSPunctBracket: "nord6"
   TSPunctSpecial: "nord6"
