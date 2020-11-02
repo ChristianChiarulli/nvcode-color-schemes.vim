@@ -146,7 +146,7 @@ highlights:
   # -- Start Treesitter --
   # Misc
   TSError: "nord11 - u"
-  TSPunctDelimiter: "nord6"
+  TSPunctDelimiter: "nord9"
   TSPunctBracket: "nord6"
   TSPunctSpecial: "nord6"
   # Constants
@@ -189,7 +189,7 @@ highlights:
   TSInclude: "nord9"
   # Variable
   TSVariable: "nord5"
-  TSVariableBuiltin: "nord10"
+  TSVariableBuiltin: "nord9"
   # Text
   TSText: "#FFFF00"
   TSStrong: "#FFFF00"
