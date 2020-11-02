@@ -154,7 +154,7 @@ highlights:
   TSConstBuiltin: "nord9"
   TSConstMacro: "nord7"
   TSStringRegex: "nord14"
-  TSString: "nord3_gui_bright"
+  TSString: "nord14"
   TSStringEscape: "nord8"
   TSCharacter: "nord14"
   TSNumber: "nord15"
