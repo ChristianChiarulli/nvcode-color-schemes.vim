@@ -29,7 +29,7 @@ palette:
   special_grey: "#3B4048"
 
 highlights:
-  
+
   # Editor
   ColorColumn: "- nord1"
   Cursor: "nord0 nord4"
@@ -99,21 +99,21 @@ highlights:
   Character: "nord14"
   Comment: "nord3_gui_bright - i"
   Conditional: "nord9"
-  Constant: "nord4"
+  Constant: "nord8"
   Define: "nord9"
   Delimeter: "nord6"
   Exception: "nord9"
   Float: "nord15"
   Function: "nord8"
   Identifier: "nord4"
-  Include: "nord4"
+  Include: "nord9"
   Keyword: "nord9"
   Label: "nord9"
   Number: "nord15"
   Operator: "nord9"
   PreProc: "nord9"
   Repeat: "nord9"
-  Special: "nord4"
+  Special: "nord10"
   SpecialChar: "nord13"
   SpecialComment: "nord8 - i"
   Statement: "nord15"
@@ -152,12 +152,11 @@ highlights:
   # Constants
   TSConstant: "nord8"
   TSConstBuiltin: "nord9"
-  # Not sure about this guy
   TSConstMacro: "nord7"
   TSStringRegex: "nord14"
-  TSString: "nord14"
+  TSString: "nord3_gui_bright"
   TSStringEscape: "nord8"
-  TSCharacter: "nord13"
+  TSCharacter: "nord14"
   TSNumber: "nord15"
   TSBoolean: "nord9"
   TSFloat: "nord15"
@@ -177,7 +176,7 @@ highlights:
   # Keywords
   TSConditional: "nord9"
   TSRepeat: "nord15"
-  TSLabel: "nord9"
+  TSLabel: "nord8"
   # Does not work for yield and return they should be diff then class and def
   TSKeyword: "nord9"
   TSKeywordFunction: "#FF00FF"
@@ -248,7 +247,6 @@ highlights:
   markdownOrdenord11ListMarker: "nord11"
   markdownRule: "line_grey"
   markdownUrl: "nord7 - u"
-  # -- END Languages --
 
   # -- START CoC --
   CocExplorerIndentLine: "line_grey"
