@@ -5,7 +5,7 @@ hi clear
 if exists('syntax_on')
   syntax reset
 endif
-let g:colors_name='TSnazzy'
+let g:colors_name='snazzy'
 
 hi Normal guifg=#eff0eb ctermfg=255 guibg=#1e2127 ctermbg=235 gui=NONE cterm=NONE
 hi Comment guifg=#606580 ctermfg=60 guibg=NONE ctermbg=NONE gui=italic cterm=italic
