@@ -27,7 +27,7 @@ palette:
   visual_grey: "#3E4452"
   menu_grey: "#282C34"
   special_grey: "#3B4048"
-  vertsplit: "#FFFFFF"
+  vertsplit: "#3E4452"
 
 highlights:
   Normal: "fg bg"
