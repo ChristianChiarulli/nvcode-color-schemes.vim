@@ -177,9 +177,8 @@ highlights:
   TSConditional: "nord9"
   TSRepeat: "nord15"
   TSLabel: "nord8"
-  # Does not work for yield and return they should be diff then class and def
   TSKeyword: "nord9"
-  TSKeywordFunction: "#FF00FF"
+  TSKeywordFunction: "nord9"
   TSKeywordOperator: "nord9"
   TSOperator: "nord9"
   TSException: "nord9"
