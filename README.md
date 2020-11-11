@@ -15,7 +15,7 @@ The generate script comes from this repo: https://github.com/felipec/vim-felipec
 
 ### Required Version
 
-This color scheme requires a treesitter and Neovim > 0.5.
+This color scheme requires [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and [Neovim](https://neovim.io/) > 0.5.
 
 ## Installing
 
