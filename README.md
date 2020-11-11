@@ -64,7 +64,7 @@ endif
 	- `generate colorscheme_name.yml >  ./colors/colorscheme_name.vim`
 - Create a PR
 
-These are the highlight groups you wanna pay the most attention to.
+Below are the treesitter highlight groups; modify these to take advantage of treesitter highlighting..
 
 ```viml
 " Misc
