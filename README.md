@@ -28,9 +28,10 @@ Plug 'nvim-treesitter/nvim-treesitter'
 
 ## Configuring
 
-Add this code to your `init.vim` file 
+Add code to your `init.vim` file 
 
 ```viml
+" configure treesitter
 lua << EOF
 require'nvim-treesitter.configs'.setup {
   ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
@@ -41,6 +42,7 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF
 
+" configure nvcode-color-schemes
 let g:nvcode_termcolors=256
 
 syntax on
