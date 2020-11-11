@@ -13,7 +13,7 @@
 
 The generate script comes from this repo: https://github.com/felipec/vim-felipec
 
-### Required Version
+### Requirements 
 
 This color scheme requires [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and [Neovim](https://neovim.io/) > 0.5.
 
