@@ -28,7 +28,7 @@ Plug 'nvim-treesitter/nvim-treesitter'
 
 ## Configuring
 
-Add code to your `init.vim` file 
+Add this to your `init.vim` file 
 
 ```viml
 " configure treesitter
