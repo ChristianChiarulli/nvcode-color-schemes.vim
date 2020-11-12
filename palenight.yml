@@ -62,6 +62,7 @@ highlights:
   Typedef: "yellow"
   Special: "blue - i"
   SpecialComment: "line_grey"
+  MoreMsg: "white"
   Error: "error_red - br"
   Todo: "purple - bi"
   Underlined: "cyan . u"

@@ -36,6 +36,7 @@ hi Structure guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi Typedef guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#82b1ff ctermfg=111 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi SpecialComment guifg=#697098 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi MoreMsg guifg=#bfc7d5 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#be5046 ctermfg=131 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
 hi Todo guifg=#c792ea ctermfg=176 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
 hi Underlined guifg=#89ddff ctermfg=117 gui=underline cterm=underline
