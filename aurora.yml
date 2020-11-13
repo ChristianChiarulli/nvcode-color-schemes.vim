@@ -1,33 +1,34 @@
 information:
-  name: nvcode
+  name: aurora
   background: dark
   author: "Christian Chiarulli <chrisatmachine@gmail.com>"
 
 palette:
-  fg: "#ABB2BF"
-  bg: "#1E1E1E"
+  fg: "#E5E9F0"
+  bg: "#232731"
 
-  red: "#D16969"
   error_red: "#F44747"
-  green: "#608B4E"
+  red: "#BF616A"
+  green: "#A3BE8C"
   light_green: "#B5CEA8"
-  yellow: "#DCDCAA"
+  yellow: "#EBCB8B"
   dark_yellow: "#D7BA7D"
-  orange: "#CE9178"
-  blue: "#569CD6"
-  light_blue: "#9CDCFE"
-  vivid_blue: "#4FC1FF"
-  purple: "#C586C0"
-  cyan: "#4EC9B0"
-  white: "#ABB2BF"
-  black: "#1E1E1E"
+  orange: "#D08770"
+  blue: "#5E81AC"
+  light_blue: "#88C0D0"
+  vivid_blue: "#81A1C1"
+  purple: "#B48EAD"
+  cyan: "#8FBCBB"
+  white: "#D8DEE9"
+  black: "#232731"
+
   line_grey: "#5C6370"
   gutter_fg_grey: "#4B5263"
   cursor_grey: "#2C323C"
-  visual_grey: "#3E4452"
+  visual_grey: "#4C566A"
   menu_grey: "#282C34"
   special_grey: "#3B4048"
-  vertsplit: "#3E4452"
+  vertsplit: "#2E3440"
 
 highlights:
   Normal: "fg bg"
@@ -147,7 +148,7 @@ highlights:
   TSLabel: "light_blue"
   # Does not work for yield and return they should be diff then class and def
   TSKeyword: "blue"
-  TSKeywordFunction: "purple"
+  TSKeywordFunction: "#FF00FF"
   TSKeywordOperator: "blue"
   TSOperator: "white"
   TSException: "purple"
