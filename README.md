@@ -6,31 +6,32 @@
 
 - nvcode (basically just dark+)
 - onedark
-- nord
+- [nord](./assets/nord.png)
 - snazzy (Based on [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy/) by [Sindre Sorhus](https://sindresorhus.com))
 
-## Credit
+### Credit
 
 The generate script comes from this repo: https://github.com/felipec/vim-felipec
 
-## Required Version
+### Requirements 
 
-This Colorscheme requires treesitter and Neovim > 0.5 to work and look good
+This color scheme requires [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and [Neovim](https://neovim.io/) > 0.5.
 
 ## Installing
 
 With `Vim-plug`
 
-```
+```viml
 Plug 'christianchiarulli/nvcode-color-schemes.vim'
 Plug 'nvim-treesitter/nvim-treesitter'
 ```
 
 ## Configuring
 
-Just pop this in your `init.vim`
+Add this to your `init.vim` file 
 
-```
+```viml
+" configure treesitter
 lua << EOF
 require'nvim-treesitter.configs'.setup {
   ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
@@ -40,11 +41,8 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 EOF
-```
 
-And put this in your `init.vim`
-
-```
+" configure nvcode-color-schemes
 let g:nvcode_termcolors=256
 
 syntax on
@@ -60,15 +58,15 @@ endif
 
 ## Contributing
 
-- Create a yaml file
-- Fill it with all the highlight groups you want
-- Run the generate script `generate <colorscheme name>.yml`
-- Put the colorscheme in the `colors` directory
+- Create a YAML file
+- Modify the highlight groups with custom colors 
+- Run the generate script and save the output to the colors directory 
+	- `generate colorscheme_name.yml >  ./colors/colorscheme_name.vim`
 - Create a PR
 
-These are the highlight groups you wanna pay the most attention to.
+Below are the treesitter highlight groups; modify these to take advantage of treesitter highlighting.
 
-```
+```viml
 " Misc
 highlight TSError guifg=#F44747
 highlight TSPunctDelimiter guifg=#ABB2BF
