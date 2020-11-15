@@ -193,7 +193,7 @@ highlights:
   htmlH5: "fg"
   htmlH6: "fg"
   htmlItalic: "purple - i"
-  htmlLink: "red - u"
+  htmlLink: "fg - u"
   htmlSpecialChar: "yellow"
   htmlSpecialTagName: "blue"
   htmlTag: "blue_2"
