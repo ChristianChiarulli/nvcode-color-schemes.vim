@@ -298,7 +298,7 @@ highlights:
 
   # Nvim LSP
   LSPDiagnosticsWarning: "nord13"
-  LspDiagnosticsError: "nord11"
+  LspDiagnosticsDefaultError: "nord11"
   LspDiagnosticsInformation: "nord8"
   LspDiagnosticsHint: "nord10"
   LspDiagnosticsUnderlineWarning: "nord13"
