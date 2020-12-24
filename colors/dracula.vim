@@ -95,7 +95,7 @@ hi TSStringRegex guifg=#ff5555 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cter
 hi TSString guifg=#f1fa8c ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStringEscape guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSCharacter guifg=#50fa7b ctermfg=84 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSNumber guifg=#ffb86c ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSNumber guifg=#bd93f9 ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSBoolean guifg=#bd93f9 ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFloat guifg=#50fa7b ctermfg=84 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSAnnotation guifg=#f1fa8c ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -111,14 +111,14 @@ hi TSField guifg=#ffb86c ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSProperty guifg=#f8f8f2 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstructor guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConditional guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSRepeat guifg=#bd93f9 ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSRepeat guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSLabel guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSKeyword guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSKeywordFunction guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSKeywordOperator guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSOperator guifg=#abb2bf ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSOperator guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSException guifg=#bd93f9 ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSType guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSType guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTypeBuiltin guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSStructure guifg=#bd93f9 ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSInclude guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
