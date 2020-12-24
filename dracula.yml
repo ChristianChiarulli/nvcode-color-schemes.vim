@@ -109,7 +109,7 @@ highlights:
   # -- Start Treesitter --
   # Misc
   TSError: "error_red"
-  TSPunctDelimiter: "pink"
+  TSPunctDelimiter: "fg"
   TSPunctBracket: "fg"
   TSPunctSpecial: "fg"
   # Constants
@@ -193,12 +193,12 @@ highlights:
   markdownCode: "green"
   markdownCodeBlock: "orange"
   markdownCodeDelimiter: "red"
-  markdownH1: "purple - b"
-  markdownH2: "purple - b"
-  markdownH3: "purple - b"
-  markdownH4: "purple - b"
-  markdownH5: "purple - b"
-  markdownH6: "purple - b"
+  markdownH1: "pink - b"
+  markdownH2: "pink - b"
+  markdownH3: "pink - b"
+  markdownH4: "pink - b"
+  markdownH5: "pink - b"
+  markdownH6: "pink - b"
   markdownHeadingDelimiter: "red"
   markdownHeadingRule: "line_grey"
   markdownId: "purple"
