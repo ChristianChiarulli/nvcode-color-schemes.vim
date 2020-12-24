@@ -122,7 +122,7 @@ highlights:
   TSStringEscape: "cyan"
   TSCharacter: "green"
   TSNumber: "orange"
-  TSBoolean: "orange"
+  TSBoolean: "purple"
   TSFloat: "green"
   TSAnnotation: "yellow"
   TSAttribute: "cyan"
