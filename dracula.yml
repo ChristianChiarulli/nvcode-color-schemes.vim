@@ -38,7 +38,7 @@ highlights:
   Identifier: "fg"
   Function: "yellow"
   Statement: "purple"
-  Conditional: "purple"
+  Conditional: "pink"
   Repeat: "purple"
   Label: "cyan"
   Operator: "purple"
@@ -133,9 +133,9 @@ highlights:
   TSFuncMacro: "green"
   TSParameter: "orange"
   TSParameterReference: "orange"
-  TSMethod: "green"
+  TSMethod: "purple"
   TSField: "orange"
-  TSProperty: "orange"
+  TSProperty: "green"
   TSConstructor: "green"
   # Keywords
   TSConditional: "purple"
@@ -150,10 +150,10 @@ highlights:
   TSType: "cyan"
   TSTypeBuiltin: "cyan - i"
   TSStructure: "purple"
-  TSInclude: "purple"
+  TSInclude: "pink"
   # Variable
-  TSVariable: "fg"
-  TSVariableBuiltin: "yellow"
+  TSVariable: "white"
+  TSVariableBuiltin: "purple"
   # Text
   TSText: "#FFFF00"
   TSStrong: "#FFFF00"
@@ -163,8 +163,8 @@ highlights:
   TSLiteral: "#FFFF00"
   TSURI: "#FFFF00"
   # Tags
-  TSTag: "pink"
-  TSTagDelimiter: "green"
+  TSTag: "cyan"
+  TSTagDelimiter: "white"
   # -- END Treesitter --
 
   # -- START Languages --
