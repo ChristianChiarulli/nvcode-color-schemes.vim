@@ -35,7 +35,7 @@ highlights:
   Number: "orange"
   Boolean: "cyan"
   Float: "orange"
-  Identifier: "fg"
+  Identifier: "cyan"
   Function: "yellow"
   Statement: "purple"
   Conditional: "pink"
@@ -109,7 +109,7 @@ highlights:
   # -- Start Treesitter --
   # Misc
   TSError: "error_red"
-  TSPunctDelimiter: "white"
+  TSPunctDelimiter: "pink"
   TSPunctBracket: "white"
   TSPunctSpecial: "white"
   # Constants
