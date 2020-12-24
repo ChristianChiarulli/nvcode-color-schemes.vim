@@ -1,7 +1,7 @@
 information:
-  name: onedark
+  name: dracula
   background: dark
-  author: "Christian Chiarulli <chrisatmachine@gmail.com>"
+  author: "Nitish Velu <nitishvelu@gmail.com>"
 
 palette:
   fg: "#F8F8F2"
@@ -110,8 +110,8 @@ highlights:
   # Misc
   TSError: "error_red"
   TSPunctDelimiter: "pink"
-  TSPunctBracket: "white"
-  TSPunctSpecial: "white"
+  TSPunctBracket: "fg"
+  TSPunctSpecial: "fg"
   # Constants
   TSConstant: "purple"
   TSConstBuiltin: "purple"
@@ -133,12 +133,12 @@ highlights:
   TSFuncMacro: "green"
   TSParameter: "orange"
   TSParameterReference: "orange"
-  TSMethod: "purple"
+  TSMethod: "green"
   TSField: "orange"
-  TSProperty: "green"
+  TSProperty: "fg"
   TSConstructor: "green"
   # Keywords
-  TSConditional: "purple"
+  TSConditional: "pink"
   TSRepeat: "purple"
   TSLabel: "cyan"
   # Does not work for yield and return they should be diff then class and def
@@ -152,7 +152,7 @@ highlights:
   TSStructure: "purple"
   TSInclude: "pink"
   # Variable
-  TSVariable: "white"
+  TSVariable: "fg"
   TSVariableBuiltin: "purple"
   # Text
   TSText: "#FFFF00"
