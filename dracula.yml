@@ -28,7 +28,7 @@ palette:
 highlights:
   Normal: "fg bg"
 
-  Comment: "line_grey - i"
+  Comment: "line_grey -i"
   Constant: "yellow"
   String: "yellow"
   Character: "green"
