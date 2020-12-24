@@ -179,12 +179,12 @@ highlights:
   htmlH5: "pink"
   htmlH6: "pink"
   htmlItalic: "purple - i"
-  htmlLink: "cyan - u"
+  htmlLink: "green - u"
   htmlSpecialChar: "yellow"
-  htmlSpecialTagName: "green"
+  htmlSpecialTagName: "cyan"
   htmlTag: "pink"
   htmlTagN: "pink"
-  htmlTagName: "green"
+  htmlTagName: "cyan"
   htmlTitle: "white"
 
   # Markdown (keep consistent with HTML, above)
