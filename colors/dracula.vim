@@ -143,12 +143,12 @@ hi htmlH4 guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlH5 guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlH6 guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlItalic guifg=#bd93f9 ctermfg=141 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi htmlLink guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi htmlLink guifg=#50fa7b ctermfg=84 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi htmlSpecialChar guifg=#f1fa8c ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi htmlSpecialTagName guifg=#50fa7b ctermfg=84 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlSpecialTagName guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTag guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTagN guifg=#ff79c6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi htmlTagName guifg=#50fa7b ctermfg=84 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlTagName guifg=#8be9fd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTitle guifg=#abb2bf ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownBlockquote guifg=#f1fa8c ctermfg=228 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi markdownBold guifg=#ffb86c ctermfg=215 guibg=NONE ctermbg=NONE gui=bold cterm=bold
