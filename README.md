@@ -7,6 +7,8 @@
 - nvcode (basically just dark+)
 - onedark
 - [nord](./assets/nord.png)
+- aurora (more colorful nord)
+- gruvbox
 - palenight
 - snazzy (Based on [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy/) by [Sindre Sorhus](https://sindresorhus.com))
 
