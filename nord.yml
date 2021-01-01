@@ -162,7 +162,7 @@ highlights:
   TSFloat: "nord15"
   TSAnnotation: "nord12"
   TSAttribute: "nord7"
-  TSNamespace: "#FF00FF"
+  TSNamespace: "nord6"
   # Functions
   TSFuncBuiltin: "nord8"
   TSFunction: "nord8"
