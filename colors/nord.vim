@@ -21,7 +21,7 @@ hi PmenuSel guifg=#88c0d0 ctermfg=110 guibg=#4c566a ctermbg=240 gui=NONE cterm=N
 hi PmenuThumb guifg=#88c0d0 ctermfg=110 guibg=#4c566a ctermbg=240 gui=NONE cterm=NONE
 hi SpecialKey guifg=#4c566a ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=#bf616a ctermfg=131 guibg=#2e3440 ctermbg=237 gui=underline cterm=underline
-hi SpellCap guifg=#ebcb8b ctermfg=222 guibg=#88c0d0 ctermbg=110 gui=underline cterm=underline
+hi SpellCap guifg=#bf616a ctermfg=131 guibg=#2e3440 ctermbg=237 gui=underline cterm=underline
 hi SpellLocal guifg=#e5e9f0 ctermfg=255 guibg=#2e3440 ctermbg=237 gui=underline cterm=underline
 hi SpellRare guifg=#eceff4 ctermfg=255 guibg=#2e3440 ctermbg=237 gui=underline cterm=underline
 hi Visual guifg=NONE ctermfg=NONE guibg=#434c5e ctermbg=239 gui=NONE cterm=NONE
@@ -123,7 +123,7 @@ hi TSFuncMacro guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi TSParameter guifg=#e5e9f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSParameterReference guifg=#81a1c1 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSMethod guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSField guifg=#e5e9f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSField guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSProperty guifg=#81a1c1 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstructor guifg=#8fbcbb ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConditional guifg=#81a1c1 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

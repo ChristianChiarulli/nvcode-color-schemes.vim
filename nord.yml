@@ -45,7 +45,7 @@ highlights:
   PmenuThumb: "nord8 nord3"
   SpecialKey: "nord3"
   SpellBad: "nord11 nord0 u"
-  SpellCap: "nord13 nord8 u"
+  SpellCap: "nord11 nord0 u"
   SpellLocal: "nord5 nord0 u"
   SpellRare: "nord6 nord0 u"
   Visual: "- nord2"
@@ -170,7 +170,7 @@ highlights:
   TSParameter: "nord5"
   TSParameterReference: "nord9"
   TSMethod: "nord8"
-  TSField: "nord5"
+  TSField: "nord8"
   TSProperty: "nord9"
   TSConstructor: "nord7"
   # Keywords
