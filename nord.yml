@@ -267,6 +267,12 @@ highlights:
   EasyMotionTarget2Second: "nord11 - b"
   EasyMotionShade: ""
 
+  # -- Sneak
+  Sneak: "nord0 nord13 u" 
+  SneakScope: "nord6 bg"
+  SneakLabel: "nord0 nord13 u" 
+  SneakLabelMask: "nord13" 
+
   # -- START Startify --
   StartifyNumber: "nord15"
   StartifySelect: "nord14"
