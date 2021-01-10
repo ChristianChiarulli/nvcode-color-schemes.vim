@@ -45,7 +45,7 @@ highlights:
   PmenuThumb: "nord8 nord3"
   SpecialKey: "nord3"
   SpellBad: "nord11 nord0 u"
-  SpellCap: "nord13 nord8 u"
+  SpellCap: "nord11 nord0 u"
   SpellLocal: "nord5 nord0 u"
   SpellRare: "nord6 nord0 u"
   Visual: "- nord2"
@@ -162,7 +162,7 @@ highlights:
   TSFloat: "nord15"
   TSAnnotation: "nord12"
   TSAttribute: "nord7"
-  TSNamespace: "#FF00FF"
+  TSNamespace: "nord6"
   # Functions
   TSFuncBuiltin: "nord8"
   TSFunction: "nord8"
@@ -170,7 +170,7 @@ highlights:
   TSParameter: "nord5"
   TSParameterReference: "nord9"
   TSMethod: "nord8"
-  TSField: "nord5"
+  TSField: "nord8"
   TSProperty: "nord9"
   TSConstructor: "nord7"
   # Keywords
@@ -266,6 +266,12 @@ highlights:
   EasyMotionTarget2First: "nord11 - b"
   EasyMotionTarget2Second: "nord11 - b"
   EasyMotionShade: ""
+
+  # -- Sneak
+  Sneak: "nord0 nord13 u" 
+  SneakScope: "nord6 bg"
+  SneakLabel: "nord0 nord13 u" 
+  SneakLabelMask: "nord13" 
 
   # -- START Startify --
   StartifyNumber: "nord15"
