@@ -131,7 +131,7 @@ highlights:
   TSFloat: "light_green"
   TSAnnotation: "yellow"
   TSAttribute: "cyan"
-  TSNamespace: "#FF00FF"
+  TSNamespace: "cyan"
   # Functions
   TSFuncBuiltin: "yellow"
   TSFunction: "yellow"
