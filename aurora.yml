@@ -154,7 +154,7 @@ highlights:
   TSLabel: "light_blue"
   # Does not work for yield and return they should be diff then class and def
   TSKeyword: "blue"
-  TSKeywordFunction: "#FF00FF"
+  TSKeywordFunction: "purple"
   TSKeywordOperator: "blue"
   TSOperator: "white"
   TSException: "purple"
