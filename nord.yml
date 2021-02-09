@@ -196,7 +196,7 @@ highlights:
   TSUnderline: "#FFFF00"
   TSTitle: "#FFFF00"
   TSLiteral: "nord3_gui_bright - i"
-  TSURI: "#FFFF00"
+  TSURI: "nord4"
   # Tags
   TSTag: "nord9"
   TSTagDelimiter: "line_grey"
