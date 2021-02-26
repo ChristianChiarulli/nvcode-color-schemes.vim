@@ -260,12 +260,24 @@ highlights:
   CocExplorerFileModified: "nord15"
   CocExplorerFileHidden: "line_grey"
   CocExplorerHelpLine: "nord15"
+  CocWarningHighlight: "nord13"
+  CocErrorHighlight: "nord11"
+  CocWarningSign: "nord13"
+  CocErrorSign: "nord11"
+  CocInfoSign: "nord8"
+  CocHintSign: "nord10"
 
   # -- START Easymotion --
   EasyMotionTarget: "nord11 - b"
   EasyMotionTarget2First: "nord11 - b"
   EasyMotionTarget2Second: "nord11 - b"
   EasyMotionShade: ""
+
+  # -- START Signify --
+  SignifySignAdd: "nord14"
+  SignifySignChange: "nord13"
+  SignifySignChangeDelete: "nord11"
+  SignifySignDelete: "nord11"
 
   # -- Sneak
   Sneak: "nord0 nord13 u" 
