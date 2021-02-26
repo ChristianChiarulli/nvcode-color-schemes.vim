@@ -111,6 +111,12 @@ highlights:
   WildMenu: "black blue"
   EndOfBuffer: "black"
 
+  # -- Start LSP
+  LspReferenceText: "- visual_grey"
+  LspReferenceRead: "- visual_grey"
+  LspReferenceWrite: "- visual_grey"
+  # -- END LSP --
+
   # -- Start Treesitter --
   # Misc
   TSError: "error_red"
