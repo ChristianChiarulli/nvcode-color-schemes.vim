@@ -217,6 +217,11 @@ highlights:
   markdownUrl: "cyan - u"
   # -- END Languages --
 
+  LspDiagnosticsUnderlineError: "error_red"
+  LspDiagnosticsUnderlineWarning: "orange"
+  LspDiagnosticsUnderlineInformation: "yellow"
+  LspDiagnosticsUnderlineHint: "blue"
+
   # -- START CoC --
   CocExplorerIndentLine: "line_grey"
   CocExplorerBufferRoot: "cyan"
