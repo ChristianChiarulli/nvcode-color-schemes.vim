@@ -84,6 +84,9 @@ hi VisualNOS guifg=#4c566a ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi WarningMsg guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#232731 ctermfg=235 guibg=#5e81ac ctermbg=67 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#232731 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspReferenceText guifg=NONE ctermfg=NONE guibg=#4c566a ctermbg=240 gui=NONE cterm=NONE
+hi LspReferenceRead guifg=NONE ctermfg=NONE guibg=#4c566a ctermbg=240 gui=NONE cterm=NONE
+hi LspReferenceWrite guifg=NONE ctermfg=NONE guibg=#4c566a ctermbg=240 gui=NONE cterm=NONE
 hi TSError guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctDelimiter guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctBracket guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
