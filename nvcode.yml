@@ -14,6 +14,7 @@ palette:
   yellow: "#DCDCAA"
   dark_yellow: "#D7BA7D"
   orange: "#CE9178"
+  grey_blue: "#729CB3"
   blue: "#569CD6"
   light_blue: "#9CDCFE"
   vivid_blue: "#4FC1FF"
@@ -217,10 +218,10 @@ highlights:
   markdownUrl: "cyan - u"
   # -- END Languages --
 
-  LspDiagnosticsUnderlineError: "error_red"
-  LspDiagnosticsUnderlineWarning: "orange"
-  LspDiagnosticsUnderlineInformation: "yellow"
-  LspDiagnosticsUnderlineHint: "blue"
+  # LspDiagnosticsUnderlineError: "error_red"
+  # LspDiagnosticsUnderlineWarning: "orange"
+  # LspDiagnosticsUnderlineInformation: "yellow"
+  LspDiagnosticsUnderlineHint: "grey_blue"
 
   # -- START CoC --
   CocExplorerIndentLine: "line_grey"
