@@ -218,9 +218,9 @@ highlights:
   markdownUrl: "cyan - u"
   # -- END Languages --
 
-  # LspDiagnosticsUnderlineError: "error_red"
-  # LspDiagnosticsUnderlineWarning: "orange"
-  # LspDiagnosticsUnderlineInformation: "yellow"
+  LspDiagnosticsUnderlineError: "error_red"
+  LspDiagnosticsUnderlineWarning: "orange"
+  LspDiagnosticsUnderlineInformation: "yellow"
   LspDiagnosticsUnderlineHint: "grey_blue"
 
   # -- START CoC --
