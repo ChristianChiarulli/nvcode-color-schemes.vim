@@ -228,6 +228,11 @@ highlights:
   LspDiagnosticsSignInformation: "yellow"
   LspDiagnosticsSignHint: "blue"
 
+  LspDiagnosticsVirtualTextError: "error_red"
+  LspDiagnosticsVirtualTextWarning: "orange"
+  LspDiagnosticsVirtualTextInformation: "yellow"
+  LspDiagnosticsVirtualTextHint: "blue"
+
   # -- START CoC --
   CocExplorerIndentLine: "line_grey"
   CocExplorerBufferRoot: "cyan"
