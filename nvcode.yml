@@ -267,6 +267,10 @@ highlights:
   WhichKeyGroup: "vivid_blue"
   WhichKeyDesc: "blue"
   # -- END WhichKey --
+  #
+  GitSignsAdd: "#587C0C"
+  GitSignsChange: "#0C7D9D"
+  GitSignsDelete: "#94151B"
   # old stuff
   diffAdded: "green"
   diffRemoved: "red"
