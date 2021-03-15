@@ -35,7 +35,7 @@ palette:
 highlights:
   Normal: "fg bg"
 
-  Comment: "green - i"
+  Comment: "line_grey - i"
   Constant: "yellow"
   String: "orange"
   Character: "orange"
@@ -115,6 +115,7 @@ highlights:
 
   # -- Start Treesitter --
   # Misc
+  TSComment: "green"
   TSError: "error_red"
   TSPunctDelimiter: "white"
   TSPunctBracket: "white"
