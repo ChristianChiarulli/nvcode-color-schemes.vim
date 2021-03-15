@@ -29,6 +29,8 @@ palette:
   menu_grey: "#282C34"
   special_grey: "#3B4048"
   vertsplit: "#3E4452"
+  warning_orange: "#ff8800"
+  info_yellow: "#FFCC66"
 
 highlights:
   Normal: "fg bg"
@@ -224,14 +226,14 @@ highlights:
   LspDiagnosticsUnderlineHint: "grey_blue"
 
   LspDiagnosticsSignError: "error_red"
-  LspDiagnosticsSignWarning: "orange"
-  LspDiagnosticsSignInformation: "yellow"
-  LspDiagnosticsSignHint: "blue"
+  LspDiagnosticsSignWarning: "warning_orange"
+  LspDiagnosticsSignInformation: "info_yellow"
+  LspDiagnosticsSignHint: "vivid_blue"
 
   LspDiagnosticsVirtualTextError: "error_red"
-  LspDiagnosticsVirtualTextWarning: "orange"
-  LspDiagnosticsVirtualTextInformation: "yellow"
-  LspDiagnosticsVirtualTextHint: "blue"
+  LspDiagnosticsVirtualTextWarning: "warning_orange"
+  LspDiagnosticsVirtualTextInformation: "info_yellow"
+  LspDiagnosticsVirtualTextHint: "vivid_blue"
 
 
   QuickScopePrimary: "#00C7DF - u"
