@@ -233,6 +233,10 @@ highlights:
   LspDiagnosticsVirtualTextInformation: "yellow"
   LspDiagnosticsVirtualTextHint: "blue"
 
+
+  QuickScopePrimary: "#00C7DF - u"
+  QuickScopeSecondary: "#eF5F70 - u"
+
   # -- START CoC --
   CocExplorerIndentLine: "line_grey"
   CocExplorerBufferRoot: "cyan"
