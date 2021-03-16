@@ -32,6 +32,7 @@ palette:
   warning_orange: "#ff8800"
   info_yellow: "#FFCC66"
 
+
 highlights:
   Normal: "fg bg"
 
@@ -85,7 +86,6 @@ highlights:
   FoldColumn: ""
   IncSearch: "yellow line_grey"
   LineNr: "gutter_fg_grey"
-  MatchParen: "blue - u"
   NonText: "special_grey"
   Pmenu: "white menu_grey"
   PmenuSel: "black blue"
@@ -239,6 +239,11 @@ highlights:
 
   QuickScopePrimary: "#00C7DF - u"
   QuickScopeSecondary: "#eF5F70 - u"
+
+  MatchWord: "- - u"
+  MatchParen: "- - u"
+  MatchWordCur: "- - u"
+  MatchParenCur: "- - u"
 
   # -- START CoC --
   CocExplorerIndentLine: "line_grey"
