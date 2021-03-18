@@ -31,6 +31,7 @@ palette:
   vertsplit: "#3E4452"
   warning_orange: "#ff8800"
   info_yellow: "#FFCC66"
+  search_blue: "#1da1f2"
 
 
 highlights:
@@ -84,7 +85,7 @@ highlights:
   VertSplit: "vertsplit"
   Folded: "line_grey"
   FoldColumn: ""
-  IncSearch: "yellow line_grey"
+  IncSearch: "search_blue line_grey"
   LineNr: "gutter_fg_grey"
   NonText: "special_grey"
   Pmenu: "white menu_grey"
@@ -93,7 +94,7 @@ highlights:
   PmenuThumb: "- white"
   Question: "purple"
   QuickFixLine: "black yellow"
-  Search: "black yellow"
+  Search: "search_blue yellow"
   SpecialKey: "special_grey"
   SpellBad: "error_red - u"
   SpellCap: "dark_yellow"
