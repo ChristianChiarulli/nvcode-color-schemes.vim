@@ -111,7 +111,7 @@ highlights:
   StatusLineTermNC: "cursor_grey"
   TabLine: "line_grey"
   TabLineSel: "white"
-  TabLineFill: "- bg"
+  TabLineFill: "- tabfill"
   Terminal: "white black"
   Visual: "- visual_grey"
   VisualNOS: "visual_grey"
