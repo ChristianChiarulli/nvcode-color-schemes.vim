@@ -32,6 +32,9 @@ palette:
   warning_orange: "#ff8800"
   info_yellow: "#FFCC66"
   search_blue: "#1da1f2"
+  git_green: "#81B88B"
+  symlink: "#29B8D8"
+  executable: "#23D18B"
 
 
 highlights:
@@ -324,3 +327,16 @@ highlights:
   # MoreMsg: "green - br"
   # Question: "cyan - br"
   # Directory: "blue - b"
+  NvimTreeImageFile: "purple"
+  NvimTreeGitDirty: "git_green"
+  NvimTreeGitDeleted: "git_green"
+  NvimTreeGitStaged: "git_green"
+  NvimTreeGitMerge: "git_green"
+  NvimTreeGitRenamed: "git_green"
+  NvimTreeGitNew: "git_green"
+  NvimTreeIndentMarker: "line_grey"
+  NvimTreeSymlink: "symlink"
+  NvimTreeFolderIcon: "blue"
+  NvimTreeRootFolder: "fg - b"
+  NvimTreeExecFile: "executable"
+  NvimTreeSpecialFile: "info_yellow"
