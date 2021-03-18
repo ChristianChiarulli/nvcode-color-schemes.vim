@@ -35,6 +35,8 @@ palette:
   git_green: "#81B88B"
   symlink: "#29B8D8"
   executable: "#23D18B"
+  tabfill: "#252526"
+  bg_inactive: "#2E2E2E"
 
 
 highlights:
@@ -88,7 +90,7 @@ highlights:
   VertSplit: "vertsplit"
   Folded: "line_grey"
   FoldColumn: ""
-  IncSearch: "search_blue line_grey"
+  IncSearch: "- line_grey"
   LineNr: "gutter_fg_grey"
   NonText: "special_grey"
   Pmenu: "white menu_grey"
@@ -97,7 +99,7 @@ highlights:
   PmenuThumb: "- white"
   Question: "purple"
   QuickFixLine: "black yellow"
-  Search: "search_blue yellow"
+  Search: "- line_grey"
   SpecialKey: "special_grey"
   SpellBad: "error_red - u"
   SpellCap: "dark_yellow"
@@ -225,29 +227,6 @@ highlights:
   markdownUrl: "cyan - u"
   # -- END Languages --
 
-  # LspDiagnosticsUnderlineError: "error_red"
-  # LspDiagnosticsUnderlineWarning: "orange"
-  # LspDiagnosticsUnderlineInformation: "yellow"
-  LspDiagnosticsUnderlineHint: "grey_blue"
-
-  LspDiagnosticsSignError: "error_red"
-  LspDiagnosticsSignWarning: "warning_orange"
-  LspDiagnosticsSignInformation: "info_yellow"
-  LspDiagnosticsSignHint: "vivid_blue"
-
-  LspDiagnosticsVirtualTextError: "error_red"
-  LspDiagnosticsVirtualTextWarning: "warning_orange"
-  LspDiagnosticsVirtualTextInformation: "info_yellow"
-  LspDiagnosticsVirtualTextHint: "vivid_blue"
-
-
-  QuickScopePrimary: "#00C7DF - u"
-  QuickScopeSecondary: "#eF5F70 - u"
-
-  MatchWord: "- - u"
-  MatchParen: "- - u"
-  MatchWordCur: "- - u"
-  MatchParenCur: "- - u"
 
   # -- START CoC --
   CocExplorerIndentLine: "line_grey"
@@ -294,9 +273,6 @@ highlights:
   WhichKeyDesc: "blue"
   # -- END WhichKey --
   #
-  GitSignsAdd: "#587C0C"
-  GitSignsChange: "#0C7D9D"
-  GitSignsDelete: "#94151B"
   # old stuff
   diffAdded: "green"
   diffRemoved: "red"
@@ -308,6 +284,72 @@ highlights:
   # ToolbarButton: "suvagray - r"
   debugPc: "- cyan"
   debugBreakpoint: "red - r"
+
+  GitSignsAdd: "#587C0C"
+  GitSignsChange: "#0C7D9D"
+  GitSignsDelete: "#94151B"
+
+  # LspDiagnosticsUnderlineError: "error_red"
+  # LspDiagnosticsUnderlineWarning: "orange"
+  # LspDiagnosticsUnderlineInformation: "yellow"
+  LspDiagnosticsUnderlineHint: "grey_blue"
+
+  LspDiagnosticsSignError: "error_red"
+  LspDiagnosticsSignWarning: "warning_orange"
+  LspDiagnosticsSignInformation: "info_yellow"
+  LspDiagnosticsSignHint: "vivid_blue"
+
+  LspDiagnosticsVirtualTextError: "error_red"
+  LspDiagnosticsVirtualTextWarning: "warning_orange"
+  LspDiagnosticsVirtualTextInformation: "info_yellow"
+  LspDiagnosticsVirtualTextHint: "vivid_blue"
+
+
+  QuickScopePrimary: "#00C7DF - u"
+  QuickScopeSecondary: "#eF5F70 - u"
+
+  MatchWord: "- - u"
+  MatchParen: "- - u"
+  MatchWordCur: "- - u"
+  MatchParenCur: "- - u"
+
+  NvimTreeImageFile: "purple"
+  NvimTreeGitDirty: "git_green"
+  NvimTreeGitDeleted: "git_green"
+  NvimTreeGitStaged: "git_green"
+  NvimTreeGitMerge: "git_green"
+  NvimTreeGitRenamed: "git_green"
+  NvimTreeGitNew: "git_green"
+  NvimTreeIndentMarker: "line_grey"
+  NvimTreeSymlink: "symlink"
+  NvimTreeFolderIcon: "blue"
+  NvimTreeRootFolder: "fg - b"
+  NvimTreeExecFile: "executable"
+  NvimTreeSpecialFile: "info_yellow"
+
+  BufferCurrent: "fg bg"
+  BufferCurrentIndex: "blue bg"
+  BufferCurrentMod: "fg bg"
+  BufferCurrentSign: "blue bg"
+  BufferCurrentTarget: "red bg b"
+
+  BufferVisible: "fg bg"
+  BufferVisibleIndex: "fg bg"
+  BufferVisibleMod: "fg bg"
+  BufferVisibleSign: "fg bg"
+  BufferVisibleTarget: "red bg b"
+
+  BufferInactive: "gutter_fg_grey bg_inactive"
+  BufferInactiveIndex: "gutter_fg_grey bg_inactive"
+  BufferInactiveMod: "gutter_fg_grey bg_inactive"
+  BufferInactiveSign: "gutter_fg_grey bg_inactive"
+  BufferInactiveTarget: "red bg_inactive b"
+
+  # BufferTabpages: "blue bg_inactive b"
+  # BufferTabpageFill: "gutter_fg_grey bg_inactive"
+
+  CodiVirtualText: "#6395EC"
+
   # terminal: "bg red green yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg"
   # -- Other junk you can define --
   # Debug
@@ -327,16 +369,3 @@ highlights:
   # MoreMsg: "green - br"
   # Question: "cyan - br"
   # Directory: "blue - b"
-  NvimTreeImageFile: "purple"
-  NvimTreeGitDirty: "git_green"
-  NvimTreeGitDeleted: "git_green"
-  NvimTreeGitStaged: "git_green"
-  NvimTreeGitMerge: "git_green"
-  NvimTreeGitRenamed: "git_green"
-  NvimTreeGitNew: "git_green"
-  NvimTreeIndentMarker: "line_grey"
-  NvimTreeSymlink: "symlink"
-  NvimTreeFolderIcon: "blue"
-  NvimTreeRootFolder: "fg - b"
-  NvimTreeExecFile: "executable"
-  NvimTreeSpecialFile: "info_yellow"
