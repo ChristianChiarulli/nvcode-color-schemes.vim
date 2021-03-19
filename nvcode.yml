@@ -175,8 +175,8 @@ highlights:
   TSEmphasis: "#FFFF00"
   TSUnderline: "#FFFF00"
   TSTitle: "#FFFF00"
-  TSLiteral: "#FFFF00"
-  TSURI: "#FFFF00"
+  TSLiteral: "orange"
+  TSURI: "- - u"
   # Tags
   TSTag: "blue"
   TSTagDelimiter: "line_grey"
