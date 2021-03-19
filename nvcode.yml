@@ -98,7 +98,7 @@ highlights:
   PmenuSbar: "- special_grey"
   PmenuThumb: "- white"
   Question: "purple"
-  QuickFixLine: "black yellow"
+  QuickFixLine: "- line_grey"
   Search: "- line_grey"
   SpecialKey: "special_grey"
   SpellBad: "error_red - u"
@@ -118,6 +118,7 @@ highlights:
   WarningMsg: "yellow"
   WildMenu: "black blue"
   EndOfBuffer: "black"
+  
 
   # -- Start Treesitter --
   # Misc
