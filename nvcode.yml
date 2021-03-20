@@ -180,6 +180,7 @@ highlights:
   # Tags
   TSTag: "blue"
   TSTagDelimiter: "line_grey"
+  TSQueryLinterError: "warning_orange"
   # -- END Treesitter --
 
   # -- START Languages --
