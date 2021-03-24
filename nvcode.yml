@@ -264,7 +264,7 @@ highlights:
   StartifyPath: "blue"
   StartifyFile: "cyan"
   StartifySlash: "blue"
-  StartifyHeader: "green"
+  StartifyHeader: "light_blue"
   StartifySection: "purple"
   StartifyFooter: "green"
   # -- END Startify --
