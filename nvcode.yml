@@ -37,6 +37,8 @@ palette:
   executable: "#23D18B"
   tabfill: "#252526"
   bg_inactive: "#2E2E2E"
+  cursor_fg: "#515052"
+  cursor_bg: "#AEAFAD"
 
 
 highlights:
@@ -73,7 +75,7 @@ highlights:
   Error: "error_red - br"
   Todo: "purple - bi"
   Underlined: "cyan . u"
-  Cursor: "- - r"
+  Cursor: "cursor_fg cursor_bg"
 
   ColorColumn: "- cursor_grey"
   CursorLineNr: "white - b"
