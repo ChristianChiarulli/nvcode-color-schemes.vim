@@ -35,7 +35,7 @@ palette:
   git_green: "#81B88B"
   symlink: "#29B8D8"
   executable: "#23D18B"
-  tabfill: "#252526"
+  tabfill: "#2E3440"
   bg_inactive: "#2E2E2E"
   cursor_fg: "#515052"
   cursor_bg: "#AEAFAD"
