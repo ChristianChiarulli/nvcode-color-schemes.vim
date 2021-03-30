@@ -47,7 +47,7 @@ palette:
 highlights:
   Normal: "fg bg"
 
-  Comment: "green - i"
+  Comment: "visual_grey - i"
   Constant: "yellow"
   String: "orange"
   Character: "orange"
@@ -74,7 +74,7 @@ highlights:
   Structure: "yellow"
   Typedef: "yellow"
   Special: "blue - i"
-  SpecialComment: "line_grey"
+  SpecialComment: "visual_grey"
   Error: "error_red - br"
   Todo: "purple - bi"
   Underlined: "cyan . u"
@@ -127,7 +127,7 @@ highlights:
 
   # -- Start Treesitter --
   # Misc
-  TSComment: "green"
+  TSComment: "visual_grey - i"
   TSError: "error_red"
   TSPunctDelimiter: "white"
   TSPunctBracket: "white"

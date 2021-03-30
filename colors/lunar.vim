@@ -8,7 +8,7 @@ endif
 let g:colors_name='nvcode'
 
 hi Normal guifg=#abb2bf ctermfg=249 guibg=#1f1f1f ctermbg=234 gui=NONE cterm=NONE
-hi Comment guifg=#a3be8c ctermfg=144 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi Comment guifg=#3e4452 ctermfg=238 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#e7cb93 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#c68a75 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#c68a75 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -35,7 +35,7 @@ hi StorageClass guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi Structure guifg=#e7cb93 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#e7cb93 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#5e81ac ctermfg=67 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi SpecialComment guifg=#5c6370 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpecialComment guifg=#3e4452 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
 hi Todo guifg=#b48ead ctermfg=139 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
 hi Underlined guifg=#71c6b1 ctermfg=79 gui=underline cterm=underline
@@ -83,7 +83,7 @@ hi VisualNOS guifg=#3e4452 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi WarningMsg guifg=#e7cb93 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#1e1e1e ctermfg=234 guibg=#5e81ac ctermbg=67 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#1e1e1e ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSComment guifg=#a3be8c ctermfg=144 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSComment guifg=#3e4452 ctermfg=238 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSError guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctDelimiter guifg=#abb2bf ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctBracket guifg=#abb2bf ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
