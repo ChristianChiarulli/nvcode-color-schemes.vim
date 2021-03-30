@@ -5,8 +5,8 @@ information:
 
 palette:
   fg: "#ABB2BF"
-  bg: "#252932"
-  # bg: "#1f1f1f"
+  # bg: "#252932"
+  bg: "#1f1f1f"
 
   red: "#BF616A"
   error_red: "#F44747"
@@ -36,7 +36,8 @@ palette:
   git_green: "#81B88B"
   symlink: "#29B8D8"
   executable: "#23D18B"
-  tabfill: "#2E3440"
+  # tabfill: "#2E3440"
+  tabfill: "#252526"
   bg_inactive: "#2E2E2E"
   cursor_fg: "#515052"
   cursor_bg: "#AEAFAD"
