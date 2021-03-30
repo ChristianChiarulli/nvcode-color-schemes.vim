@@ -5,8 +5,8 @@ information:
 
 palette:
   fg: "#ABB2BF"
-  # bg: "#252932"
-  bg: "#1f1f1f"
+  bg: "#252932"
+  # bg: "#1f1f1f"
 
   red: "#BF616A"
   error_red: "#F44747"
