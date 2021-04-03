@@ -165,7 +165,7 @@ highlights:
   TSParameter: "white"
   TSParameterReference: "white"
   TSMethod: "yellow"
-  TSField: "cyan"
+  TSField: "white"
   TSProperty: "cyan"
   TSConstructor: "purple"
   # Keywords
@@ -183,8 +183,8 @@ highlights:
   TSStructure: "#FF00FF"
   TSInclude: "blue"
   # Variable
-  TSVariable: "cyan"
-  TSVariableBuiltin: "cyan"
+  TSVariable: "white"
+  TSVariableBuiltin: "white"
   # Text
   TSText: "#FFFF00"
   TSStrong: "#FFFF00"
