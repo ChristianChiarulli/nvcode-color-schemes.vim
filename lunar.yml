@@ -122,7 +122,7 @@ highlights:
   SpellLocal: "dark_yellow"
   SpellRare: "dark_yellow"
   StatusLine: "white cursor_grey"
-  StatusLineNC: "line_grey"
+  StatusLineNC: "line_grey - u"
   StatusLineTerm: "white cursor_grey"
   StatusLineTermNC: "cursor_grey"
   TabLine: "line_grey"
@@ -133,7 +133,7 @@ highlights:
   VisualNOS: "visual_grey"
   WarningMsg: "yellow"
   WildMenu: "black blue"
-  EndOfBuffer: "black"
+  EndOfBuffer: "bg"
   
 
   # -- Start Treesitter --
