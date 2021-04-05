@@ -32,9 +32,9 @@ palette:
   gutter_fg_grey: "#858585"
   cursor_grey: "#2C323C"
   visual_grey: "#3E4452"
-  menu_grey: "#282C34"
+  menu_grey: "#434C5E"
   special_grey: "#3B4048"
-  vertsplit: "#3E4452"
+  vertsplit: "#4C566A"
   warning_orange: "#ff8800"
   info_yellow: "#FFCC66"
   search_blue: "#1da1f2"
@@ -58,7 +58,7 @@ palette:
 highlights:
   Normal: "fg bg"
 
-  Comment: "visual_grey - i"
+  Comment: "vertsplit - i"
   Constant: "yellow"
   String: "green"
   Character: "orange"
@@ -85,7 +85,7 @@ highlights:
   Structure: "yellow"
   Typedef: "purple"
   Special: "blue - i"
-  SpecialComment: "visual_grey"
+  SpecialComment: "vertsplit"
   Error: "error_red - br"
   Todo: "purple - bi"
   Underlined: "cyan . u"
@@ -138,7 +138,7 @@ highlights:
 
   # -- Start Treesitter --
   # Misc
-  TSComment: "visual_grey - i"
+  TSComment: "vertsplit - i"
   TSError: "error_red"
   TSPunctDelimiter: "white"
   TSPunctBracket: "white"

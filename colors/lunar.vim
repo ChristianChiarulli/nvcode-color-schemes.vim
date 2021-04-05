@@ -8,7 +8,7 @@ endif
 let g:colors_name='nvcode'
 
 hi Normal guifg=#abb2bf ctermfg=249 guibg=#232731 ctermbg=235 gui=NONE cterm=NONE
-hi Comment guifg=#3e4452 ctermfg=238 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi Comment guifg=#4c566a ctermfg=240 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#e7cb93 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#a3be8c ctermfg=144 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#c68a75 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -35,7 +35,7 @@ hi StorageClass guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi Structure guifg=#e7cb93 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#b48ead ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#81a1c1 ctermfg=109 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi SpecialComment guifg=#3e4452 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpecialComment guifg=#4c566a ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
 hi Todo guifg=#b48ead ctermfg=139 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
 hi Underlined guifg=#88c0d0 ctermfg=110 gui=underline cterm=underline
@@ -52,13 +52,13 @@ hi DiffChange guifg=#e7cb93 ctermfg=186 guibg=NONE ctermbg=NONE gui=underline ct
 hi DiffDelete guifg=#3b4252 ctermfg=238 guibg=#bf616a ctermbg=131 gui=NONE cterm=NONE
 hi DiffText guifg=#3b4252 ctermfg=238 guibg=#e7cb93 ctermbg=186 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VertSplit guifg=#3e4452 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi VertSplit guifg=#4c566a ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#5c6370 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=NONE ctermfg=NONE guibg=#5c6370 ctermbg=241 gui=NONE cterm=NONE
 hi LineNr guifg=#858585 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NonText guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Pmenu guifg=#d8dee9 ctermfg=254 guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
+hi Pmenu guifg=#d8dee9 ctermfg=254 guibg=#434c5e ctermbg=239 gui=NONE cterm=NONE
 hi PmenuSel guifg=#3b4252 ctermfg=238 guibg=#81a1c1 ctermbg=109 gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#3b4048 ctermbg=238 gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#d8dee9 ctermbg=254 gui=NONE cterm=NONE
@@ -83,7 +83,7 @@ hi VisualNOS guifg=#3e4452 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi WarningMsg guifg=#e7cb93 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#3b4252 ctermfg=238 guibg=#81a1c1 ctermbg=109 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#232731 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSComment guifg=#3e4452 ctermfg=238 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi TSComment guifg=#4c566a ctermfg=240 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSError guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctDelimiter guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctBracket guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
