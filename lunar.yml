@@ -16,7 +16,8 @@ palette:
   dark_yellow: "#D7BA7D"
   orange: "#c68a75"
   grey: "#9BA1AB"
-  blue: "#81A1C1"
+  blue: "#5e81ac"
+  # blue: "#81A1C1"
   # #8cacb4
   # light_blue: "#69A8C6"
   # light_blue: "#69BAC8"
