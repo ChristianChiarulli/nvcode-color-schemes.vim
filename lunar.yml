@@ -46,7 +46,7 @@ palette:
   bg_inactive: "#2F343F"
   cursor_fg: "#515052"
   cursor_bg: "#AEAFAD"
-  indentlinehighlight: "#707070"
+  indentlinehighlight: "#767A8B"
 #     "black": "#3b4252",
 #     "brightBlack": "#4c566a",
 #     "brightWhite": "#eceff4",

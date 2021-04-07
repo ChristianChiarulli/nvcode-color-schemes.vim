@@ -260,7 +260,7 @@ hi BufferInactiveMod guifg=#6a6e7e ctermfg=243 guibg=#2f343f ctermbg=237 gui=NON
 hi BufferInactiveSign guifg=#6a6e7e ctermfg=243 guibg=#2f343f ctermbg=237 gui=NONE cterm=NONE
 hi BufferInactiveTarget guifg=#bf616a ctermfg=131 guibg=#2f343f ctermbg=237 gui=bold cterm=bold
 hi CodiVirtualText guifg=#6395ec ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IndentBlanklineContextChar guifg=#707070 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi IndentBlanklineContextChar guifg=#767a8b ctermfg=244 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DashboardHeader guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DashboardCenter guifg=#c68a75 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DashboardFooter guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
