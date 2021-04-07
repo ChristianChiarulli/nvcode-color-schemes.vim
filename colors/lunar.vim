@@ -5,7 +5,7 @@ hi clear
 if exists('syntax_on')
   syntax reset
 endif
-let g:colors_name='nvcode'
+let g:colors_name='lunar'
 
 hi Normal guifg=#abb2bf ctermfg=249 guibg=#232731 ctermbg=235 gui=NONE cterm=NONE
 hi Comment guifg=#4c566a ctermfg=240 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -56,7 +56,7 @@ hi VertSplit guifg=#4c566a ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi Folded guifg=#5c6370 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=NONE ctermfg=NONE guibg=#5c6370 ctermbg=241 gui=NONE cterm=NONE
-hi LineNr guifg=#858585 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LineNr guifg=#6a6e7e ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NonText guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Pmenu guifg=#d8dee9 ctermfg=254 guibg=#434c5e ctermbg=239 gui=NONE cterm=NONE
 hi PmenuSel guifg=#3b4252 ctermfg=238 guibg=#81a1c1 ctermbg=109 gui=NONE cterm=NONE
@@ -254,10 +254,10 @@ hi BufferVisibleIndex guifg=#abb2bf ctermfg=249 guibg=#232731 ctermbg=235 gui=NO
 hi BufferVisibleMod guifg=#abb2bf ctermfg=249 guibg=#232731 ctermbg=235 gui=NONE cterm=NONE
 hi BufferVisibleSign guifg=#abb2bf ctermfg=249 guibg=#232731 ctermbg=235 gui=NONE cterm=NONE
 hi BufferVisibleTarget guifg=#bf616a ctermfg=131 guibg=#232731 ctermbg=235 gui=bold cterm=bold
-hi BufferInactive guifg=#858585 ctermfg=102 guibg=#2f343f ctermbg=237 gui=NONE cterm=NONE
-hi BufferInactiveIndex guifg=#858585 ctermfg=102 guibg=#2f343f ctermbg=237 gui=NONE cterm=NONE
-hi BufferInactiveMod guifg=#858585 ctermfg=102 guibg=#2f343f ctermbg=237 gui=NONE cterm=NONE
-hi BufferInactiveSign guifg=#858585 ctermfg=102 guibg=#2f343f ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactive guifg=#6a6e7e ctermfg=243 guibg=#2f343f ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactiveIndex guifg=#6a6e7e ctermfg=243 guibg=#2f343f ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactiveMod guifg=#6a6e7e ctermfg=243 guibg=#2f343f ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactiveSign guifg=#6a6e7e ctermfg=243 guibg=#2f343f ctermbg=237 gui=NONE cterm=NONE
 hi BufferInactiveTarget guifg=#bf616a ctermfg=131 guibg=#2f343f ctermbg=237 gui=bold cterm=bold
 hi CodiVirtualText guifg=#6395ec ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IndentBlanklineContextChar guifg=#707070 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
