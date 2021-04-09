@@ -346,6 +346,7 @@ highlights:
   NvimTreeRootFolder: "fg - b"
   NvimTreeExecFile: "executable"
   NvimTreeSpecialFile: "info_yellow"
+  NvimTreeLspDiagnostics: "info_yellow" 
 
   BufferCurrent: "fg bg"
   BufferCurrentIndex: "blue bg"
