@@ -1,0 +1,293 @@
+information:
+  name: lcars
+  background: dark
+  author: "chuck burnell<cburnell@gmail.com>"
+
+palette:
+  fg: "#D8DEE9"
+  bg: "#202E20"
+  lred: "#C05858"
+  mred: "#FF5040"
+  dred: "#873333"
+  lgold: "#F8C001"
+  mgold: "#CE9812"
+  dgold: "#D45F10"
+  orange: "#FFAD00"
+  bggold: "#505000"
+  bgred: "#902020"
+  lblue: "#8BDDFE"
+  mblue: "#3786FF"
+  db: "#05369E"
+  lt: "#16D8D0"
+  mt: "#0198A8"
+  dt: "#113D4E"
+  white: "#ffffff"
+  black: "#000000"
+  unkfg: "#ffff00"
+  unkbg: "#0000ff"
+  gray: "#CCCCCC"
+  comment_gray: "#899AAB"
+  dark_gray: "#455667"
+  unk: "#00FF00" 
+  line_grey: "#5C6370"
+  cursor_grey: "#2C323C"
+  special_grey: "#3B4048"
+  
+  #unk_command: "#f4af37"
+  #mb: "#3fafff"
+  #lb: "#4fcfff"
+  #unk_green: "#00ff5c"
+  #unk_ops: "#ff3333"
+highlights:
+
+  # Editor
+  ColorColumn: "- black"
+  Cursor: "bg unk"
+  CursorLine: "- unk"
+  Error: "unk unkbg"
+  LineNr: "gray"
+  MatchParen: "lblue dark_gray"
+  NonText: "dark_gray"
+  Normal: "gray bg"
+  Pmenu: "lgold dark_gray"
+  PmenuSbar: "lgold dark_gray"
+  PmenuSel: "lblue dark_gray"
+  PmenuThumb: "lblue dark_gray"
+  SpecialKey: "dark_gray"
+  Spellbluead: "unk bg u"
+  SpellCap: "unk bg u"
+  SpellLocal: "unk bg u"
+  SpellRare: "unk bg u"
+  Visual: "- dark_gray"
+  VisualNOS: "- dark_gray"
+  QuickFixLine: "fg bggold"
+  Terminal: "unk bg"
+
+  # Neovim checkhealth
+  healthError: "fg bg"
+  healthSuccess: "unk unkbg"
+  healthWarning: "bggold unk"
+
+  # Gutter
+  CursorColumn: "- unk"
+  CursorLineNr: "gray - b"
+  Folded: "dark_gray bg"
+  FoldColumn: "dark_gray bg"
+  SignColumn: "gray bg"
+
+  # Navigation
+  Directory: "unk"
+
+  # Prompt/Status
+  EndOfBuffer: "unk"
+  ErrorMsg: "fg bg"
+  ModeMsg: "unk"
+  MoreMsg: "unk"
+  Question: "unk"
+  StatusLine: "gray dark_gray"
+  StatusLineNC: "gray dark_gray"
+  StatusLineTerm: "gray dark_gray"
+  StatusLineTermNC: "gray dark_gray"
+  WarningMsg: "fg bggold ub"
+  WildMenu: "unk unkbg"
+
+  # Search (using high contrast search)
+  IncSearch: "fg bggold u"
+  Search: "fg bggold"
+
+  # Tabs
+  TabLine: "gray bg"
+  TabLineFill: "gray bg"
+  TabLineSel: "gray dark_gray"
+
+  # Window
+  Title: "gray"
+  VertSplit: "dark_gray bg"
+
+  # Language Base Groups
+  Boolean: "mgold"
+  Character: "lt"
+  Comment: "comment_gray - i"
+  Conditional: "mgold"
+  Constant: "unk"
+  Define: "mgold"
+  Delimeter: "unk"
+  Exception: "mgold"
+  Float: "unk"
+  Function: "mblue"
+  Identifier: "gray"
+  Include: "mgold"
+  Keyword: "mgold"
+  Label: "mgold"
+  Number: "lred"
+  Operator: "lgold"
+  PreProc: "mgold"
+  Repeat: "mgold"
+  Special: "lt"
+  SpecialChar: "mgold"
+  SpecialComment: "unk - i"
+  Statement: "mgold"
+  StorageClass: "mgold"
+  String: "lt"
+  Structure: "lgold"
+  Tag: "unk"
+  Todo: "bggold"
+  Type: "mgold"
+  Typedef: "mgold"
+  Macro: "mgold"
+  PreCondit: "mgold"
+
+  # Git
+  DiffAdd: "unk unkbg"
+  DiffChange: "bggold unk"
+  DiffDelete: "unk unkbg"
+  DiffText: "unk unkbg"
+  diffAdded: "unk unkbg"
+  diffChanged: "bggold unk"
+  diffRemoved: "unk unkbg"
+  diffFileId: "unk - br"
+  diffFile: "special_grey"
+  diffNewFile: "unk"
+  diffOldFile: "unk"
+  gitconfigVariable: "unk"
+  debugPc: "- unk"
+  debugBreakpoint: "unk - r"
+
+  # -- Start Treesitter --
+  # Misc
+  TSError: "unk - u"
+  TSPunctDelimiter: "unk"
+  TSPunctBracket: "unk"
+  TSPunctSpecial: "unk"
+  # Constants
+  TSConstant: "unk"
+  TSConstBuiltin: "unk"
+  TSConstMacro: "unk"
+  TSStringRegex: "unk"
+  TSString: "unk"
+  TSStringEscape: "unk"
+  TSCharacter: "unk"
+  TSNumber: "unk"
+  TSBoolean: "unk"
+  TSFloat: "unk"
+  TSAnnotation: "unk"
+  TSAttribute: "unk"
+  TSNamespace: "unk"
+  # Functions
+  TSFuncBuiltin: "bggold"
+  TSFunction: "Function"
+  TSFuncMacro: "unk"
+  TSParameter: "#FF00FF"
+  TSParameterReference: "#FFFF00"
+  TSMethod: "unkfg"
+  TSField: "#FF00FF"
+  TSProperty: "unk"
+  TSConstructor: "unk"
+  # Keywords
+  TSConditional: "Conditional"
+  TSRepeat: "Keyword"
+  TSLabel: "Keyword"
+  TSKeyword: "Keyword"
+  TSKeywordFunction: "Keyword"
+  TSKeywordOperator: "Operator"
+  TSOperator: "Operator"
+  TSException: "Keyword"
+  TSType: "Type"
+  TSTypeBuiltin: "Type"
+  TSStructure: "#FF00FF"
+  TSInclude: "mgold"
+  # Variable
+  TSVariable: "#00FFFF"
+  TSVariableBuiltin: "unk"
+  # Text
+  TSText: "#FFFF00"
+  TSStrong: "#FFFF00"
+  TSEmphasis: "#FFFF00"
+  TSUnderline: "#FFFF00"
+  TSTitle: "#FFFF00"
+  TSLiteral: "#FFFF00"
+  TSURI: "#FFFF00"
+  # Tags
+  TSTag: "unk"
+  TSTagDelimiter: "line_grey"
+  # -- END Treesitter --
+  
+  # -- START Semshi --
+  #semshiLocal: "#ffbafa"
+  #semshiGlobal: "unk_command"
+  #semshiImported: "unk_command"
+  #semshiParameter: "mb"
+  #semshiParameterUnused: "#40ff00"
+  #semshiFree: "mb"
+  #semshiBuiltin: "unk_command"
+  #semshiAttribute: "lb"
+  #semshiSelf: "unk_green"
+  #semshiUnresolved: "unk_ops"
+  #semshiSelected: "#0f5fff"
+
+  #semshiErrorSign: "#ffff00"
+  #semshiErrorChar: "#ffff00"
+  # -- END Semshi --
+  # -- START Languages --
+  # Python
+  pythonClassVar: "lblue"
+  pythonStatement: "mgold"
+  pythonClass: "lblue"
+  #pythonAttribute: "unkfg black"
+  # -- START Easymotion --
+  EasyMotionTarget: "unk - b"
+  EasyMotionTarget2First: "unk - b"
+  EasyMotionTarget2Second: "unk - b"
+  EasyMotionShade: ""
+
+  # -- START Signify --
+  SignifySignAdd: "unk"
+  SignifySignChange: "bggold"
+  SignifySignChangeDelete: "unk"
+  SignifySignDelete: "unk"
+
+  # -- Sneak
+  Sneak: "bg bggold u" 
+  SneakScope: "unk bg"
+  SneakLabel: "bg bggold u" 
+  SneakLabelMask: "bggold" 
+
+  # -- START Startify --
+  StartifyNumber: "unk"
+  StartifySelect: "unk"
+  StartifyBracket: "unk"
+  StartifySpecial: "unk"
+  StartifyVar: "unk"
+  StartifyPath: "unk"
+  StartifyFile: "unk"
+  StartifySlash: "unk"
+  StartifyHeader: "unk"
+  StartifySection: "unk"
+  StartifyFooter: "unk"
+
+  # -- START WhichKey --
+  WhichKey: "unk"
+  WhichKeySeperator: "unk"
+  WhichKeyGroup: "unk"
+
+  # GitGutter
+  GitGutterAdd: "unk"
+  GitGutterChange: "bggold"
+  GitGutterChangeDelete: "unk"
+  GitGutterDelete: "unk"
+  
+  # Fugitive
+  gitcommitDiscardedFile: "unk"
+  gitcommitSelectedFile: "unk"
+  gitcommitUntrackedFile: "unk"
+
+  # Nvim LSP
+  LSPDiagnosticsWarning: "orange - ub"
+  LspDiagnosticsDefaultError: "mred"
+  LspDiagnosticsInformation: "unk"
+  LspDiagnosticsHint: "unk"
+  LspDiagnosticsUnderlineWarning: "orange - ub"
+  LspDiagnosticsUnderlineError: "mred"
+  LspDiagnosticsUnderlineInformation: "unk"
+  LspDiagnosticsUnderlineHint: "unk"
+
