@@ -83,11 +83,26 @@ def hsl_to_rgb(h, s, l)
   return [r, g, b].map { |e| e * 255 }
 end
 
+def get_pallet_name(name)
+  r = $palette[name]
+  h = $highlights[name]
+  $stderr.puts "#{name}:#{r}:#{h}"
+  if !name and !r and !h
+    error("color not found #{h}, name #{name}") if !r
+  elsif r
+    return r
+  else
+    return get_pallet_name(h.to_sym)
+  end
+end
+
 def get_color(color)
+  #$stderr.puts $highlights
   if color.start_with?('#')
     return hex_to_rgb(color)
   end
-  r = $palette[color.to_sym]
+  r = get_pallet_name(color.to_sym)
+  #r = $palette[color.to_sym]
   error("Color not found '#{color}'") if !r
   if r.kind_of?(Array)
     return hsl_to_rgb(*r)
@@ -95,6 +110,9 @@ def get_color(color)
     return hex_to_rgb(r)
   elsif r =~ /^hsl\((\d+), (\d+), (\d+)\)$/
     return hsl_to_rgb($1.to_i, $2.to_i, $3.to_i)
+  else
+    $stderr.puts r
+    return get_color(r)
   end
   return nil
 end
@@ -176,6 +194,7 @@ exit unless colors.size == 16
 
 colors.map! do |e|
   rgb = get_color(e).map(&:round)
+  $stderr.puts rgb
   "'%s'" % rgb_to_hex(*rgb)
 end
 
