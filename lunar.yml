@@ -376,6 +376,8 @@ highlights:
   DashboardFooter: "light_blue"
 # DashboardShortCut:
 
+  WhichKeyFloat: "bg"
+
   # terminal: "bg red green yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg"
   # -- Other junk you can define --
   # Debug
