@@ -108,7 +108,7 @@ highlights:
   VertSplit: "vertsplit"
   Folded: "line_grey"
   FoldColumn: ""
-  IncSearch: "- line_grey"
+  IncSearch: "- yellow"
   LineNr: "gutter_fg_grey"
   NonText: "special_grey"
   Pmenu: "white menu_grey"
