@@ -188,7 +188,7 @@ highlights:
   TSVariable: "white"
   TSVariableBuiltin: "white"
   # Text
-  TSText: "#FFFF00"
+  TSText: "fg"
   TSStrong: "#FFFF00"
   TSEmphasis: "#FFFF00"
   TSUnderline: "#FFFF00"
@@ -197,7 +197,7 @@ highlights:
   TSURI: "- - u"
   # Tags
   TSTag: "blue"
-  TSTagDelimiter: "blue"
+  TSTagDelimiter: "menu_grey"
   TSQueryLinterError: "warning_orange"
   # -- END Treesitter --
 
