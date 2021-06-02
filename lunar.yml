@@ -192,7 +192,7 @@ highlights:
   TSStrong: "#FFFF00"
   TSEmphasis: "#FFFF00"
   TSUnderline: "#FFFF00"
-  TSTitle: "#FFFF00"
+  TSTitle: "fg"
   TSLiteral: "grey"
   TSURI: "- - u"
   # Tags
