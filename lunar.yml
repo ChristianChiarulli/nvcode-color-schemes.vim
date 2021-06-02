@@ -189,9 +189,9 @@ highlights:
   TSVariableBuiltin: "white"
   # Text
   TSText: "fg"
-  TSStrong: "#FFFF00"
-  TSEmphasis: "#FFFF00"
-  TSUnderline: "#FFFF00"
+  TSStrong: "yellow"
+  TSEmphasis: "purple"
+  TSUnderline: "red"
   TSTitle: "fg"
   TSLiteral: "grey"
   TSURI: "- - u"
