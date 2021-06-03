@@ -190,11 +190,11 @@ highlights:
   TSVariable: "nord5"
   TSVariableBuiltin: "nord9"
   # Text
-  TSText: "#FFFF00"
-  TSStrong: "#FFFF00"
-  TSEmphasis: "#FFFF00"
-  TSUnderline: "#FFFF00"
-  TSTitle: "nord14"
+  TSText: "nord14"
+  TSStrong: "nord14"
+  TSEmphasis: "nord14"
+  TSUnderline: "nord14"
+  TSTitle: "nord3_gui_bright"
   TSLiteral: "nord3_gui_bright - i"
   TSURI: "nord4"
   # Tags
