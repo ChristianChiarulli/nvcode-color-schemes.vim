@@ -83,7 +83,6 @@ highlight TSConstBuiltin guifg=#569CD6
 highlight TSConstMacro guifg=#4EC9B0
 highlight TSString guifg=#CE9178
 highlight TSStringRegex guifg=#CE9178
-highlight TSString guifg=#CE9178
 highlight TSStringEscape guifg=#D7BA7D
 highlight TSCharacter guifg=#CE9178
 highlight TSNumber guifg=#B5CEA8
