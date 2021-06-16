@@ -13,6 +13,7 @@ palette:
   blue: "#458588"
   purple: "#b16286"
   aqua: "#689d6a"
+  orange: "#d65d0e"
   gray: "#a89984"
 
   gray_2: "#928374"
@@ -22,6 +23,7 @@ palette:
   blue_2: "#83a598"
   purple_2: "#d3869b"
   aqua_2: "#8ec07c"
+  orange_2: "#fe8019"
 
   bh0_h: "#1d2021"
   bg0: "#282828"
@@ -29,14 +31,12 @@ palette:
   bg2: "#504945"
   bg3: "#665c54"
   bg4: "#7c6f64"
-  orange: "#d65d0e"
 
   bg0_s: "#32302f"
   fg4: "#a89984"
   fg3: "#bdae93"
   fg2: "#d5c4a1"
   fg1: "#ebdbb2"
-  orange_2: "#fe8019"
 
 highlights:
   Normal: "fg bg"
@@ -312,3 +312,17 @@ highlights:
 
   debugPc: "- red"
   debugBreakpoint: "red - r"
+
+  # VimWiki
+  VimwikiHeader1: "orange_2"
+  VimwikiHeader2: "green"
+  VimwikiHeader3: "blue_2"
+  VimwikiHeader4: "aqua_2"
+  VimwikiHeader5: "red_2"
+  VimwikiHeader6: "purple_2"
+  VimwikiLink: "aqua"
+  VimwikiHeaderChar: "bg2"
+  VimwikiHR: "yellow"
+  VimwikiList: "orange"
+  VimwikiTag: "orange"
+  VimwikiMarkers: "bg2"

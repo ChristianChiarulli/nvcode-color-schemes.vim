@@ -324,3 +324,16 @@ highlights:
   LspDiagnosticsUnderlineInformation: "nord8"
   LspDiagnosticsUnderlineHint: "nord10"
 
+  # VimWiki
+  VimwikiHeader1: "nord12"
+  VimwikiHeader2: "nord14"
+  VimwikiHeader3: "nord10"
+  VimwikiHeader4: "nord7"
+  VimwikiHeader5: "nord13"
+  VimwikiHeader6: "nord15"
+  VimwikiLink: "nord8"
+  VimwikiHeaderChar: "line_grey"
+  VimwikiHR: "nord13"
+  VimwikiList: "nord12"
+  VimwikiTag: "nord12"
+  VimwikiMarkers: "line_grey"
