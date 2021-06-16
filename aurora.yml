@@ -298,3 +298,17 @@ highlights:
   # MoreMsg: "green - br"
   # Question: "cyan - br"
   # Directory: "blue - b"
+  
+  # VimWiki
+  VimwikiHeader1: "orange"
+  VimwikiHeader2: "green"
+  VimwikiHeader3: "blue"
+  VimwikiHeader4: "cyan"
+  VimwikiHeader5: "dark_yellow"
+  VimwikiHeader6: "purple"
+  VimwikiLink: "vivid_blue"
+  VimwikiHeaderChar: "line_grey"
+  VimwikiHR: "yellow"
+  VimwikiList: "orange"
+  VimwikiTag: "orange"
+  VimwikiMarkers: "line_grey"
