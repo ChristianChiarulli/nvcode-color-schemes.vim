@@ -399,12 +399,12 @@ highlights:
   # Directory: "blue - b"
 
   # VimWiki
-  VimwikiHeader1: "orange"
-  VimwikiHeader2: "green"
-  VimwikiHeader3: "blue"
-  VimwikiHeader4: "cyan"
-  VimwikiHeader5: "dark_yellow"
-  VimwikiHeader6: "purple"
+  VimwikiHeader1: "orange - b"
+  VimwikiHeader2: "green - b"
+  VimwikiHeader3: "blue - b"
+  VimwikiHeader4: "cyan - b"
+  VimwikiHeader5: "dark_yellow - b"
+  VimwikiHeader6: "purple - b"
   VimwikiLink: "vivid_blue"
   VimwikiHeaderChar: "line_grey"
   VimwikiHR: "yellow"
