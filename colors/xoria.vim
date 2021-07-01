@@ -133,7 +133,7 @@ hi TSLiteral guifg=#808080 ctermfg=244 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi TSURI guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi TSTag guifg=#87afdf ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTagDelimiter guifg=#df8787 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSQueryLinterError guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSQueryLinterError guifg=#ffb870 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlArg guifg=#dfafdf ctermfg=182 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlBold guifg=#dfafdf ctermfg=182 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi htmlEndTag guifg=#d0d0d0 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -204,7 +204,7 @@ hi StartifySection guifg=#dfafdf ctermfg=182 guibg=NONE ctermbg=NONE gui=NONE ct
 hi StartifyFooter guifg=#afdf87 ctermfg=150 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WhichKey guifg=#dfafdf ctermfg=182 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WhichKeySeperator guifg=#afdf87 ctermfg=150 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi WhichKeyGroup guifg=#49b2eb ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi WhichKeyGroup guifg=#6ba8f2 ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WhichKeyDesc guifg=#87afdf ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffAdded guifg=#afdf87 ctermfg=150 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffAdd guifg=#afdf87 ctermfg=150 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -220,13 +220,13 @@ hi GitSignsChange guifg=#87afdf ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cte
 hi GitSignsDelete guifg=#df8787 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsUnderlineHint guifg=#808080 ctermfg=244 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignError guifg=#ff8787 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsSignWarning guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsSignWarning guifg=#ffb870 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignInformation guifg=#ffcc66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsSignHint guifg=#49b2eb ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsSignHint guifg=#6ba8f2 ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextError guifg=#ff8787 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsVirtualTextWarning guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsVirtualTextWarning guifg=#ffb870 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsVirtualTextInformation guifg=#ffcc66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsVirtualTextHint guifg=#49b2eb ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsVirtualTextHint guifg=#6ba8f2 ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi QuickScopePrimary guifg=#00c7df ctermfg=44 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi QuickScopeSecondary guifg=#ef5f70 ctermfg=203 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi MatchWord guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -246,7 +246,7 @@ hi NvimTreeFolderIcon guifg=#87afdf ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE
 hi NvimTreeRootFolder guifg=#afafaf ctermfg=145 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi NvimTreeExecFile guifg=#23d18b ctermfg=42 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeSpecialFile guifg=#dfafdf ctermfg=182 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NvimTreeLspDiagnostics guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeLspDiagnostics guifg=#ffb870 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi BufferCurrent guifg=#d0d0d0 ctermfg=252 guibg=#1c1c1c ctermbg=234 gui=NONE cterm=NONE
 hi BufferCurrentIndex guifg=#87afdf ctermfg=110 guibg=#1c1c1c ctermbg=234 gui=NONE cterm=NONE
 hi BufferCurrentMod guifg=#d0d0d0 ctermfg=252 guibg=#1c1c1c ctermbg=234 gui=NONE cterm=NONE
@@ -274,7 +274,7 @@ hi VimwikiHeader3 guifg=#87afdf ctermfg=110 guibg=NONE ctermbg=NONE gui=bold cte
 hi VimwikiHeader4 guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi VimwikiHeader5 guifg=#d7ba7d ctermfg=180 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi VimwikiHeader6 guifg=#dfafdf ctermfg=182 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi VimwikiLink guifg=#49b2eb ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi VimwikiLink guifg=#6ba8f2 ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiHeaderChar guifg=#262626 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiHR guifg=#ffffaf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiList guifg=#dfafdf ctermfg=182 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
