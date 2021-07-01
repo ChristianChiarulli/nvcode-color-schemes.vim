@@ -8,7 +8,7 @@ palette:
   bg: "#1c1c1c"
 
   red: "#df8787"
-  error_red: "#FF8787"
+  error_red: "#ff8080"
   green: "#afdf87"
   light_green: "#B5CEA8"
   yellow: "#ffffaf"
@@ -18,16 +18,14 @@ palette:
   dark_gray: "#555555"
   darker_gray: "#262626"
   medium_gray: "#777777"
-  lighter_gray: "#afafaf"
   light_gray: "#9f9f9f"
+  lighter_gray: "#afafaf"
   blue: "#87afdf"
   gray_blue: "#afafdf"
   light_blue: "#88C0D0"
   cyan: "#88c0d0"
   vivid_blue: "#6ba8f2"
-  # purple: "#875f87"
-  purple: "#dfafdf"
-  pink: "#dfafdf"
+  magenta: "#dfafdf"
   white: "#d0d0d0"
   shiny_white: "#e0e0e0"
   black: "#121212"
@@ -50,6 +48,7 @@ palette:
   indentlinehighlight: "#767A8B"
 
 highlights:
+  # StatusLineBg: "darker_gray" # If possible this would be status line bg color
   Normal: "fg bg"
 
   Comment: "gray - i"
@@ -59,8 +58,8 @@ highlights:
   Number: "orange"
   Boolean: "orange"
   Float: "orange"
-  Identifier: "pink"
-  Function: "pink"
+  Identifier: "magenta"
+  Function: "magenta"
   Statement: "blue"
   Conditional: "blue"
   Repeat: "blue"
@@ -107,7 +106,7 @@ highlights:
   PmenuSel: "shiny_white dark_gray"
   PmenuSbar: "- special_gray"
   PmenuThumb: "- white"
-  Question: "purple"
+  Question: "magenta"
   QuickFixLine: "- darker_gray"
   Search: "- darker_gray"
   SpecialKey: "special_gray"
@@ -122,7 +121,6 @@ highlights:
   TabLine: "darker_gray"
   TabLineSel: "tabsel"
   TabLineFill: "- tabfill"
-    # TabLineFull: "- tabfill"
   Terminal: "white black"
   Visual: "- visual_bg"
   VisualNOS: "visual_bg"
@@ -154,15 +152,15 @@ highlights:
   TSAttribute: "light_blue"
   TSNamespace: "blue"
   # Functions
-  TSFuncBuiltin: "pink"
-  TSFunction: "pink"
+  TSFuncBuiltin: "magenta"
+  TSFunction: "magenta"
   TSFuncMacro: "green"
   TSParameter: "white"
   TSParameterReference: "white"
-  TSMethod: "pink"
+  TSMethod: "magenta"
   TSField: "white"
-  TSProperty: "white"
-  TSConstructor: "pink"
+  TSProperty: "magenta"
+  TSConstructor: "magenta"
   # Keywords
   TSConditional: "gray_blue"
   TSRepeat: "blue"
@@ -183,7 +181,7 @@ highlights:
   # Text
   TSText: "fg"
   TSStrong: "green"
-  TSEmphasis: "pink"
+  TSEmphasis: "magenta"
   TSUnderline: "red"
   TSTitle: "fg"
   TSLiteral: "gray"
@@ -196,8 +194,8 @@ highlights:
 
   # -- START Languages --
   # HTML (keep consistent with Markdown, below)
-  htmlArg: "pink"
-  htmlBold: "pink - b"
+  htmlArg: "magenta"
+  htmlBold: "magenta - b"
   htmlEndTag: "white"
   htmlH1: "blue"
   htmlH2: "blue"
@@ -205,38 +203,38 @@ highlights:
   htmlH4: "blue"
   htmlH5: "blue"
   htmlH6: "blue"
-  htmlItalic: "purple - i"
+  htmlItalic: "magenta - i"
   htmlLink: "cyan - u"
   htmlSpecialChar: "red"
-  htmlSpecialTagName: "pink"
-  htmlTag: "pink"
+  htmlSpecialTagName: "magenta"
+  htmlTag: "magenta"
   htmlTagN: "blue"
   htmlTagName: "blue"
   htmlTitle: "white"
-  htmlValue: "pink"
+  htmlValue: "magenta"
 
   # Markdown (keep consistent with HTML, above)
   markdownBlockquote: "darker_gray"
-  markdownBold: "pink - b"
-  markdownCode: "yellow"
+  markdownBold: "magenta - b"
+  markdownCode: "gray_blue"
   markdownCodeBlock: "white"
-  markdownCodeDelimiter: "green"
-  markdownH1: "blue"
-  markdownH2: "blue"
-  markdownH3: "blue"
-  markdownH4: "blue"
-  markdownH5: "blue"
-  markdownH6: "blue"
-  markdownHeadingDelimiter: "pink"
+  markdownCodeDelimiter: "red"
+  markdownH1: "magenta"
+  markdownH2: "magenta"
+  markdownH3: "magenta"
+  markdownH4: "magenta"
+  markdownH5: "magenta"
+  markdownH6: "magenta"
+  markdownHeadingDelimiter: "green"
   markdownHeadingRule: "darker_gray"
-  markdownId: "purple"
+  markdownId: "magenta"
   markdownIdDeclaration: "blue"
-  markdownIdDelimiter: "purple"
-  markdownItalic: "purple - i"
-  markdownLinkDelimiter: "purple"
+  markdownIdDelimiter: "red"
+  markdownItalic: "magenta - i"
+  markdownLinkDelimiter: "red"
   markdownLinkText: "blue"
-  markdownListMarker: "pink"
-  markdownOrderedListMarker: "pink"
+  markdownListMarker: "magenta"
+  markdownOrderedListMarker: "magenta"
   markdownRule: "darker_gray"
   markdownUrl: "cyan - u"
   # -- END Languages --
@@ -248,13 +246,13 @@ highlights:
   CocExplorerFileRoot: "yellow"
   CocExplorerBufferFullPath: "light_gray"
   CocExplorerFileFullPath: "light_gray"
-  CocExplorerBufferReadonly: "purple"
-  CocExplorerBufferModified: "pink"
+  CocExplorerBufferReadonly: "magenta"
+  CocExplorerBufferModified: "magenta"
   CocExplorerBufferNameVisible: "orange"
-  CocExplorerFileReadonly: "purple"
+  CocExplorerFileReadonly: "magenta"
   CocExplorerFileModified: "green"
   CocExplorerFileHidden: "special_gray"
-  CocExplorerHelpLine: "purple"
+  CocExplorerHelpLine: "magenta"
   # -- END CoC --
 
   # -- START Easymotion --
@@ -262,11 +260,8 @@ highlights:
   EasyMotionTarget2First: "error_red - b"
   EasyMotionTarget2Second: "error_red - b"
   EasyMotionShade: ""
-  # EasyMotionIncSearch:
-  # EasyMotionMoveHL:
 
   # -- END Easymotion --
-
   # -- START Startify --
   StartifyNumber: "red"
   StartifySelect: "green" # maybe shiny_white
@@ -277,16 +272,16 @@ highlights:
   StartifyFile: "cyan"
   StartifySlash: "blue"
   StartifyHeader: "light_blue"
-  StartifySection: "purple"
+  StartifySection: "magenta"
   StartifyFooter: "green"
   # -- END Startify --
   # -- START WhichKey --
-  WhichKey: "purple"
+  WhichKey: "magenta"
   WhichKeySeperator: "green"
   WhichKeyGroup: "vivid_blue"
   WhichKeyDesc: "blue"
   # -- END WhichKey --
-  #
+
   # old stuff
   diffAdded: "green"
   diffAdd: "green"
@@ -295,8 +290,7 @@ highlights:
   diffFile: "gray_blue"
   diffNewFile: "green"
   diffOldFile: "red"
-  # ToolbarLine: ". darkgray"
-  # ToolbarButton: "suvagray - r"
+
   debugPc: "- cyan"
   debugBreakpoint: "red - r"
 
@@ -304,9 +298,13 @@ highlights:
   GitSignsChange: "blue"
   GitSignsDelete: "red"
 
+  # These 3 bellow disabled because if enabled text is not being underlined only colored,
+  # it would be great if text became both underlined and colored to proper color then the
+  # circular color indicators would make sense!!
+
   # LspDiagnosticsUnderlineError: "error_red"
-  # LspDiagnosticsUnderlineWarning: "orange"
-  # LspDiagnosticsUnderlineInformation: "yellow"
+  # LspDiagnosticsUnderlineWarning: "warning_orange"
+  # LspDiagnosticsUnderlineInformation: "vivid_blue"
   LspDiagnosticsUnderlineHint: "gray"
 
   LspDiagnosticsSignError: "error_red"
@@ -319,16 +317,15 @@ highlights:
   LspDiagnosticsVirtualTextInformation: "info_yellow"
   LspDiagnosticsVirtualTextHint: "vivid_blue"
 
-
-  QuickScopePrimary: "#00C7DF - u"
-  QuickScopeSecondary: "#eF5F70 - u"
+  QuickScopePrimary: "vivid_blue - u"
+  QuickScopeSecondary: "red - u"
 
   MatchWord: "- - u"
   MatchParen: "- - u"
   MatchWordCur: "- - u"
   MatchParenCur: "- - u"
 
-  NvimTreeImageFile: "purple"
+  NvimTreeImageFile: "magenta"
   NvimTreeGitDirty: "git_green"
   NvimTreeGitDeleted: "git_green"
   NvimTreeGitStaged: "git_green"
@@ -340,7 +337,7 @@ highlights:
   NvimTreeFolderIcon: "blue"
   NvimTreeRootFolder: "lighter_gray - b"
   NvimTreeExecFile: "executable"
-  NvimTreeSpecialFile: "pink"
+  NvimTreeSpecialFile: "magenta"
   NvimTreeLspDiagnostics: "warning_orange" 
 
   BufferCurrent: "fg bg"
@@ -361,48 +358,24 @@ highlights:
   BufferInactiveSign: "gutter_fg_gray bg_inactive"
   BufferInactiveTarget: "red bg_inactive b"
 
-  # BufferTabpages: "blue bg_inactive b"
-  # BufferTabpageFill: "gutter_fg_gray bg_inactive"
-
-  CodiVirtualText: "pink"
+  CodiVirtualText: "magenta"
   IndentBlanklineContextChar: "indentlinehighlight"                     
   DashboardHeader: "blue"
-  DashboardCenter: "pink"
+  DashboardCenter: "magenta"
   DashboardFooter: "light_blue"
-# DashboardShortCut:
 
   WhichKeyFloat: "bg"
 
-  # terminal: "bg red green yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg"
-  # -- Other junk you can define --
-  # Debug
-  # Ignore
-  # Tag
-  # Delimiter
-  # SpecialChar
-  # Cursor", { "fg": s:black, "bg": s:blue }) " the character under the cursor
-  # CursorIM", {}) " like Cursor, but used when in IME mode
-  # FoldColumn", {}) " 'foldcolumn'
-  # CursorLineNr", {}) " Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
-  # MoreMsg", {}) " more-prompt
-  # ModeMsg", {}) " 'showmode' message (e.g., "-- INSERT --")
-  # ErrorMsg: "red - br"
-  # WarningMsg: "orange - br"
-  # ModeMsg: "yellow - br"
-  # MoreMsg: "green - br"
-  # Question: "cyan - br"
-  # Directory: "blue - b"
-
   # VimWiki
-  VimwikiHeader1: "pink - b"
+  VimwikiHeader1: "magenta - b"
   VimwikiHeader2: "green - b"
   VimwikiHeader3: "blue - b"
   VimwikiHeader4: "cyan - b"
   VimwikiHeader5: "dark_yellow - b"
-  VimwikiHeader6: "purple - b"
+  VimwikiHeader6: "magenta - b"
   VimwikiLink: "vivid_blue"
   VimwikiHeaderChar: "darker_gray"
   VimwikiHR: "yellow"
-  VimwikiList: "pink"
-  VimwikiTag: "pink"
+  VimwikiList: "magenta"
+  VimwikiTag: "magenta"
   VimwikiMarkers: "darker_gray"
