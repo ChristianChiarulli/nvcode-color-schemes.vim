@@ -11,6 +11,7 @@
 - gruvbox
 - palenight
 - snazzy (Based on [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy/) by [Sindre Sorhus](https://sindresorhus.com))
+- [xoria](./assets/xoria.png) (Based on [xoria-256](https://github.com/vim-scripts/xoria256.vim))
 
 ### Credit
 
