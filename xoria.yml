@@ -164,7 +164,7 @@ highlights:
   # Keywords
   TSConditional: "gray_blue"
   TSRepeat: "blue"
-  TSLabel: "light_blue"
+  TSLabel: "magenta"
   # Does not work for yield and return they should be diff then class and def
   TSKeyword: "blue"
   TSKeywordFunction: "gray_blue"
@@ -188,7 +188,7 @@ highlights:
   TSURI: "- - u"
   # Tags
   TSTag: "blue"
-  TSTagDelimiter: "red"
+  TSTagDelimiter: "gray"
   TSQueryLinterError: "warning_orange"
   # -- END Treesitter --
 
