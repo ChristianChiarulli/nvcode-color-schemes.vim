@@ -314,12 +314,12 @@ highlights:
   debugBreakpoint: "red - r"
 
   # VimWiki
-  VimwikiHeader1: "orange_2"
-  VimwikiHeader2: "green"
-  VimwikiHeader3: "blue_2"
-  VimwikiHeader4: "aqua_2"
-  VimwikiHeader5: "red_2"
-  VimwikiHeader6: "purple_2"
+  VimwikiHeader1: "orange_2 - b"
+  VimwikiHeader2: "green - b"
+  VimwikiHeader3: "blue_2 - b"
+  VimwikiHeader4: "aqua_2 - b"
+  VimwikiHeader5: "red_2 - b"
+  VimwikiHeader6: "purple_2 - b"
   VimwikiLink: "aqua"
   VimwikiHeaderChar: "bg2"
   VimwikiHR: "yellow"
