@@ -294,10 +294,10 @@ highlights:
   GitSignsChange: "#0C7D9D"
   GitSignsDelete: "#94151B"
 
-  # LspDiagnosticsUnderlineError: "error_red"
-  # LspDiagnosticsUnderlineWarning: "orange"
-  # LspDiagnosticsUnderlineInformation: "yellow"
-  LspDiagnosticsUnderlineHint: "grey_blue"
+  LspDiagnosticsUnderlineError: "- - c error_red"
+  LspDiagnosticsUnderlineWarning: "- - c warning_orange"
+  LspDiagnosticsUnderlineInformation: "- - c info_yellow"
+  LspDiagnosticsUnderlineHint: "grey_blue - c vivid_blue"
 
   LspDiagnosticsSignError: "error_red"
   LspDiagnosticsSignWarning: "warning_orange"
