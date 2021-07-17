@@ -43,7 +43,7 @@ hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reve
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#1e2127 ctermbg=235 gui=NONE cterm=NONE
-hi Conceal guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Conceal guifg=#606580 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
 hi Directory guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
