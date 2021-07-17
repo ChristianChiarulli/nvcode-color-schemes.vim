@@ -32,7 +32,7 @@ Plug 'nvim-treesitter/nvim-treesitter'
 
 ## Configuring
 
-Add this to your `init.vim` file 
+Add this to your `init.vim` file
 
 ```viml
 " configure treesitter
@@ -46,12 +46,8 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF
 
-" configure nvcode-color-schemes
-let g:nvcode_termcolors=256
-
 syntax on
 colorscheme nvcode " Or whatever colorscheme you make
-
 
 " checks if your terminal has 24-bit color support
 if (has("termguicolors"))
