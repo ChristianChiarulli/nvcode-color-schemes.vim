@@ -140,7 +140,7 @@ highlights:
   TSStringRegex: "orange"
   TSString: "text_green"
   TSStringEscape: "dark_yellow"
-  TSCharacter: "orange"
+  TSCharacter: "text_green"
   TSNumber: "number_orange"
   TSBoolean: "number_orange - bi"
   TSFloat: "number_orange"
@@ -158,14 +158,14 @@ highlights:
   TSProperty: "number_orange"
   TSConstructor: "type_yellow"
   # Keywords
-  TSConditional: "cyan - ib"
-  TSRepeat: "cyan - ib"
+  TSConditional: "cyan - i"
+  TSRepeat: "cyan - i"
   TSLabel: "light_blue"
   # Does not work for yield and return they should be diff then class and def
   TSKeyword: "purple"
   TSKeywordFunction: "purple"
-  TSKeywordOperator: "cyan - ib"
-  TSKeywordReturn: "cyan - ib"
+  TSKeywordOperator: "cyan - i"
+  TSKeywordReturn: "cyan - i"
   TSOperator: "cyan - b"
   TSException: "purple"
   TSType: "type_yellow"
@@ -173,7 +173,7 @@ highlights:
   TSStructure: "#FF00FF"
   TSInclude: "cyan"
   # Variable
-  TSVariable: "fg - b"
+  TSVariable: "fg"
   TSVariableBuiltin: "git_green - i"
   # Text
   TSText: "#FFFF00"
