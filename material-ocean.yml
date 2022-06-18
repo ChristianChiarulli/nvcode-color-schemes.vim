@@ -5,7 +5,7 @@ information:
 
 palette:
   fg: "#A6ACCD"
-  bg: "#1E1E1E"
+  bg: "#0F111A"
 
   red: "#D16969"
   error_red: "#F44747"
@@ -148,18 +148,18 @@ highlights:
   TSAttribute: "cyan"
   TSNamespace: "cyan"
   # Functions
-  TSFuncBuiltin: "yellow"
-  TSFunction: "yellow"
+  TSFuncBuiltin: "blue"
+  TSFunction: "blue"
   TSFuncMacro: "yellow"
-  TSParameter: "light_blue"
-  TSParameterReference: "light_blue"
-  TSMethod: "yellow"
+  TSParameter: "grey_blue"
+  TSParameterReference: "grey_blue"
+  TSMethod: "blue"
   TSField: "light_blue"
   TSProperty: "light_blue"
-  TSConstructor: "cyan"
+  TSConstructor: "blue"
   # Keywords
-  TSConditional: "purple"
-  TSRepeat: "purple"
+  TSConditional: "cyan - i"
+  TSRepeat: "cyan - i"
   TSLabel: "light_blue"
   # Does not work for yield and return they should be diff then class and def
   TSKeyword: "blue"
@@ -167,12 +167,12 @@ highlights:
   TSKeywordOperator: "blue"
   TSOperator: "white"
   TSException: "purple"
-  TSType: "cyan"
-  TSTypeBuiltin: "blue"
+  TSType: "type_yellow"
+  TSTypeBuiltin: "type_yellow"
   TSStructure: "#FF00FF"
-  TSInclude: "purple"
+  TSInclude: "cyan"
   # Variable
-  TSVariable: "light_blue"
+  TSVariable: "grey_blue"
   TSVariableBuiltin: "light_blue"
   # Text
   TSText: "#FFFF00"
