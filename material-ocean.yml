@@ -176,7 +176,7 @@ highlights:
   TSInclude: "cyan"
   # Variable
   TSVariable: "fg"
-  TSVariableBuiltin: "git_green - i"
+  TSVariableBuiltin: "executable - ib"
   # Text
   TSText: "fg"
   TSStrong: "#FFFF00"
