@@ -133,6 +133,7 @@ hi TSTitle guifg=#a6accd ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSLiteral guifg=#ce9178 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSURI guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi TSTag guifg=#f07178 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TsTagAttribute guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSTagDelimiter guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSQueryLinterError guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlArg guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=bold cterm=bold
