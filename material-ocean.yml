@@ -187,6 +187,7 @@ highlights:
   TSURI: "- - u"
   # Tags
   TSTag: "htmlTagRed"
+  TsTagAttribute: "purple - b"
   TSTagDelimiter: "cyan"
   TSQueryLinterError: "warning_orange"
   # -- END Treesitter --
