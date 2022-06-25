@@ -289,12 +289,12 @@ highlights:
   debugPc: "- cyan"
   debugBreakpoint: "red - r"
 
-  GitSignsAdd: "#587C0C"
+  GitSignsAdd: "executable"
   GitSignsChange: "#0C7D9D"
   GitSignsDelete: "#94151B"
 
-  # LspDiagnosticsUnderlineError: "error_red"
-  # LspDiagnosticsUnderlineWarning: "orange"
+  LspDiagnosticsUnderlineError: "error_red"
+  LspDiagnosticsUnderlineWarning: "warning_orange"
   # LspDiagnosticsUnderlineInformation: "yellow"
   LspDiagnosticsUnderlineHint: "grey_blue"
 
@@ -330,9 +330,9 @@ highlights:
   NvimTreeExecFile: "executable"
   NvimTreeSpecialFile: "info_yellow"
 
-  BufferCurrent: "fg bg"
+  BufferCurrent: "blue bg"
   BufferCurrentIndex: "blue bg"
-  BufferCurrentMod: "fg bg"
+  BufferCurrentMod: "blue bg"
   BufferCurrentSign: "blue bg"
   BufferCurrentTarget: "red bg b"
 

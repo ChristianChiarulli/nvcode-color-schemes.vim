@@ -209,9 +209,11 @@ hi diffNewFile guifg=#27ae60 ctermfg=35 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi diffOldFile guifg=#d16969 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi debugPc guifg=NONE ctermfg=NONE guibg=#89ddff ctermbg=117 gui=NONE cterm=NONE
 hi debugBreakpoint guifg=#d16969 ctermfg=167 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
-hi GitSignsAdd guifg=#587c0c ctermfg=64 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitSignsAdd guifg=#23d18b ctermfg=42 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsChange guifg=#0c7d9d ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsDelete guifg=#94151b ctermfg=88 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsUnderlineError guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsUnderlineWarning guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsUnderlineHint guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignError guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignWarning guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -240,9 +242,9 @@ hi NvimTreeFolderIcon guifg=#6695fa ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE 
 hi NvimTreeRootFolder guifg=#a6accd ctermfg=146 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi NvimTreeExecFile guifg=#23d18b ctermfg=42 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeSpecialFile guifg=#ffcc66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi BufferCurrent guifg=#a6accd ctermfg=146 guibg=#0f111a ctermbg=233 gui=NONE cterm=NONE
+hi BufferCurrent guifg=#6695fa ctermfg=69 guibg=#0f111a ctermbg=233 gui=NONE cterm=NONE
 hi BufferCurrentIndex guifg=#6695fa ctermfg=69 guibg=#0f111a ctermbg=233 gui=NONE cterm=NONE
-hi BufferCurrentMod guifg=#a6accd ctermfg=146 guibg=#0f111a ctermbg=233 gui=NONE cterm=NONE
+hi BufferCurrentMod guifg=#6695fa ctermfg=69 guibg=#0f111a ctermbg=233 gui=NONE cterm=NONE
 hi BufferCurrentSign guifg=#6695fa ctermfg=69 guibg=#0f111a ctermbg=233 gui=NONE cterm=NONE
 hi BufferCurrentTarget guifg=#d16969 ctermfg=167 guibg=#0f111a ctermbg=233 gui=bold cterm=bold
 hi BufferVisible guifg=#a6accd ctermfg=146 guibg=#0f111a ctermbg=233 gui=NONE cterm=NONE
