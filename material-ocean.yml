@@ -131,7 +131,7 @@ highlights:
   # Misc
   TSComment: "green"
   TSError: "error_red"
-  TSPunctDelimiter: "white"
+  TSPunctDelimiter: "white - b"
   TSPunctBracket: "white"
   TSPunctSpecial: "white"
   # Constants
