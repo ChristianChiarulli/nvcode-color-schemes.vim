@@ -7,6 +7,13 @@ if exists('syntax_on')
 endif
 let g:colors_name='material-ocean'
 
+hi rainbowcol1 guifg=#f1c40f ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rainbowcol2 guifg=#1abc9c ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rainbowcol3 guifg=#3498db ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rainbowcol4 guifg=#ef5777 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rainbowcol5 guifg=#05c46b ctermfg=41 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rainbowcol6 guifg=#0fbcf9 ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rainbowcol7 guifg=#e67e22 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#a6accd ctermfg=146 guibg=#0f111a ctermbg=233 gui=NONE cterm=NONE
 hi Comment guifg=#27ae60 ctermfg=35 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#f78c6c ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
