@@ -136,7 +136,6 @@ hi TSStrong guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi TSEmphasis guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSUnderline guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Title guifg=#a6accd ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi String guifg=#ce9178 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi Label guifg=#f07178 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TsTagAttribute guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=bold cterm=bold
