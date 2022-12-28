@@ -122,7 +122,7 @@ hi Label guifg=#9cdcfe ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Operator guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi Keyword guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+" hi Keyword guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Operator guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Exception guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
