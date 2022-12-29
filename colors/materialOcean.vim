@@ -115,7 +115,7 @@ hi Parameter guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi Function guifg=#6695fa ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 " hi Identifier guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 " hi Identifier guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-" hi Special guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi variable.builtin guifg=#05c46b ctermfg=41 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Conditional guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Repeat guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Label guifg=#9cdcfe ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -138,7 +138,7 @@ hi TSUnderline guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi Title guifg=#a6accd ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi Label guifg=#f07178 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TsTagAttribute guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi @tag.attribute guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Delimiter guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSQueryLinterError guifg=#ff8800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlArg guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=bold cterm=bold
