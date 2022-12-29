@@ -16,7 +16,7 @@ hi rainbowcol6 guifg=#0fbcf9 ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi rainbowcol7 guifg=#e67e22 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#a6accd ctermfg=146 guibg=#0f111a ctermbg=233 gui=NONE cterm=NONE
 hi Comment guifg=#27ae60 ctermfg=35 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi Constant guifg=#f78c6c ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Constant guifg=#1abc9c ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#c3e88d ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#ce9178 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#f78c6c ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
