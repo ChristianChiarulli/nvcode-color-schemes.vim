@@ -114,8 +114,8 @@ hi Identifier guifg=#a6accd ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi Parameter guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Function guifg=#6695fa ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 " hi Identifier guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-" hi Identifier guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi variable.builtin guifg=#05c46b ctermfg=41 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @property guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @variable.builtin guifg=#05c46b ctermfg=41 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Conditional guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Repeat guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Label guifg=#9cdcfe ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
