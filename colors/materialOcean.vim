@@ -115,6 +115,8 @@ hi @constructor guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi @property guifg=#729cb3 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @variable.builtin guifg=#05c46b ctermfg=41 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
 hi @constant.builtin guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
+hi @tag.delimiter guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi @keyword.operator guifg=#89ddff ctermfg=41 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Conditional guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Repeat guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Label guifg=#9cdcfe ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
