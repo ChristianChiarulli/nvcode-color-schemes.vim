@@ -126,7 +126,6 @@ hi Operator guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=i
 hi Operator guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Exception guifg=#c586c0 ctermfg=175 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Type guifg=#ffcb6b ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Structure guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Include guifg=#89ddff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Variable guifg=#a6accd ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
