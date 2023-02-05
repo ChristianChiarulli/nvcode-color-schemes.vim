@@ -7,6 +7,7 @@ if exists('syntax_on')
 endif
 let g:colors_name='material-ocean'
 
+
 hi rainbowcol1 guifg=#f1c40f ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rainbowcol2 guifg=#1abc9c ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rainbowcol3 guifg=#3498db ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
