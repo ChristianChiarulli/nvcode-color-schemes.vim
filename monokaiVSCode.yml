@@ -1,6 +1,6 @@
 information:
   name: monokaiVSCode
-  background: dark
+  background: light
   author: "Nikolas Daynard"
 
 palette:
@@ -14,7 +14,7 @@ palette:
   yellow: "#e6db74" #
   dark_yellow: "#b2aa5e" #
   orange: "#7c571c" #
-  gray: "#ffffff" #
+  gray: "#a4a5a3" #
   dark_gray: "#444444"
   dark_gray2: "#333333"
   darker_gray: "#272727"
