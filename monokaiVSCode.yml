@@ -70,10 +70,10 @@ highlights:
   PreProc: "red" #
   Include: "red" #
   Define: "red" #
-  Title: "gray" # :find
-  Macro: "green"
-  PreCondit: "light_blue"
-  Type: "gray_blue"
+  Title: "gray" # ?
+  Macro: "green" #
+  PreCondit: "green" #
+  Type: "blue" # 
   StorageClass: "gray_blue"
   Structure: "gray_blue"
   Typedef: "gray_blue"
