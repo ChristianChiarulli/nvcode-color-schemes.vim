@@ -65,17 +65,17 @@ highlights:
   Repeat: "red" #
   Label: "green" #
   Operator: "green" #
-  Keyword: "green"
-  Exception: "green"
+  Keyword: "blue"
+  Exception: "blue"
   PreProc: "red" #
   Include: "red" #
   Define: "red" #
   Title: "gray" # ?
   Macro: "green" #
   PreCondit: "green" #
-  Type: "green" # 
+  Type: "blue" # 
   StorageClass: "red" #
-  Structure: "blue" #
+  Structure: "green" #
   Typedef: "red" #
   Special: "red" # dunno
   SpecialComment: "gray" # dunno
