@@ -232,7 +232,7 @@ highlights:
   markdownIdDelimiter: "red"
   markdownItalic: "magenta - i"
   markdownLinkDelimiter: "white"
-  markdownLinkText: "blue"
+  markdownLinkText: "magenta"
   markdownListMarker: "green"
   markdownOrderedListMarker: "green"
   markdownRule: "darker_gray"

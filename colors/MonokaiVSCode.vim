@@ -170,7 +170,7 @@ hi markdownIdDeclaration guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NO
 hi markdownIdDelimiter guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownItalic guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi markdownLinkDelimiter guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownLinkText guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownLinkText guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownListMarker guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownOrderedListMarker guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownRule guifg=#272727 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
