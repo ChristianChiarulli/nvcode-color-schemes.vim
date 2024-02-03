@@ -90,7 +90,7 @@ highlights:
   Conceal: "darker_gray"
   CursorColumn: "- cursor_column_gray" #
   CursorLine: "- darker_gray" #
-  Directory: "blue"
+  Directory: "white"
   DiffAdd: "black green"
   DiffChange: "yellow - u"
   DiffDelete: "black red"
