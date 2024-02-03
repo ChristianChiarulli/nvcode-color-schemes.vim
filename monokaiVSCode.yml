@@ -44,7 +44,7 @@ palette:
   tabsel: "#585858"
   bg_inactive: "#ffffff" #
   cursor_fg: "#515052"
-  cursor_bg: "#AEAFAD"
+  cursor_bg: "#3e3d32"
   indentlinehighlight: "#767A8B"
 #TODO UNDERLINE - u std
 highlights:
@@ -81,8 +81,8 @@ highlights:
   SpecialComment: "gray" # dunno
   Error: "error_red - br" #
   Todo: "gray - b" #
-  Underlined: "cyan . u"
-  Cursor: "cursor_fg cursor_bg"
+  Underlined: "cyan . u" # ?
+  Cursor: "cursor_fg cursor_bg" # ?
 
   ColorColumn: "- cursor_column_gray"
   CursorLineNr: "white - b"
