@@ -9,9 +9,9 @@ palette:
 
   red: "#F92572" #
   error_red: "#d82827" #
-  green: "#afdf87"
+  green: "#a6e12e" #
   light_green: "#B5CEA8"
-  yellow: "#ffffaf"
+  yellow: "#e6db74" #
   dark_yellow: "#D7BA7D"
   orange: "#d7af87"
   gray: "#808080"
