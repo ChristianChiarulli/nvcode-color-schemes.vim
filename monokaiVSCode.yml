@@ -46,7 +46,7 @@ palette:
   cursor_fg: "#515052"
   cursor_bg: "#AEAFAD"
   indentlinehighlight: "#767A8B"
-
+#TODO UNDERLINE - u std
 highlights:
   # StatusLineBg: "darker_gray" # If possible this would be status line bg color
   Normal: "fg bg"
@@ -65,7 +65,7 @@ highlights:
   Repeat: "red" #
   Label: "green" #
   Operator: "green" #
-  Keyword: "blue"
+  Keyword: "red"
   Exception: "blue"
   PreProc: "red" #
   Include: "red" #
@@ -80,7 +80,7 @@ highlights:
   Special: "red" # dunno
   SpecialComment: "gray" # dunno
   Error: "error_red - br" #
-  Todo: "orange - u"
+  Todo: "orange"
   Underlined: "cyan . u"
   Cursor: "cursor_fg cursor_bg"
 
