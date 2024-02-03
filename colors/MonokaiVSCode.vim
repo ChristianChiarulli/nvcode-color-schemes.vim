@@ -8,7 +8,7 @@ endif
 let g:colors_name='monokaiVSCode'
 
 hi Normal guifg=#c9c9c9 ctermfg=251 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
-hi Comment guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi Comment guifg=#886f6d ctermfg=95 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -35,7 +35,7 @@ hi StorageClass guifg=#afafdf ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi Structure guifg=#afafdf ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#afafdf ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#f92572 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi SpecialComment guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpecialComment guifg=#886f6d ctermfg=95 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#d82827 ctermfg=160 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
 hi Todo guifg=#7c571c ctermfg=94 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
 hi Underlined guifg=#88c0d0 ctermfg=110 gui=underline cterm=underline
@@ -83,7 +83,7 @@ hi VisualNOS guifg=#333333 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi WarningMsg guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#121212 ctermfg=233 guibg=#65d9ef ctermbg=81 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#272822 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSComment guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi TSComment guifg=#886f6d ctermfg=95 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSError guifg=#d82827 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctDelimiter guifg=#f92572 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctBracket guifg=#f92572 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -129,7 +129,7 @@ hi TSStrong guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi TSEmphasis guifg=#dfafdf ctermfg=182 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSUnderline guifg=#f92572 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTitle guifg=#c9c9c9 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSLiteral guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSLiteral guifg=#886f6d ctermfg=95 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSURI guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi TSTag guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTagDelimiter guifg=#f92572 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -218,7 +218,7 @@ hi debugBreakpoint guifg=#f92572 ctermfg=197 guibg=NONE ctermbg=NONE gui=reverse
 hi GitSignsAdd guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsChange guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsDelete guifg=#f92572 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsUnderlineHint guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsUnderlineHint guifg=#886f6d ctermfg=95 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignError guifg=#d82827 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignWarning guifg=#ffb870 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsSignInformation guifg=#ffcc66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
