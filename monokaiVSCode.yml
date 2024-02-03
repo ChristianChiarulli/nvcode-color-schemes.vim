@@ -14,7 +14,7 @@ palette:
   yellow: "#e6db74" #
   dark_yellow: "#b2aa5e" #
   orange: "#7c571c" #
-  gray: "#a4a5a3" #
+  gray: "#ffffff" #
   dark_gray: "#444444"
   dark_gray2: "#333333"
   darker_gray: "#272727"
@@ -32,7 +32,7 @@ palette:
   black: "#121212"
   gutter_fg_gray: "#9e9e9e"
   cursor_column_gray: "#444444"
-  menu_gray: "#ffffff" # 
+  menu_gray: "#1e1f1c" # 
   special_gray: "#676566"
   vertsplit: "#3a3a3a"
   warning_orange: "#ffb870"
