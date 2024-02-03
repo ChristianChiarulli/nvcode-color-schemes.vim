@@ -155,8 +155,8 @@ hi htmlValue guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi markdownBlockquote guifg=#272727 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownBold guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi markdownCode guifg=#fd971e ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownCodeBlock guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownCodeDelimiter guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownCodeBlock guifg=#fd971e ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownCodeDelimiter guifg=#fd971e ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownH1 guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownH2 guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownH3 guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

@@ -217,8 +217,8 @@ highlights:
   markdownBlockquote: "darker_gray" #
   markdownBold: "blue - b" #
   markdownCode: "orange" #
-  markdownCodeBlock: "white"
-  markdownCodeDelimiter: "white"
+  markdownCodeBlock: "orange" #
+  markdownCodeDelimiter: "orange" #
   markdownH1: "green" #
   markdownH2: "green"
   markdownH3: "green"
