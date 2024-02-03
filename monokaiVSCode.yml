@@ -13,7 +13,7 @@ palette:
   light_green: "#B5CEA8"
   yellow: "#e6db74" #
   dark_yellow: "#b2aa5e" #
-  orange: "#7c571c" #
+  orange: "#fd971e" #
   gray: "#887e6d" # comment
   dark_gray: "#444444"
   dark_gray2: "#333333"
@@ -131,8 +131,8 @@ highlights:
 
   # -- Start Treesitter --
   # Misc
-  TSComment: "gray - i"
-  TSError: "error_red"
+  TSComment: "gray - i" #
+  TSError: "error_red" #
   TSPunctDelimiter: "red"
   TSPunctBracket: "red"
   TSPunctSpecial: "red"
@@ -155,26 +155,26 @@ highlights:
   TSFuncBuiltin: "green" #
   TSFunction: "green" # 
   TSFuncMacro: "green" #
-  TSParameter: "orange"
-  TSParameterReference: "white"
-  TSMethod: "magenta"
-  TSField: "white"
-  TSProperty: "magenta"
-  TSConstructor: "magenta"
+  TSParameter: "orange" # 
+  TSParameterReference: "white" #
+  TSMethod: "green" #
+  TSField: "blue" # 
+  TSProperty: "blue"
+  TSConstructor: "green" ?
   # Keywords
-  TSConditional: "gray_blue"
-  TSRepeat: "blue"
-  TSLabel: "light_blue"
+  TSConditional: "red"
+  TSRepeat: "red"
+  TSLabel: "white"
   # Does not work for yield and return they should be diff then class and def
   TSKeyword: "blue"
   TSKeywordFunction: "gray_blue"
   TSKeywordOperator: "blue"
-  TSOperator: "gray_blue"
+  TSOperator: "red"
   TSException: "blue"
   TSType: "gray_blue"
   TSTypeBuiltin: "gray_blue"
-  TSStructure: "gray_blue"
-  TSInclude: "green"
+  TSStructure: "green" #
+  TSInclude: "yellow" #
   # Variable
   TSVariable: "white"
   TSVariableBuiltin: "white"
