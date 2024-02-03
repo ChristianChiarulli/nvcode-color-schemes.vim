@@ -104,7 +104,7 @@ hi TSNamespace guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi TSFuncBuiltin guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFunction guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFuncMacro guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSParameter guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSParameter guifg=#7c571c ctermfg=94 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSParameterReference guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSMethod guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSField guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

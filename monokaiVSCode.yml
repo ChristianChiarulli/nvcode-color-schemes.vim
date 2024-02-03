@@ -155,7 +155,7 @@ highlights:
   TSFuncBuiltin: "green" #
   TSFunction: "green" # 
   TSFuncMacro: "green" #
-  TSParameter: "white"
+  TSParameter: "orange"
   TSParameterReference: "white"
   TSMethod: "magenta"
   TSField: "white"
