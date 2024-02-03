@@ -34,7 +34,7 @@ palette:
   cursor_column_gray: "#565a59"
   menu_gray: "#1e1f1c" # 
   special_gray: "#676566"
-  vertsplit: "#3a3a3a"
+  vertsplit: "#ffffff"
   warning_orange: "#ffb870"
   info_yellow: "#FFCC66"
   git_green: "#afdf87"
@@ -90,12 +90,12 @@ highlights:
   Conceal: "darker_gray"
   CursorColumn: "- cursor_column_gray" #
   CursorLine: "- darker_gray" #
-  Directory: "white"
-  DiffAdd: "black green"
-  DiffChange: "yellow - u"
-  DiffDelete: "black red"
-  DiffText: "black yellow"
-  ErrorMsg: "error_red"
+  Directory: "white" # 
+  DiffAdd: "git_green" #
+  DiffChange: "yellow - u" #
+  DiffDelete: "black red" # 
+  DiffText: "black yellow" #
+  ErrorMsg: "error_red" #
   VertSplit: "vertsplit"
   Folded: "darker_gray"
   FoldColumn: ""
@@ -125,7 +125,7 @@ highlights:
   Visual: "- dark_gray2"
   VisualNOS: "dark_gray2"
   WarningMsg: "yellow"
-  WildMenu: "black blue"
+  WildMenu: "menu_gray" #
   EndOfBuffer: "bg"
   
 

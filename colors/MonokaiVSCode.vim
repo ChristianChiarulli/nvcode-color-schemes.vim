@@ -47,12 +47,12 @@ hi Conceal guifg=#272727 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#565a59 ctermbg=240 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#272727 ctermbg=235 gui=NONE cterm=NONE
 hi Directory guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffAdd guifg=#121212 ctermfg=233 guibg=#a6e12e ctermbg=148 gui=NONE cterm=NONE
+hi DiffAdd guifg=#afdf87 ctermfg=150 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffChange guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi DiffDelete guifg=#121212 ctermfg=233 guibg=#d7005f ctermbg=161 gui=NONE cterm=NONE
 hi DiffText guifg=#121212 ctermfg=233 guibg=#e6db74 ctermbg=186 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#d82827 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VertSplit guifg=#3a3a3a ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi VertSplit guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#272727 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE
@@ -81,7 +81,7 @@ hi Terminal guifg=#ffffff ctermfg=231 guibg=#121212 ctermbg=233 gui=NONE cterm=N
 hi Visual guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE
 hi VisualNOS guifg=#333333 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WarningMsg guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi WildMenu guifg=#121212 ctermfg=233 guibg=#65d9ef ctermbg=81 gui=NONE cterm=NONE
+hi WildMenu guifg=#1e1f1c ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#272822 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSComment guifg=#887e6d ctermfg=101 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSError guifg=#d82827 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
