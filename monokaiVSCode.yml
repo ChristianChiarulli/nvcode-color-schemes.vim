@@ -225,13 +225,13 @@ highlights:
   markdownH4: "green"
   markdownH5: "green"
   markdownH6: "green" #
-  markdownHeadingDelimiter: "green"
-  markdownHeadingRule: "darker_gray"
-  markdownId: "magenta"
-  markdownIdDeclaration: "blue"
-  markdownIdDelimiter: "red"
-  markdownItalic: "magenta - i"
-  markdownLinkDelimiter: "white"
+  markdownHeadingDelimiter: "green" #
+  markdownHeadingRule: "darker_gray" #
+  markdownId: "magenta" #
+  markdownIdDeclaration: "magenta" #
+  markdownIdDelimiter: "magenta" #
+  markdownItalic: "magenta - i" #
+  markdownLinkDelimiter: "white" #
   markdownLinkText: "magenta" #
   markdownListMarker: "green" #
   markdownOrderedListMarker: "green" #
