@@ -137,23 +137,23 @@ highlights:
   TSPunctBracket: "red"
   TSPunctSpecial: "red"
   # Constants
-  TSConstant: "red"
-  TSConstBuiltin: "red"
+  TSConstant: "red" #
+  TSConstBuiltin: "red" #
   # Not sure about this guy
   TSConstMacro: "green"
-  TSStringRegex: "yellow"
-  TSString: "yellow"
-  TSStringEscape: "red"
-  TSCharacter: "yellow"
-  TSNumber: "magenta"
-  TSBoolean: "magenta"
-  TSFloat: "magenta"
+  TSStringRegex: "yellow" #
+  TSString: "yellow" #
+  TSStringEscape: "red" #?
+  TSCharacter: "yellow" #
+  TSNumber: "magenta" # 
+  TSBoolean: "magenta" # 
+  TSFloat: "magenta" #
   TSAnnotation: "green"
-  TSAttribute: "light_blue"
-  TSNamespace: "blue"
+  TSAttribute: "light_blue" # ?
+  TSNamespace: "blue" #
   # Functions
-  TSFuncBuiltin: "magenta"
-  TSFunction: "magenta"
+  TSFuncBuiltin: "green"
+  TSFunction: "green"
   TSFuncMacro: "green"
   TSParameter: "white"
   TSParameterReference: "white"
