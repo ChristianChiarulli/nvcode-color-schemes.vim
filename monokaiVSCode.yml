@@ -207,7 +207,7 @@ highlights:
   htmlLink: "yellow - u" #
   htmlSpecialChar: "magenta" #
   htmlSpecialTagName: "magenta" # 
-  htmlTag: "red" # 
+  htmlTag: "white" # 
   htmlTagN: "medium_gray" #
   htmlTagName: "red" #
   htmlTitle: "white" #

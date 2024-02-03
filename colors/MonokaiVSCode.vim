@@ -147,7 +147,7 @@ hi htmlItalic guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=italic cterm
 hi htmlLink guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi htmlSpecialChar guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlSpecialTagName guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi htmlTag guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlTag guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTagN guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTagName guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTitle guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
