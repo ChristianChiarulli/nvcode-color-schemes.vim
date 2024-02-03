@@ -73,14 +73,14 @@ highlights:
   Title: "gray" # ?
   Macro: "green" #
   PreCondit: "green" #
-  Type: "red" # 
+  Type: "blue" # 
   StorageClass: "red" #
   Structure: "blue" #
   Typedef: "red" #
   Special: "red" # dunno
   SpecialComment: "gray" # dunno
   Error: "error_red - br" #
-  Todo: "orange"
+  Todo: "white - b" #
   Underlined: "cyan . u"
   Cursor: "cursor_fg cursor_bg"
 
