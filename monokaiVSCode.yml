@@ -44,7 +44,7 @@ palette:
   tabsel: "#585858"
   bg_inactive: "#ffffff" #
   cursor_fg: "#3e3d32"
-  cursor_bg: "#565a59"
+  cursor_bg: "#414034"
   indentlinehighlight: "#565a59"
 #TODO UNDERLINE - u std
 highlights:
@@ -84,12 +84,12 @@ highlights:
   Underlined: "cyan . u" # ?
   Cursor: "cursor_fg cursor_bg" # ?
 
-  ColorColumn: "- cursor_column_gray"
-  CursorLineNr: "white - b"
-  SignColumn: "- bg"
+  ColorColumn: "- cursor_column_gray" #
+  CursorLineNr: "white - b" #
+  SignColumn: "- bg" #
   Conceal: "darker_gray"
-  CursorColumn: "- cursor_column_gray"
-  CursorLine: "- darker_gray"
+  CursorColumn: "- cursor_column_gray" #
+  CursorLine: "- darker_gray" #
   Directory: "blue"
   DiffAdd: "black green"
   DiffChange: "yellow - u"
