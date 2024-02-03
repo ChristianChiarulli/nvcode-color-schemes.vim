@@ -70,7 +70,7 @@ highlights:
   PreProc: "red" #
   Include: "red" #
   Define: "red" #
-  Title: "grey" # :find
+  Title: "cyan" #
   Macro: "green"
   PreCondit: "light_blue"
   Type: "gray_blue"
