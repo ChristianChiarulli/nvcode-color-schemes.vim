@@ -150,7 +150,7 @@ highlights:
   TSFloat: "magenta" #
   TSAnnotation: "green"
   TSAttribute: "light_blue" # ?
-  TSNamespace: "green" #
+  TSNamespace: "blue" #
   # Functions
   TSFuncBuiltin: "green" #
   TSFunction: "green" # 
@@ -166,13 +166,13 @@ highlights:
   TSRepeat: "red"
   TSLabel: "white"
   # Does not work for yield and return they should be diff then class and def
-  TSKeyword: "blue" #
+  TSKeyword: "green" #
   TSKeywordFunction: "green" #
   TSKeywordOperator: "red" #
   TSOperator: "red" #
   TSException: "red"
-  TSType: "blue" #
-  TSTypeBuiltin: "blue" #
+  TSType: "green" #
+  TSTypeBuiltin: "green" #
   TSStructure: "green" #
   TSInclude: "yellow" #
   # Variable
