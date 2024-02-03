@@ -61,14 +61,14 @@ highlights:
   Identifier: "blue" #
   Function: "green" #
   Statement: "red" #
-  Conditional: "red"
-  Repeat: "red"
+  Conditional: "red" #
+  Repeat: "red" #
   Label: "gray_blue"
   Operator: "gray_blue"
   Keyword: "blue"
   Exception: "blue"
-  PreProc: "green"
-  Include: "green"
+  PreProc: "red"
+  Include: "red"
   Define: "green"
   Title: "cyan"
   Macro: "green"
