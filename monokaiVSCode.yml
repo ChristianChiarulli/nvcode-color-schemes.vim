@@ -80,7 +80,7 @@ highlights:
   Special: "red" # dunno
   SpecialComment: "gray" # dunno
   Error: "error_red - br" #
-  Todo: "white - b" #
+  Todo: "gray - b" #
   Underlined: "cyan . u"
   Cursor: "cursor_fg cursor_bg"
 
