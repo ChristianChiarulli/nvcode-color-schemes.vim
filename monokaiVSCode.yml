@@ -216,7 +216,7 @@ highlights:
   # Markdown (not consistent with HTML, above)
   markdownBlockquote: "darker_gray" #
   markdownBold: "blue - b" #
-  markdownCode: "gray_blue"
+  markdownCode: "orange" #
   markdownCodeBlock: "white"
   markdownCodeDelimiter: "white"
   markdownH1: "green" #
@@ -232,10 +232,10 @@ highlights:
   markdownIdDelimiter: "red"
   markdownItalic: "magenta - i"
   markdownLinkDelimiter: "white"
-  markdownLinkText: "magenta"
-  markdownListMarker: "green"
-  markdownOrderedListMarker: "green"
-  markdownRule: "darker_gray"
+  markdownLinkText: "magenta" #
+  markdownListMarker: "green" #
+  markdownOrderedListMarker: "green" #
+  markdownRule: "darker_gray" #
   markdownUrl: "yellow - u" #
   # -- END Languages --
 
