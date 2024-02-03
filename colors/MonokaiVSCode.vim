@@ -157,12 +157,12 @@ hi markdownBold guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=bold cterm
 hi markdownCode guifg=#afafdf ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCodeBlock guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCodeDelimiter guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownH1 guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownH2 guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownH3 guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownH4 guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownH5 guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownH6 guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownH1 guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownH2 guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownH3 guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownH4 guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownH5 guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownH6 guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownHeadingDelimiter guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownHeadingRule guifg=#272727 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownId guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -174,7 +174,7 @@ hi markdownLinkText guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE ct
 hi markdownListMarker guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownOrderedListMarker guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownRule guifg=#272727 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownUrl guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi markdownUrl guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi CocExplorerIndentLine guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerBufferRoot guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerFileRoot guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
