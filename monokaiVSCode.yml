@@ -231,7 +231,7 @@ highlights:
   markdownIdDeclaration: "blue"
   markdownIdDelimiter: "red"
   markdownItalic: "magenta - i"
-  markdownLinkDelimiter: "red"
+  markdownLinkDelimiter: "white"
   markdownLinkText: "blue"
   markdownListMarker: "magenta"
   markdownOrderedListMarker: "magenta"
