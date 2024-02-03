@@ -4,8 +4,8 @@ information:
   author: "Nikolas Daynard"
 
 palette:
-  fg: "#ffffff" #
-  bg: "#272822" #
+  fg: "#c9c9c9" #
+  bg: "#ffffff" #
 
   red: "#F92572" # good
   error_red: "#d82827" #
