@@ -58,7 +58,7 @@ highlights:
   Number: "magenta" #
   Boolean: "magenta" #
   Float: "magenta" #
-  Identifier: "blue" #
+  Identifier: "error_red" #
   Function: "green" #
   Statement: "red" #
   Conditional: "red" #
@@ -67,8 +67,8 @@ highlights:
   Operator: "gray_blue"
   Keyword: "blue"
   Exception: "blue"
-  PreProc: "red"
-  Include: "red"
+  PreProc: "red" #
+  Include: "red" #
   Define: "green"
   Title: "cyan"
   Macro: "green"
