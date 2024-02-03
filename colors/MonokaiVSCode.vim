@@ -9,9 +9,9 @@ let g:colors_name='monokaiVSCode'
 
 hi Normal guifg=#c9c9c9 ctermfg=251 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi Comment guifg=#887e6d ctermfg=101 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi Constant guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi String guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Character guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Constant guifg=#e6db00 ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi String guifg=#e6db00 ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Character guifg=#e6db00 ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Boolean guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Float guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -48,9 +48,9 @@ hi CursorColumn guifg=NONE ctermfg=NONE guibg=#565a59 ctermbg=240 gui=NONE cterm
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#272727 ctermbg=235 gui=NONE cterm=NONE
 hi Directory guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#afdf87 ctermfg=150 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffChange guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi DiffChange guifg=#e6db00 ctermfg=184 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi DiffDelete guifg=#121212 ctermfg=233 guibg=#d7005f ctermbg=161 gui=NONE cterm=NONE
-hi DiffText guifg=#121212 ctermfg=233 guibg=#ffff00 ctermbg=226 gui=NONE cterm=NONE
+hi DiffText guifg=#121212 ctermfg=233 guibg=#e6db00 ctermbg=184 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#d82827 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#676566 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -80,7 +80,7 @@ hi TabLineFill guifg=NONE ctermfg=NONE guibg=#222222 ctermbg=235 gui=NONE cterm=
 hi Terminal guifg=#ffffff ctermfg=231 guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE
 hi VisualNOS guifg=#333333 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi WarningMsg guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi WarningMsg guifg=#e6db00 ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#1e1f1c ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#272822 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSComment guifg=#887e6d ctermfg=101 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -91,10 +91,10 @@ hi TSPunctSpecial guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cte
 hi TSConstant guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstBuiltin guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstMacro guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSStringRegex guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSString guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSStringRegex guifg=#e6db00 ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSString guifg=#e6db00 ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStringEscape guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSCharacter guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSCharacter guifg=#e6db00 ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSNumber guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSBoolean guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFloat guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -176,8 +176,8 @@ hi markdownOrderedListMarker guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE g
 hi markdownRule guifg=#272727 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownUrl guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi CocExplorerIndentLine guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferRoot guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileRoot guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerBufferRoot guifg=#e6db00 ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerFileRoot guifg=#e6db00 ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerBufferFullPath guifg=#9f9f9f ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerFileFullPath guifg=#9f9f9f ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerBufferReadonly guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -276,7 +276,7 @@ hi VimwikiHeader5 guifg=#b2aa5e ctermfg=143 guibg=NONE ctermbg=NONE gui=bold cte
 hi VimwikiHeader6 guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi VimwikiLink guifg=#6ba8f2 ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiHeaderChar guifg=#272727 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VimwikiHR guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi VimwikiHR guifg=#e6db00 ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiList guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiTag guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiMarkers guifg=#272727 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
