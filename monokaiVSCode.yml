@@ -21,7 +21,7 @@ palette:
   medium_gray: "#777777"
   light_gray: "#9f9f9f"
   lighter_gray: "#afafaf"
-  green: "#65d9ef" #
+  blue: "#65d9ef" #
   gray_green: "#afafdf"
   light_green: "#88C0D0"
   cyan: "#88c0d0"
