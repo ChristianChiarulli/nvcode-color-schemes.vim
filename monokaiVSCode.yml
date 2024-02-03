@@ -64,7 +64,7 @@ highlights:
   Conditional: "red" #
   Repeat: "red" #
   Label: "green" #
-  Operator: "green" #
+  Operator: "red" #
   Keyword: "blue"
   Exception: "blue"
   PreProc: "red" #
