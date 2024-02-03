@@ -26,7 +26,7 @@ palette:
   light_blue: "#88C0D0"
   cyan: "#88c0d0"
   vivid_blue: "#6ba8f2"
-  magenta: "#dfafdf"
+  magenta: "#ab80fb" #
   white: "#ffffff"
   shiny_white: "#e6e6e6"
   black: "#121212"
@@ -51,15 +51,15 @@ highlights:
   # StatusLineBg: "darker_gray" # If possible this would be status line bg color
   Normal: "fg bg"
 
-  Comment: "gray - i"
+  Comment: "gray - i" # 
   Constant: "yellow"
-  String: "yellow"
-  Character: "yellow"
-  Number: "orange"
-  Boolean: "orange"
-  Float: "orange"
-  Identifier: "magenta"
-  Function: "magenta"
+  String: "yellow" # 
+  Character: "yellow" # 
+  Number: "magenta" #
+  Boolean: "magenta" #
+  Float: "magenta" #
+  Identifier: "blue" #
+  Function: "green" #
   Statement: "blue"
   Conditional: "blue"
   Repeat: "blue"
