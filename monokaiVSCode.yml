@@ -214,7 +214,7 @@ highlights:
   htmlValue: "white" #
 
   # Markdown (not consistent with HTML, above)
-  markdownBlockquote: "darker_gray"
+  markdownBlockquote: "error_red "
   markdownBold: "magenta - b"
   markdownCode: "gray_blue"
   markdownCodeBlock: "white"
@@ -235,7 +235,7 @@ highlights:
   markdownLinkText: "blue"
   markdownListMarker: "magenta"
   markdownOrderedListMarker: "magenta"
-  markdownRule: "error_red"
+  markdownRule: "darker_gray"
   markdownUrl: "yellow - u" #
   # -- END Languages --
 
