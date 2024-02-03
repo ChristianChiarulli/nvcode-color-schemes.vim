@@ -35,7 +35,7 @@ palette:
   menu_gray: "#1e1f1c" # 
   special_gray: "#676566"
   vertsplit: "#676566" #
-  warning_orange: "#ffb870"
+  warning_orange: "#cca700" #
   info_yellow: "#FFCC66"
   git_green: "#afdf87"
   symlink: "#29B8D8"
@@ -97,10 +97,10 @@ highlights:
   DiffText: "black yellow" #
   ErrorMsg: "error_red" #
   VertSplit: "vertsplit" #
-  Folded: "medium_gray"
-  FoldColumn: ""
-  IncSearch: "- dark_gray2"
-  LineNr: "gutter_fg_gray"
+  Folded: "medium_gray" #
+  FoldColumn: "" #
+  IncSearch: "- dark_gray2" # ?
+  LineNr: "gutter_fg_gray" #
   NonText: "special_gray"
   Pmenu: "white menu_gray"
   PmenuSel: "shiny_white dark_gray"
