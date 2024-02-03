@@ -166,12 +166,12 @@ highlights:
   TSRepeat: "red"
   TSLabel: "white"
   # Does not work for yield and return they should be diff then class and def
-  TSKeyword: "blue"
-  TSKeywordFunction: "gray_blue"
-  TSKeywordOperator: "blue"
-  TSOperator: "red"
-  TSException: "blue"
-  TSType: "gray_blue"
+  TSKeyword: "blue" #
+  TSKeywordFunction: "green" #
+  TSKeywordOperator: "red" #
+  TSOperator: "red" #
+  TSException: "red"
+  TSType: "blue"
   TSTypeBuiltin: "gray_blue"
   TSStructure: "green" #
   TSInclude: "yellow" #
