@@ -8,7 +8,7 @@ endif
 let g:colors_name='monokaiVSCode'
 
 hi Normal guifg=#c9c9c9 ctermfg=251 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
-hi Comment guifg=#808080 ctermfg=244 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi Comment guifg=#f92572 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

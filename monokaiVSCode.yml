@@ -51,7 +51,7 @@ highlights:
   # StatusLineBg: "darker_gray" # If possible this would be status line bg color
   Normal: "fg bg"
 
-  Comment: "gray - i"
+  Comment: "red"
   Constant: "yellow"
   String: "yellow"
   Character: "yellow"
