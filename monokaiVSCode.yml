@@ -150,7 +150,7 @@ highlights:
   TSFloat: "magenta" #
   TSAnnotation: "green"
   TSAttribute: "light_blue" # ?
-  TSNamespace: "green" #
+  TSNamespace: "blue" #
   # Functions
   TSFuncBuiltin: "green" #
   TSFunction: "green" # 
