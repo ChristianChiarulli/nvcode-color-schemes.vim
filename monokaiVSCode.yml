@@ -4,7 +4,7 @@ information:
   author: "Nikolas Daynard"
 
 palette:
-  fg: "#febc2e"
+  fg: "#c9c9c9"
   bg: "#272822"
 
   red: "#df8787"
