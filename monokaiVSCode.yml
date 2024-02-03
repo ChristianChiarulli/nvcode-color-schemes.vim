@@ -63,7 +63,7 @@ highlights:
   Statement: "red" #
   Conditional: "red" #
   Repeat: "red" #
-  Label: "green" #
+  Label: "green - u" #
   Operator: "green" #
   Keyword: "blue"
   Exception: "blue"
@@ -74,11 +74,11 @@ highlights:
   Macro: "green" #
   PreCondit: "green" #
   Type: "blue" # 
-  StorageClass: "gray_blue"
-  Structure: "gray_blue"
-  Typedef: "gray_blue"
-  Special: "red"
-  SpecialComment: "gray"
+  StorageClass: "red" #
+  Structure: "blue" #
+  Typedef: "red" #
+  Special: "red" # dunno
+  SpecialComment: "gray" # dunno
   Error: "error_red - br"
   Todo: "orange - bi"
   Underlined: "cyan . u"
