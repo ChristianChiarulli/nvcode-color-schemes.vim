@@ -63,8 +63,8 @@ highlights:
   Statement: "red" #
   Conditional: "red" #
   Repeat: "red" #
-  Label: "gray_blue"
-  Operator: "gray_blue"
+  Label: "green" #
+  Operator: "green" #
   Keyword: "blue"
   Exception: "blue"
   PreProc: "red" #
