@@ -58,7 +58,7 @@ highlights:
   Number: "magenta" #
   Boolean: "magenta" #
   Float: "magenta" #
-  Identifier: "error_red" #
+  Identifier: "white" # vars?
   Function: "green" #
   Statement: "red" #
   Conditional: "red" #
