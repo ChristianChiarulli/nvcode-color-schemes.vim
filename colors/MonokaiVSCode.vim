@@ -20,7 +20,7 @@ hi Function guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi Statement guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Conditional guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Repeat guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Label guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi Label guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Operator guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Exception guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -37,7 +37,7 @@ hi Typedef guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#887e6d ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#d82827 ctermfg=160 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
-hi Todo guifg=#7c571c ctermfg=94 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
+hi Todo guifg=#7c571c ctermfg=94 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi Underlined guifg=#88c0d0 ctermfg=110 gui=underline cterm=underline
 hi Cursor guifg=#515052 ctermfg=239 guibg=#aeafad ctermbg=145 gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#444444 ctermbg=238 gui=NONE cterm=NONE

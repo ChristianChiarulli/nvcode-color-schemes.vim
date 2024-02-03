@@ -63,7 +63,7 @@ highlights:
   Statement: "red" #
   Conditional: "red" #
   Repeat: "red" #
-  Label: "green - u" #
+  Label: "green" #
   Operator: "green" #
   Keyword: "blue"
   Exception: "blue"
@@ -79,8 +79,8 @@ highlights:
   Typedef: "red" #
   Special: "red" # dunno
   SpecialComment: "gray" # dunno
-  Error: "error_red - br"
-  Todo: "orange - bi"
+  Error: "error_red - br" #
+  Todo: "orange - u"
   Underlined: "cyan . u"
   Cursor: "cursor_fg cursor_bg"
 
