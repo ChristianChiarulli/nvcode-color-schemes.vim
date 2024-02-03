@@ -60,9 +60,9 @@ highlights:
   Float: "magenta" #
   Identifier: "blue" #
   Function: "green" #
-  Statement: "blue"
-  Conditional: "blue"
-  Repeat: "blue"
+  Statement: "red" #
+  Conditional: "red"
+  Repeat: "red"
   Label: "gray_blue"
   Operator: "gray_blue"
   Keyword: "blue"

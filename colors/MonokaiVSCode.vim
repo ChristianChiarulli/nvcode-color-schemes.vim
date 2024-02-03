@@ -17,9 +17,9 @@ hi Boolean guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Float guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Function guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Statement guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Conditional guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Repeat guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Statement guifg=#f92572 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Conditional guifg=#f92572 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Repeat guifg=#f92572 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Label guifg=#afafdf ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Operator guifg=#afafdf ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
