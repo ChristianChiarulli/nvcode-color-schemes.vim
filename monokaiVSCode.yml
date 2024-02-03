@@ -69,8 +69,8 @@ highlights:
   Exception: "blue"
   PreProc: "red" #
   Include: "red" #
-  Define: "green"
-  Title: "cyan"
+  Define: "red" #
+  Title: "grey" # :find
   Macro: "green"
   PreCondit: "light_blue"
   Type: "gray_blue"
