@@ -233,8 +233,8 @@ highlights:
   markdownItalic: "magenta - i"
   markdownLinkDelimiter: "white"
   markdownLinkText: "blue"
-  markdownListMarker: "magenta"
-  markdownOrderedListMarker: "magenta"
+  markdownListMarker: "green"
+  markdownOrderedListMarker: "green"
   markdownRule: "darker_gray"
   markdownUrl: "yellow - u" #
   # -- END Languages --
