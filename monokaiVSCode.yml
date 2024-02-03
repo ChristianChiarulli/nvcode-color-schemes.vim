@@ -75,7 +75,7 @@ highlights:
   PreCondit: "green" #
   Type: "green" # 
   StorageClass: "red" #
-  Structure: "green" #
+  Structure: "blue" #
   Typedef: "red" #
   Special: "red" # dunno
   SpecialComment: "gray" # dunno
