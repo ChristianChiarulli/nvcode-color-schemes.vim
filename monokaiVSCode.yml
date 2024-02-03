@@ -21,11 +21,11 @@ palette:
   medium_gray: "#777777"
   light_gray: "#9f9f9f"
   lighter_gray: "#afafaf"
-  blue: "#65d9ef" #
-  gray_blue: "#afafdf"
-  light_blue: "#88C0D0"
+  green: "#65d9ef" #
+  gray_green: "#afafdf"
+  light_green: "#88C0D0"
   cyan: "#88c0d0"
-  vivid_blue: "#6ba8f2"
+  vivid_green: "#6ba8f2"
   magenta: "#ab80fb" #
   white: "#ffffff"
   shiny_white: "#e6e6e6"
@@ -65,17 +65,17 @@ highlights:
   Repeat: "red" #
   Label: "green" #
   Operator: "green" #
-  Keyword: "blue"
-  Exception: "blue"
+  Keyword: "green"
+  Exception: "green"
   PreProc: "red" #
   Include: "red" #
   Define: "red" #
   Title: "gray" # ?
   Macro: "green" #
   PreCondit: "green" #
-  Type: "blue" # 
+  Type: "green" # 
   StorageClass: "red" #
-  Structure: "blue" #
+  Structure: "green" #
   Typedef: "red" #
   Special: "red" # dunno
   SpecialComment: "gray" # dunno
@@ -149,8 +149,8 @@ highlights:
   TSBoolean: "magenta" # 
   TSFloat: "magenta" #
   TSAnnotation: "green"
-  TSAttribute: "light_blue" # ?
-  TSNamespace: "blue" #
+  TSAttribute: "light_green" # ?
+  TSNamespace: "green" #
   # Functions
   TSFuncBuiltin: "green" #
   TSFunction: "green" # 
@@ -158,21 +158,21 @@ highlights:
   TSParameter: "orange" # 
   TSParameterReference: "white" #
   TSMethod: "green" #
-  TSField: "blue" # 
-  TSProperty: "blue"
+  TSField: "green" # 
+  TSProperty: "green"
   TSConstructor: "green" # ?
   # Keywords
   TSConditional: "red"
   TSRepeat: "red"
   TSLabel: "white"
   # Does not work for yield and return they should be diff then class and def
-  TSKeyword: "blue" #
+  TSKeyword: "green" #
   TSKeywordFunction: "green" #
   TSKeywordOperator: "red" #
   TSOperator: "red" #
   TSException: "red"
-  TSType: "blue" #
-  TSTypeBuiltin: "blue" #
+  TSType: "green" #
+  TSTypeBuiltin: "green" #
   TSStructure: "green" #
   TSInclude: "yellow" #
   # Variable
@@ -215,7 +215,7 @@ highlights:
 
   # Markdown (not consistent with HTML, above)
   markdownBlockquote: "darker_gray" #
-  markdownBold: "blue - b" #
+  markdownBold: "green - b" #
   markdownCode: "orange" #
   markdownCodeBlock: "orange" #
   markdownCodeDelimiter: "orange" #
@@ -265,29 +265,29 @@ highlights:
   # -- START Startify --
   StartifyNumber: "red"
   StartifySelect: "green" # maybe shiny_white
-  StartifyBracket: "blue"
+  StartifyBracket: "green"
   StartifySpecial: "cyan"
-  StartifyVar: "blue"
-  StartifyPath: "blue"
+  StartifyVar: "green"
+  StartifyPath: "green"
   StartifyFile: "cyan"
-  StartifySlash: "blue"
-  StartifyHeader: "light_blue"
+  StartifySlash: "green"
+  StartifyHeader: "light_green"
   StartifySection: "magenta"
   StartifyFooter: "green"
   # -- END Startify --
   # -- START WhichKey --
   WhichKey: "magenta"
   WhichKeySeperator: "green"
-  WhichKeyGroup: "vivid_blue"
-  WhichKeyDesc: "blue"
+  WhichKeyGroup: "vivid_green"
+  WhichKeyDesc: "green"
   # -- END WhichKey --
 
   # old stuff
   diffAdded: "green"
   diffAdd: "green"
   diffRemoved: "red"
-  diffFileId: "blue - br"
-  diffFile: "gray_blue"
+  diffFileId: "green - br"
+  diffFile: "gray_green"
   diffNewFile: "green"
   diffOldFile: "red"
 
@@ -295,7 +295,7 @@ highlights:
   debugBreakpoint: "red - r"
 
   GitSignsAdd: "green"
-  GitSignsChange: "blue"
+  GitSignsChange: "green"
   GitSignsDelete: "red"
 
   # These 3 bellow disabled because if enabled text is not being underlined only colored,
@@ -304,20 +304,20 @@ highlights:
 
   # LspDiagnosticsUnderlineError: "error_red"
   # LspDiagnosticsUnderlineWarning: "warning_orange"
-  # LspDiagnosticsUnderlineInformation: "vivid_blue"
+  # LspDiagnosticsUnderlineInformation: "vivid_green"
   LspDiagnosticsUnderlineHint: "gray"
 
   LspDiagnosticsSignError: "error_red"
   LspDiagnosticsSignWarning: "warning_orange"
   LspDiagnosticsSignInformation: "info_yellow"
-  LspDiagnosticsSignHint: "vivid_blue"
+  LspDiagnosticsSignHint: "vivid_green"
 
   LspDiagnosticsVirtualTextError: "error_red"
   LspDiagnosticsVirtualTextWarning: "warning_orange"
   LspDiagnosticsVirtualTextInformation: "info_yellow"
-  LspDiagnosticsVirtualTextHint: "vivid_blue"
+  LspDiagnosticsVirtualTextHint: "vivid_green"
 
-  QuickScopePrimary: "vivid_blue - u"
+  QuickScopePrimary: "vivid_green - u"
   QuickScopeSecondary: "red - u"
 
   MatchWord: "- - u"
@@ -334,16 +334,16 @@ highlights:
   NvimTreeGitNew: "git_green"
   NvimTreeIndentMarker: "medium_gray"
   NvimTreeSymlink: "symlink"
-  NvimTreeFolderIcon: "blue"
+  NvimTreeFolderIcon: "green"
   NvimTreeRootFolder: "lighter_gray - b"
   NvimTreeExecFile: "executable"
   NvimTreeSpecialFile: "magenta"
   NvimTreeLspDiagnostics: "warning_orange" 
 
   BufferCurrent: "fg bg"
-  BufferCurrentIndex: "blue bg"
+  BufferCurrentIndex: "green bg"
   BufferCurrentMod: "fg bg"
-  BufferCurrentSign: "blue bg"
+  BufferCurrentSign: "green bg"
   BufferCurrentTarget: "red bg b"
 
   BufferVisible: "fg bg"
@@ -360,20 +360,20 @@ highlights:
 
   CodiVirtualText: "magenta"
   IndentBlanklineContextChar: "indentlinehighlight"                     
-  DashboardHeader: "blue"
+  DashboardHeader: "green"
   DashboardCenter: "magenta"
-  DashboardFooter: "light_blue"
+  DashboardFooter: "light_green"
 
   WhichKeyFloat: "bg"
 
   # VimWiki
   VimwikiHeader1: "magenta - b"
   VimwikiHeader2: "green - b"
-  VimwikiHeader3: "blue - b"
+  VimwikiHeader3: "green - b"
   VimwikiHeader4: "cyan - b"
   VimwikiHeader5: "dark_yellow - b"
   VimwikiHeader6: "magenta - b"
-  VimwikiLink: "vivid_blue"
+  VimwikiLink: "vivid_green"
   VimwikiHeaderChar: "darker_gray"
   VimwikiHR: "yellow"
   VimwikiList: "magenta"
