@@ -160,7 +160,7 @@ highlights:
   TSMethod: "green" #
   TSField: "blue" # 
   TSProperty: "blue"
-  TSConstructor: "green" ?
+  TSConstructor: "green" # ?
   # Keywords
   TSConditional: "red"
   TSRepeat: "red"
