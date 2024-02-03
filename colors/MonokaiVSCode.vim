@@ -52,7 +52,7 @@ hi DiffChange guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=underline ct
 hi DiffDelete guifg=#121212 ctermfg=233 guibg=#d7005f ctermbg=161 gui=NONE cterm=NONE
 hi DiffText guifg=#121212 ctermfg=233 guibg=#e6db74 ctermbg=186 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#d82827 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VertSplit guifg=#887e6d ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi VertSplit guifg=#676566 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#272727 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE

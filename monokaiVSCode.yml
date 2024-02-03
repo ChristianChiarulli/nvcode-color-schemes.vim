@@ -34,7 +34,7 @@ palette:
   cursor_column_gray: "#565a59"
   menu_gray: "#1e1f1c" # 
   special_gray: "#676566"
-  vertsplit: "#887e6d" #
+  vertsplit: "#676566" #
   warning_orange: "#ffb870"
   info_yellow: "#FFCC66"
   git_green: "#afdf87"
