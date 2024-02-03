@@ -1,6 +1,6 @@
 information:
   name: monokaiVSCode
-  background: light
+  background: dark
   author: "Nikolas Daynard"
 
 palette:
@@ -21,7 +21,7 @@ palette:
   medium_gray: "#777777"
   light_gray: "#9f9f9f"
   lighter_gray: "#afafaf"
-  blue: "#87afdf"
+  blue: "#65d9ef" #
   gray_blue: "#afafdf"
   light_blue: "#88C0D0"
   cyan: "#88c0d0"
@@ -48,7 +48,7 @@ palette:
   indentlinehighlight: "#767A8B"
 
 highlights:
-  # StatusLineBg: "darker_gray" # If possible this would be status line bg color
+  StatusLineBg: "darker_gray" # If possible this would be status line bg color
   Normal: "fg bg"
 
   Comment: "gray - i"
