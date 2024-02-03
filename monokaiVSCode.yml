@@ -42,7 +42,7 @@ palette:
   executable: "#23D18B"
   tabfill: "#222222"
   tabsel: "#585858"
-  bg_inactive: "#1e1f1c" #
+  bg_inactive: "#ffffff" #
   cursor_fg: "#515052"
   cursor_bg: "#AEAFAD"
   indentlinehighlight: "#767A8B"
