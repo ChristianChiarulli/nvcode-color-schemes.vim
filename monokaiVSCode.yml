@@ -44,7 +44,7 @@ palette:
   tabsel: "#585858"
   bg_inactive: "#ffffff" #
   cursor_fg: "#515052"
-  cursor_bg: "#3e3d32"
+  cursor_bg: "#565a59" #"#3e3d32"
   indentlinehighlight: "#767A8B"
 #TODO UNDERLINE - u std
 highlights:

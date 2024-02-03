@@ -39,7 +39,7 @@ hi SpecialComment guifg=#887e6d ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cte
 hi Error guifg=#d82827 ctermfg=160 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
 hi Todo guifg=#887e6d ctermfg=101 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Underlined guifg=#88c0d0 ctermfg=110 gui=underline cterm=underline
-hi Cursor guifg=#515052 ctermfg=239 guibg=#3e3d32 ctermbg=237 gui=NONE cterm=NONE
+hi Cursor guifg=#515052 ctermfg=239 guibg=#565a59 ctermbg=240 gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
