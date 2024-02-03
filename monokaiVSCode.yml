@@ -171,47 +171,47 @@ highlights:
   TSKeywordOperator: "red" #
   TSOperator: "red" #
   TSException: "red"
-  TSType: "blue"
-  TSTypeBuiltin: "gray_blue"
+  TSType: "blue" #
+  TSTypeBuiltin: "blue" #
   TSStructure: "green" #
   TSInclude: "yellow" #
   # Variable
-  TSVariable: "white"
-  TSVariableBuiltin: "white"
+  TSVariable: "white" #
+  TSVariableBuiltin: "white" #
   # Text
-  TSText: "fg"
-  TSStrong: "green"
-  TSEmphasis: "magenta"
-  TSUnderline: "red"
-  TSTitle: "fg"
-  TSLiteral: "gray"
+  TSText: "fg" #
+  TSStrong: "green" #
+  TSEmphasis: "magenta" #
+  TSUnderline: "red" #
+  TSTitle: "fg" #
+  TSLiteral: "medium_gray"
   TSURI: "- - u"
   # Tags
-  TSTag: "blue"
-  TSTagDelimiter: "red"
-  TSQueryLinterError: "warning_orange"
+  TSTag: "blue" # 
+  TSTagDelimiter: "red" # 
+  TSQueryLinterError: "warning_orange" #
   # -- END Treesitter --
 
   # -- START Languages --
   # HTML (keep consistent with Markdown, below)
-  htmlArg: "magenta"
-  htmlBold: "magenta - b"
+  htmlArg: "green" #
+  htmlBold: "red - b" #
   htmlEndTag: "white"
-  htmlH1: "blue"
-  htmlH2: "blue"
-  htmlH3: "blue"
-  htmlH4: "blue"
-  htmlH5: "blue"
-  htmlH6: "blue"
-  htmlItalic: "magenta - i"
-  htmlLink: "cyan - u"
-  htmlSpecialChar: "red"
-  htmlSpecialTagName: "magenta"
-  htmlTag: "magenta"
-  htmlTagN: "blue"
-  htmlTagName: "blue"
-  htmlTitle: "white"
-  htmlValue: "magenta"
+  htmlH1: "red" #
+  htmlH2: "red"
+  htmlH3: "red"
+  htmlH4: "red"
+  htmlH5: "red"
+  htmlH6: "red" #
+  htmlItalic: "red - i" #
+  htmlLink: "yellow - u" #
+  htmlSpecialChar: "magenta" #
+  htmlSpecialTagName: "magenta" # 
+  htmlTag: "red" # 
+  htmlTagN: "medium_gray" #
+  htmlTagName: "red" #
+  htmlTitle: "white" #
+  htmlValue: "white" #
 
   # Markdown (keep consistent with HTML, above)
   markdownBlockquote: "darker_gray"
