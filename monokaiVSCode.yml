@@ -137,8 +137,8 @@ highlights:
   TSPunctBracket: "red"
   TSPunctSpecial: "red"
   # Constants
-  TSConstant: "yellow"
-  TSConstBuiltin: "blue"
+  TSConstant: "red"
+  TSConstBuiltin: "red"
   # Not sure about this guy
   TSConstMacro: "green"
   TSStringRegex: "yellow"
