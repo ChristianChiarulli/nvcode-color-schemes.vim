@@ -166,13 +166,13 @@ highlights:
   TSRepeat: "red"
   TSLabel: "white"
   # Does not work for yield and return they should be diff then class and def
-  TSKeyword: "green" #
+  TSKeyword: "blue" #
   TSKeywordFunction: "green" #
   TSKeywordOperator: "red" #
   TSOperator: "red" #
   TSException: "red"
-  TSType: "green" #
-  TSTypeBuiltin: "green" #
+  TSType: "blue" #
+  TSTypeBuiltin: "blue" #
   TSStructure: "green" #
   TSInclude: "yellow" #
   # Variable
@@ -187,7 +187,7 @@ highlights:
   TSLiteral: "medium_gray"
   TSURI: "- - u"
   # Tags
-  TSTag: "blue" # 
+  TSTag: "green" # 
   TSTagDelimiter: "red" # 
   TSQueryLinterError: "warning_orange" #
   # -- END Treesitter --
