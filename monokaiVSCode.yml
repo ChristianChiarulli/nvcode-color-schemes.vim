@@ -219,12 +219,12 @@ highlights:
   markdownCode: "gray_blue"
   markdownCodeBlock: "white"
   markdownCodeDelimiter: "white"
-  markdownH1: "red" #
-  markdownH2: "red"
-  markdownH3: "red"
-  markdownH4: "red"
-  markdownH5: "red"
-  markdownH6: "red" #
+  markdownH1: "green" #
+  markdownH2: "green"
+  markdownH3: "green"
+  markdownH4: "green"
+  markdownH5: "green"
+  markdownH6: "green" #
   markdownHeadingDelimiter: "green"
   markdownHeadingRule: "darker_gray"
   markdownId: "magenta"
