@@ -96,8 +96,8 @@ highlights:
   DiffDelete: "black red" # 
   DiffText: "black yellow" #
   ErrorMsg: "error_red" #
-  VertSplit: "vertsplit"
-  Folded: "darker_gray"
+  VertSplit: "vertsplit" #
+  Folded: "medium-gray"
   FoldColumn: ""
   IncSearch: "- dark_gray2"
   LineNr: "gutter_fg_gray"
