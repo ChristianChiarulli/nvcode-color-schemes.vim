@@ -7,8 +7,8 @@ palette:
   fg: "#c9c9c9" #
   bg: "#272822" #
 
-  red: "#df8787"
-  error_red: "#ff8080"
+  red: "#F92572" #
+  error_red: "#d82827" #
   green: "#afdf87"
   light_green: "#B5CEA8"
   yellow: "#ffffaf"
