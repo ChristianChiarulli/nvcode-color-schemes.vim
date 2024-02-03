@@ -156,7 +156,7 @@ hi markdownBlockquote guifg=#272727 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE
 hi markdownBold guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi markdownCode guifg=#afafdf ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCodeBlock guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownCodeDelimiter guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownCodeDelimiter guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownH1 guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownH2 guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownH3 guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

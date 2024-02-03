@@ -213,12 +213,12 @@ highlights:
   htmlTitle: "white" #
   htmlValue: "white" #
 
-  # Markdown (keep consistent with HTML, above)
+  # Markdown (not consistent with HTML, above)
   markdownBlockquote: "darker_gray"
   markdownBold: "magenta - b"
   markdownCode: "gray_blue"
   markdownCodeBlock: "white"
-  markdownCodeDelimiter: "red"
+  markdownCodeDelimiter: "white"
   markdownH1: "red" #
   markdownH2: "red"
   markdownH3: "red"
