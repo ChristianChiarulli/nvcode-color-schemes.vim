@@ -11,7 +11,7 @@ palette:
   error_red: "#d82827" #
   green: "#a6e12e" #
   light_green: "#B5CEA8"
-  yellow: "#e6db00" #
+  yellow: "#e6db74" #
   dark_yellow: "#b2aa5e" #
   orange: "#7c571c" #
   gray: "#887e6d" # comment
@@ -152,9 +152,9 @@ highlights:
   TSAttribute: "light_blue" # ?
   TSNamespace: "blue" #
   # Functions
-  TSFuncBuiltin: "green"
-  TSFunction: "green"
-  TSFuncMacro: "green"
+  TSFuncBuiltin: "green" #
+  TSFunction: "green" # 
+  TSFuncMacro: "green" #
   TSParameter: "white"
   TSParameterReference: "white"
   TSMethod: "magenta"
