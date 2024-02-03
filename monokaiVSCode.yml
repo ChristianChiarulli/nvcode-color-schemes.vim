@@ -214,8 +214,8 @@ highlights:
   htmlValue: "white" #
 
   # Markdown (not consistent with HTML, above)
-  markdownBlockquote: "error_red "
-  markdownBold: "magenta - b"
+  markdownBlockquote: "darker_gray" #
+  markdownBold: "blue - b" #
   markdownCode: "gray_blue"
   markdownCodeBlock: "white"
   markdownCodeDelimiter: "white"
