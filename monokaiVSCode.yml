@@ -235,7 +235,7 @@ highlights:
   markdownLinkText: "blue"
   markdownListMarker: "magenta"
   markdownOrderedListMarker: "magenta"
-  markdownRule: "darker_gray"
+  markdownRule: "error_red"
   markdownUrl: "yellow - u" #
   # -- END Languages --
 
