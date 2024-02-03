@@ -43,9 +43,9 @@ palette:
   tabfill: "#222222"
   tabsel: "#585858"
   bg_inactive: "#ffffff" #
-  cursor_fg: "#515052"
-  cursor_bg: "#565a59" #"#3e3d32"
-  indentlinehighlight: "#767A8B"
+  cursor_fg: "#3e3d32"
+  cursor_bg: "#565a59"
+  indentlinehighlight: "#565a59"
 #TODO UNDERLINE - u std
 highlights:
   # StatusLineBg: "darker_gray" # If possible this would be status line bg color

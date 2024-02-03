@@ -39,7 +39,7 @@ hi SpecialComment guifg=#887e6d ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cte
 hi Error guifg=#d82827 ctermfg=160 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
 hi Todo guifg=#887e6d ctermfg=101 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Underlined guifg=#88c0d0 ctermfg=110 gui=underline cterm=underline
-hi Cursor guifg=#515052 ctermfg=239 guibg=#565a59 ctermbg=240 gui=NONE cterm=NONE
+hi Cursor guifg=#3e3d32 ctermfg=237 guibg=#565a59 ctermbg=240 gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
@@ -263,7 +263,7 @@ hi BufferInactiveMod guifg=#9e9e9e ctermfg=247 guibg=#ffffff ctermbg=231 gui=NON
 hi BufferInactiveSign guifg=#9e9e9e ctermfg=247 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
 hi BufferInactiveTarget guifg=#d7005f ctermfg=161 guibg=#ffffff ctermbg=231 gui=bold cterm=bold
 hi CodiVirtualText guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IndentBlanklineContextChar guifg=#767a8b ctermfg=244 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi IndentBlanklineContextChar guifg=#565a59 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DashboardHeader guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DashboardCenter guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DashboardFooter guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
