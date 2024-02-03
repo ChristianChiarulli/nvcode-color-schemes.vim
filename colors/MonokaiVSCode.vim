@@ -7,7 +7,7 @@ if exists('syntax_on')
 endif
 let g:colors_name='monokaiVSCode'
 
-hi Normal guifg=#c9c9c9 ctermfg=251 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
+hi Normal guifg=#c9c9c9 ctermfg=251 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi Comment guifg=#a4a5a3 ctermfg=248 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -42,7 +42,7 @@ hi Underlined guifg=#88c0d0 ctermfg=110 gui=underline cterm=underline
 hi Cursor guifg=#515052 ctermfg=239 guibg=#aeafad ctermbg=145 gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#d0d0d0 ctermfg=252 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi SignColumn guifg=NONE ctermfg=NONE guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
+hi SignColumn guifg=NONE ctermfg=NONE guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi Conceal guifg=#272727 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#272727 ctermbg=235 gui=NONE cterm=NONE
@@ -58,7 +58,7 @@ hi FoldColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi IncSearch guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE
 hi LineNr guifg=#9e9e9e ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NonText guifg=#676566 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Pmenu guifg=#d0d0d0 ctermfg=252 guibg=#1e1f1c ctermbg=234 gui=NONE cterm=NONE
+hi Pmenu guifg=#d0d0d0 ctermfg=252 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
 hi PmenuSel guifg=#e6e6e6 ctermfg=254 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#676566 ctermbg=241 gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#d0d0d0 ctermbg=252 gui=NONE cterm=NONE
@@ -82,7 +82,7 @@ hi Visual guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE
 hi VisualNOS guifg=#333333 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WarningMsg guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#121212 ctermfg=233 guibg=#87afdf ctermbg=110 gui=NONE cterm=NONE
-hi EndOfBuffer guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi EndOfBuffer guifg=#272822 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSComment guifg=#a4a5a3 ctermfg=248 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSError guifg=#d82827 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctDelimiter guifg=#f92572 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -247,16 +247,16 @@ hi NvimTreeRootFolder guifg=#afafaf ctermfg=145 guibg=NONE ctermbg=NONE gui=bold
 hi NvimTreeExecFile guifg=#23d18b ctermfg=42 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeSpecialFile guifg=#dfafdf ctermfg=182 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeLspDiagnostics guifg=#ffb870 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi BufferCurrent guifg=#c9c9c9 ctermfg=251 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
-hi BufferCurrentIndex guifg=#87afdf ctermfg=110 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
-hi BufferCurrentMod guifg=#c9c9c9 ctermfg=251 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
-hi BufferCurrentSign guifg=#87afdf ctermfg=110 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
-hi BufferCurrentTarget guifg=#f92572 ctermfg=197 guibg=#ffffff ctermbg=231 gui=bold cterm=bold
-hi BufferVisible guifg=#c9c9c9 ctermfg=251 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
-hi BufferVisibleIndex guifg=#c9c9c9 ctermfg=251 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
-hi BufferVisibleMod guifg=#c9c9c9 ctermfg=251 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
-hi BufferVisibleSign guifg=#c9c9c9 ctermfg=251 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
-hi BufferVisibleTarget guifg=#f92572 ctermfg=197 guibg=#ffffff ctermbg=231 gui=bold cterm=bold
+hi BufferCurrent guifg=#c9c9c9 ctermfg=251 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
+hi BufferCurrentIndex guifg=#87afdf ctermfg=110 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
+hi BufferCurrentMod guifg=#c9c9c9 ctermfg=251 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
+hi BufferCurrentSign guifg=#87afdf ctermfg=110 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
+hi BufferCurrentTarget guifg=#f92572 ctermfg=197 guibg=#272822 ctermbg=235 gui=bold cterm=bold
+hi BufferVisible guifg=#c9c9c9 ctermfg=251 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
+hi BufferVisibleIndex guifg=#c9c9c9 ctermfg=251 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
+hi BufferVisibleMod guifg=#c9c9c9 ctermfg=251 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
+hi BufferVisibleSign guifg=#c9c9c9 ctermfg=251 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
+hi BufferVisibleTarget guifg=#f92572 ctermfg=197 guibg=#272822 ctermbg=235 gui=bold cterm=bold
 hi BufferInactive guifg=#9e9e9e ctermfg=247 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
 hi BufferInactiveIndex guifg=#9e9e9e ctermfg=247 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
 hi BufferInactiveMod guifg=#9e9e9e ctermfg=247 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
@@ -267,7 +267,7 @@ hi IndentBlanklineContextChar guifg=#767a8b ctermfg=244 guibg=NONE ctermbg=NONE 
 hi DashboardHeader guifg=#87afdf ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DashboardCenter guifg=#dfafdf ctermfg=182 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DashboardFooter guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi WhichKeyFloat guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi WhichKeyFloat guifg=#272822 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiHeader1 guifg=#dfafdf ctermfg=182 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi VimwikiHeader2 guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi VimwikiHeader3 guifg=#87afdf ctermfg=110 guibg=NONE ctermbg=NONE gui=bold cterm=bold
