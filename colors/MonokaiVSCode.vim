@@ -178,8 +178,8 @@ hi markdownUrl guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=underline c
 hi CocExplorerIndentLine guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerBufferRoot guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerFileRoot guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferFullPath guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileFullPath guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerBufferFullPath guifg=#9f9f9f ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerFileFullPath guifg=#9f9f9f ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerBufferReadonly guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerBufferModified guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerBufferNameVisible guifg=#fd971e ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -243,7 +243,7 @@ hi NvimTreeGitNew guifg=#afdf87 ctermfg=150 guibg=NONE ctermbg=NONE gui=NONE cte
 hi NvimTreeIndentMarker guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeSymlink guifg=#29b8d8 ctermfg=38 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeFolderIcon guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NvimTreeRootFolder guifg=#afafaf ctermfg=145 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi NvimTreeRootFolder guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi NvimTreeExecFile guifg=#23d18b ctermfg=42 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeSpecialFile guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeLspDiagnostics guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

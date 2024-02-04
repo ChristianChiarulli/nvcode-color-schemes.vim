@@ -19,8 +19,8 @@ palette:
   dark_gray2: "#333333"
   darker_gray: "#272727" # bar
   medium_gray: "#777777"
-  light_gray: "#ffffff"
-  lighter_gray: "#afafaf"
+  light_gray: "#9f9f9f"
+  lighter_gray: "#ffffff"
   blue: "#65d9ef" #
   gray_blue: "#afafdf"
   light_blue: "#88C0D0"
