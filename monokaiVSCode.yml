@@ -14,7 +14,7 @@ palette:
   yellow: "#e6db74" #
   dark_yellow: "#b2aa5e" #
   orange: "#fd971e" #
-  gray: "#887e6d" # comment
+  gray: "#ffffff" # comment
   dark_gray: "#444444"
   dark_gray2: "#333333"
   darker_gray: "#272727"
@@ -101,7 +101,7 @@ highlights:
   FoldColumn: "" #
   IncSearch: "- dark_gray2" # ?
   LineNr: "gutter_fg_gray" #
-  NonText: "red"
+  NonText: "special_gray"
   Pmenu: "white menu_gray"
   PmenuSel: "shiny_white dark_gray"
   PmenuSbar: "- special_gray"
