@@ -15,8 +15,8 @@ palette:
   dark_yellow: "#b2aa5e" #
   orange: "#fd971e" #
   gray: "#887e6d" # comment
-  dark_gray: "#ffffff"
-  dark_gray2: "#333333"
+  dark_gray: "#444444"
+  dark_gray2: "#ffffff"
   darker_gray: "#272727"
   medium_gray: "#777777"
   light_gray: "#9f9f9f"
