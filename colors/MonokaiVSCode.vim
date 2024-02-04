@@ -57,7 +57,7 @@ hi Folded guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE
 hi LineNr guifg=#9e9e9e ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NonText guifg=#676566 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NonText guifg=#d7005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Pmenu guifg=#ffffff ctermfg=231 guibg=#1e1f1c ctermbg=234 gui=NONE cterm=NONE
 hi PmenuSel guifg=#e6e6e6 ctermfg=254 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#676566 ctermbg=241 gui=NONE cterm=NONE

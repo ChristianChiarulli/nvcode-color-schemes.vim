@@ -101,7 +101,7 @@ highlights:
   FoldColumn: "" #
   IncSearch: "- dark_gray2" # ?
   LineNr: "gutter_fg_gray" #
-  NonText: "special_gray"
+  NonText: "red"
   Pmenu: "white menu_gray"
   PmenuSel: "shiny_white dark_gray"
   PmenuSbar: "- special_gray"
