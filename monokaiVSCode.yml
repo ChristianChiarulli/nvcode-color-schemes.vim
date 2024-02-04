@@ -17,8 +17,8 @@ palette:
   gray: "#887e6d" # comment
   dark_gray: "#444444"
   dark_gray2: "#333333"
-  darker_gray: "#ffffff"
-  medium_gray: "#777777"
+  darker_gray: "#272727" # bar
+  medium_gray: "#ffffff"
   light_gray: "#9f9f9f"
   lighter_gray: "#afafaf"
   blue: "#65d9ef" #
