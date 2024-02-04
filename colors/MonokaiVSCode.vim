@@ -56,9 +56,9 @@ hi VertSplit guifg=#676566 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi Folded guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE
-hi LineNr guifg=#9e9e9e ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LineNr guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NonText guifg=#676566 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Pmenu guifg=#ffffff ctermfg=231 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
+hi Pmenu guifg=#ffffff ctermfg=231 guibg=#1e1f1c ctermbg=234 gui=NONE cterm=NONE
 hi PmenuSel guifg=#e6e6e6 ctermfg=254 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#676566 ctermbg=241 gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
@@ -81,7 +81,7 @@ hi Terminal guifg=#ffffff ctermfg=231 guibg=#121212 ctermbg=233 gui=NONE cterm=N
 hi Visual guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE
 hi VisualNOS guifg=#333333 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WarningMsg guifg=#e6db74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi WildMenu guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi WildMenu guifg=#1e1f1c ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#272822 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSComment guifg=#887e6d ctermfg=101 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSError guifg=#d82827 ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -257,10 +257,10 @@ hi BufferVisibleIndex guifg=#c9c9c9 ctermfg=251 guibg=#272822 ctermbg=235 gui=NO
 hi BufferVisibleMod guifg=#c9c9c9 ctermfg=251 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi BufferVisibleSign guifg=#c9c9c9 ctermfg=251 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi BufferVisibleTarget guifg=#d7005f ctermfg=161 guibg=#272822 ctermbg=235 gui=bold cterm=bold
-hi BufferInactive guifg=#9e9e9e ctermfg=247 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
-hi BufferInactiveIndex guifg=#9e9e9e ctermfg=247 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
-hi BufferInactiveMod guifg=#9e9e9e ctermfg=247 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
-hi BufferInactiveSign guifg=#9e9e9e ctermfg=247 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
+hi BufferInactive guifg=#ffffff ctermfg=231 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
+hi BufferInactiveIndex guifg=#ffffff ctermfg=231 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
+hi BufferInactiveMod guifg=#ffffff ctermfg=231 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
+hi BufferInactiveSign guifg=#ffffff ctermfg=231 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
 hi BufferInactiveTarget guifg=#d7005f ctermfg=161 guibg=#ffffff ctermbg=231 gui=bold cterm=bold
 hi CodiVirtualText guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IndentBlanklineContextChar guifg=#565a59 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
