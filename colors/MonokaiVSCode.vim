@@ -57,15 +57,15 @@ hi Folded guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE
 hi LineNr guifg=#9e9e9e ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NonText guifg=#676566 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NonText guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Pmenu guifg=#ffffff ctermfg=231 guibg=#1e1f1c ctermbg=234 gui=NONE cterm=NONE
 hi PmenuSel guifg=#e6e6e6 ctermfg=254 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
-hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#676566 ctermbg=241 gui=NONE cterm=NONE
+hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
 hi Question guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi QuickFixLine guifg=NONE ctermfg=NONE guibg=#272727 ctermbg=235 gui=NONE cterm=NONE
 hi Search guifg=NONE ctermfg=NONE guibg=#333333 ctermbg=236 gui=NONE cterm=NONE
-hi SpecialKey guifg=#676566 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpecialKey guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=#d82827 ctermfg=160 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi SpellCap guifg=#b2aa5e ctermfg=143 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellLocal guifg=#b2aa5e ctermfg=143 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -185,7 +185,7 @@ hi CocExplorerBufferModified guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE g
 hi CocExplorerBufferNameVisible guifg=#fd971e ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerFileReadonly guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerFileModified guifg=#a6e12e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileHidden guifg=#676566 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerFileHidden guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerHelpLine guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi EasyMotionTarget guifg=#d82827 ctermfg=160 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi EasyMotionTarget2First guifg=#d82827 ctermfg=160 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -243,7 +243,7 @@ hi NvimTreeGitNew guifg=#afdf87 ctermfg=150 guibg=NONE ctermbg=NONE gui=NONE cte
 hi NvimTreeIndentMarker guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeSymlink guifg=#29b8d8 ctermfg=38 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeFolderIcon guifg=#65d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NvimTreeRootFolder guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi NvimTreeRootFolder guifg=#afafaf ctermfg=145 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi NvimTreeExecFile guifg=#23d18b ctermfg=42 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeSpecialFile guifg=#ab80fb ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeLspDiagnostics guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

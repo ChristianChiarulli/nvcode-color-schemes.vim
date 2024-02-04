@@ -20,7 +20,7 @@ palette:
   darker_gray: "#272727" # bar
   medium_gray: "#777777"
   light_gray: "#9f9f9f"
-  lighter_gray: "#ffffff"
+  lighter_gray: "#afafaf"
   blue: "#65d9ef" #
   gray_blue: "#afafdf"
   light_blue: "#88C0D0"
@@ -33,7 +33,7 @@ palette:
   gutter_fg_gray: "#9e9e9e"
   cursor_column_gray: "#565a59"
   menu_gray: "#1e1f1c" # 
-  special_gray: "#676566"
+  special_gray: "#ffffff"
   vertsplit: "#676566" #
   warning_orange: "#cca700" #
   info_yellow: "#FFCC66"
