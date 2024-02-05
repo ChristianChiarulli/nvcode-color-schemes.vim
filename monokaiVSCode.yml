@@ -1,0 +1,381 @@
+information:
+  name: monokaiVSCode
+  background: dark
+  author: "Nikolas Daynard"
+
+palette:
+  fg: "#c9c9c9" #
+  bg: "#272822" #
+
+  red: "#d7005f" # good d7005f
+  error_red: "#d82827" #
+  green: "#a6e12e" #
+  light_green: "#B5CEA8"
+  yellow: "#e6db74" #
+  dark_yellow: "#b2aa5e" #
+  orange: "#fd971e" #
+  gray: "#887e6d" # comment
+  dark_gray: "#444444"
+  dark_gray2: "#333333"
+  darker_gray: "#333333" # bar
+  medium_gray: "#777777"
+  light_gray: "#9f9f9f"
+  lighter_gray: "#afafaf"
+  blue: "#65d9ef" #
+  gray_blue: "#afafdf"
+  light_blue: "#88C0D0"
+  cyan: "#ffffff"
+  vivid_blue: "#ffffff"
+  magenta: "#ab80fb" #
+  white: "#ffffff"
+  shiny_white: "#e6e6e6"
+  black: "#121212"
+  gutter_fg_gray: "#9e9e9e"
+  cursor_column_gray: "#565a59"
+  menu_gray: "#1e1f1c" # 
+  special_gray: "#676566"
+  vertsplit: "#676566" #
+  warning_orange: "#cca700" #
+  info_yellow: "#FFCC66"
+  git_green: "#afdf87"
+  symlink: "#29B8D8"
+  executable: "#23D18B"
+  tabfill: "#222222"
+  tabsel: "#585858"
+  bg_inactive: "#ffffff" #
+  cursor_fg: "#3e3d32"
+  cursor_bg: "#414034"
+  indentlinehighlight: "#565a59"
+#TODO UNDERLINE - u std
+highlights:
+  # StatusLineBg: "darker_gray" # If possible this would be status line bg color
+  Normal: "fg bg"
+
+  Comment: "gray - i" # 
+  Constant: "yellow"
+  String: "yellow" # 
+  Character: "yellow" # 
+  Number: "magenta" #
+  Boolean: "magenta" #
+  Float: "magenta" #
+  Identifier: "white" # vars?
+  Function: "green" #
+  Statement: "red" #
+  Conditional: "red" #
+  Repeat: "red" #
+  Label: "green" #
+  Operator: "red" #
+  Keyword: "blue"
+  Exception: "blue"
+  PreProc: "red" #
+  Include: "red" #
+  Define: "red" #
+  Title: "gray" # ?
+  Macro: "green" #
+  PreCondit: "green" #
+  Type: "blue" # 
+  StorageClass: "red" #
+  Structure: "green" #
+  Typedef: "red" #
+  Special: "red" # dunno
+  SpecialComment: "gray" # dunno
+  Error: "error_red - br" #
+  Todo: "gray - b" #
+  Underlined: "cyan . u" # ?
+  Cursor: "cursor_fg cursor_bg" # ?
+
+  ColorColumn: "- cursor_column_gray" #
+  CursorLineNr: "white - b" #
+  SignColumn: "- bg" #
+  Conceal: "darker_gray"
+  CursorColumn: "- cursor_column_gray" #
+  CursorLine: "- darker_gray" #
+  Directory: "white" # 
+  DiffAdd: "git_green" #
+  DiffChange: "yellow - u" #
+  DiffDelete: "black red" # 
+  DiffText: "black yellow" #
+  ErrorMsg: "error_red" #
+  VertSplit: "vertsplit" #
+  Folded: "medium_gray" #
+  FoldColumn: "" #
+  IncSearch: "- dark_gray2" # ?
+  LineNr: "gutter_fg_gray" #
+  NonText: "special_gray"
+  Pmenu: "white menu_gray"
+  PmenuSel: "shiny_white dark_gray"
+  PmenuSbar: "- special_gray"
+  PmenuThumb: "- white"
+  Question: "magenta"
+  QuickFixLine: "- darker_gray"
+  Search: "- dark_gray2"
+  SpecialKey: "special_gray"
+  SpellBad: "error_red - u"
+  SpellCap: "dark_yellow"
+  SpellLocal: "dark_yellow"
+  SpellRare: "dark_yellow"
+  StatusLine: "white darker_gray"
+  StatusLineNC: "darker_gray"
+  StatusLineTerm: "white darker_gray"
+  StatusLineTermNC: "darker_gray"
+  TabLine: "darker_gray"
+  TabLineSel: "tabsel"
+  TabLineFill: "- tabfill"
+  Terminal: "white black"
+  Visual: "- dark_gray2"
+  VisualNOS: "dark_gray2"
+  WarningMsg: "yellow"
+  WildMenu: "menu_gray" #
+  EndOfBuffer: "bg"
+  
+
+  # -- Start Treesitter --
+  # Misc
+  TSComment: "gray - i" #
+  TSError: "error_red" #
+  TSPunctDelimiter: "red"
+  TSPunctBracket: "red"
+  TSPunctSpecial: "red"
+  # Constants
+  TSConstant: "red" #
+  TSConstBuiltin: "red" #
+  # Not sure about this guy
+  TSConstMacro: "green"
+  TSStringRegex: "yellow" #
+  TSString: "yellow" #
+  TSStringEscape: "red" #?
+  TSCharacter: "yellow" #
+  TSNumber: "magenta" # 
+  TSBoolean: "magenta" # 
+  TSFloat: "magenta" #
+  TSAnnotation: "green"
+  TSAttribute: "light_blue" # ?
+  TSNamespace: "blue" #
+  # Functions
+  TSFuncBuiltin: "green" #
+  TSFunction: "green" # 
+  TSFuncMacro: "green" #
+  TSParameter: "orange" # 
+  TSParameterReference: "white" #
+  TSMethod: "green" #
+  TSField: "blue" # 
+  TSProperty: "blue"
+  TSConstructor: "green" # ?
+  # Keywords
+  TSConditional: "red"
+  TSRepeat: "red"
+  TSLabel: "white"
+  # Does not work for yield and return they should be diff then class and def
+  TSKeyword: "blue" #
+  TSKeywordFunction: "green" #
+  TSKeywordOperator: "red" #
+  TSOperator: "red" #
+  TSException: "red"
+  TSType: "blue" #
+  TSTypeBuiltin: "blue" #
+  TSStructure: "green" #
+  TSInclude: "yellow" #
+  # Variable
+  TSVariable: "white" #
+  TSVariableBuiltin: "white" #
+  # Text
+  TSText: "fg" #
+  TSStrong: "green" #
+  TSEmphasis: "magenta" #
+  TSUnderline: "red" #
+  TSTitle: "fg" #
+  TSLiteral: "medium_gray"
+  TSURI: "- - u"
+  # Tags
+  TSTag: "blue" # 
+  TSTagDelimiter: "red" # 
+  TSQueryLinterError: "warning_orange" #
+  # -- END Treesitter --
+
+  # -- START Languages --
+  # HTML (keep consistent with Markdown, below)
+  htmlArg: "green" #
+  htmlBold: "red - b" #
+  htmlEndTag: "white"
+  htmlH1: "red" #
+  htmlH2: "red"
+  htmlH3: "red"
+  htmlH4: "red"
+  htmlH5: "red"
+  htmlH6: "red" #
+  htmlItalic: "red - i" #
+  htmlLink: "yellow - u" #
+  htmlSpecialChar: "magenta" #
+  htmlSpecialTagName: "magenta" # 
+  htmlTag: "white" # 
+  htmlTagN: "medium_gray" #
+  htmlTagName: "red" #
+  htmlTitle: "white" #
+  htmlValue: "white" #
+
+  # Markdown (not consistent with HTML, above)
+  markdownBlockquote: "darker_gray" #
+  markdownBold: "blue - b" #
+  markdownCode: "orange" #
+  markdownCodeBlock: "orange" #
+  markdownCodeDelimiter: "orange" #
+  markdownH1: "green" #
+  markdownH2: "green"
+  markdownH3: "green"
+  markdownH4: "green"
+  markdownH5: "green"
+  markdownH6: "green" #
+  markdownHeadingDelimiter: "green" #
+  markdownHeadingRule: "darker_gray" #
+  markdownId: "magenta" #
+  markdownIdDeclaration: "magenta" #
+  markdownIdDelimiter: "magenta" #
+  markdownItalic: "magenta - i" #
+  markdownLinkDelimiter: "white" #
+  markdownLinkText: "magenta" #
+  markdownListMarker: "green" #
+  markdownOrderedListMarker: "green" #
+  markdownRule: "darker_gray" #
+  markdownUrl: "yellow - u" #
+  # -- END Languages --
+
+
+  # -- START CoC --
+  CocExplorerIndentLine: "medium_gray"
+  CocExplorerBufferRoot: "yellow"
+  CocExplorerFileRoot: "yellow"
+  CocExplorerBufferFullPath: "light_gray"
+  CocExplorerFileFullPath: "light_gray"
+  CocExplorerBufferReadonly: "magenta"
+  CocExplorerBufferModified: "magenta"
+  CocExplorerBufferNameVisible: "orange"
+  CocExplorerFileReadonly: "magenta"
+  CocExplorerFileModified: "green"
+  CocExplorerFileHidden: "special_gray"
+  CocExplorerHelpLine: "magenta"
+  # -- END CoC --
+
+  # -- START Easymotion --
+  EasyMotionTarget: "error_red - b" #
+  EasyMotionTarget2First: "error_red - b" #
+  EasyMotionTarget2Second: "error_red - b" #
+  EasyMotionShade: "" #
+
+  # -- END Easymotion --
+  # -- START Startify --
+  StartifyNumber: "red"
+  StartifySelect: "green" # maybe shiny_white
+  StartifyBracket: "blue"
+  StartifySpecial: "cyan"
+  StartifyVar: "blue"
+  StartifyPath: "blue"
+  StartifyFile: "cyan"
+  StartifySlash: "blue"
+  StartifyHeader: "light_blue"
+  StartifySection: "magenta"
+  StartifyFooter: "green"
+  # -- END Startify --
+  # -- START WhichKey --
+  WhichKey: "magenta"
+  WhichKeySeperator: "green"
+  WhichKeyGroup: "vivid_blue"
+  WhichKeyDesc: "blue"
+  # -- END WhichKey --
+
+  # old stuff
+  diffAdded: "green"
+  diffAdd: "green"
+  diffRemoved: "red"
+  diffFileId: "blue - br"
+  diffFile: "gray_blue"
+  diffNewFile: "green"
+  diffOldFile: "red"
+
+  debugPc: "- cyan"
+  debugBreakpoint: "red - r"
+
+  GitSignsAdd: "green"
+  GitSignsChange: "blue"
+  GitSignsDelete: "red"
+
+  # These 3 bellow disabled because if enabled text is not being underlined only colored,
+  # it would be great if text became both underlined and colored to proper color then the
+  # circular color indicators would make sense!!
+
+  # LspDiagnosticsUnderlineError: "error_red"
+  # LspDiagnosticsUnderlineWarning: "warning_orange"
+  # LspDiagnosticsUnderlineInformation: "vivid_blue"
+  LspDiagnosticsUnderlineHint: "gray"
+
+  LspDiagnosticsSignError: "error_red"
+  LspDiagnosticsSignWarning: "warning_orange"
+  LspDiagnosticsSignInformation: "info_yellow"
+  LspDiagnosticsSignHint: "vivid_blue"
+
+  LspDiagnosticsVirtualTextError: "error_red"
+  LspDiagnosticsVirtualTextWarning: "warning_orange"
+  LspDiagnosticsVirtualTextInformation: "info_yellow"
+  LspDiagnosticsVirtualTextHint: "vivid_blue"
+
+  QuickScopePrimary: "vivid_blue - u"
+  QuickScopeSecondary: "red - u"
+
+  MatchWord: "- - u"
+  MatchParen: "- - u"
+  MatchWordCur: "- - u"
+  MatchParenCur: "- - u"
+
+  NvimTreeImageFile: "magenta"
+  NvimTreeGitDirty: "git_green"
+  NvimTreeGitDeleted: "git_green"
+  NvimTreeGitStaged: "git_green"
+  NvimTreeGitMerge: "git_green"
+  NvimTreeGitRenamed: "git_green"
+  NvimTreeGitNew: "git_green"
+  NvimTreeIndentMarker: "medium_gray"
+  NvimTreeSymlink: "symlink"
+  NvimTreeFolderIcon: "blue"
+  NvimTreeRootFolder: "lighter_gray - b"
+  NvimTreeExecFile: "executable"
+  NvimTreeSpecialFile: "magenta"
+  NvimTreeLspDiagnostics: "warning_orange" 
+
+  BufferCurrent: "fg bg"
+  BufferCurrentIndex: "blue bg"
+  BufferCurrentMod: "fg bg"
+  BufferCurrentSign: "blue bg"
+  BufferCurrentTarget: "red bg b"
+
+  BufferVisible: "fg bg"
+  BufferVisibleIndex: "fg bg"
+  BufferVisibleMod: "fg bg"
+  BufferVisibleSign: "fg bg"
+  BufferVisibleTarget: "red bg b"
+
+  BufferInactive: "gutter_fg_gray bg_inactive"
+  BufferInactiveIndex: "gutter_fg_gray bg_inactive"
+  BufferInactiveMod: "gutter_fg_gray bg_inactive"
+  BufferInactiveSign: "gutter_fg_gray bg_inactive"
+  BufferInactiveTarget: "red bg_inactive b"
+
+  CodiVirtualText: "magenta"
+  IndentBlanklineContextChar: "indentlinehighlight"                     
+  DashboardHeader: "blue"
+  DashboardCenter: "magenta"
+  DashboardFooter: "light_blue"
+
+  WhichKeyFloat: "bg"
+
+  # VimWiki
+  VimwikiHeader1: "magenta - b"
+  VimwikiHeader2: "green - b"
+  VimwikiHeader3: "blue - b"
+  VimwikiHeader4: "cyan - b"
+  VimwikiHeader5: "dark_yellow - b"
+  VimwikiHeader6: "magenta - b"
+  VimwikiLink: "vivid_blue"
+  VimwikiHeaderChar: "darker_gray"
+  VimwikiHR: "yellow"
+  VimwikiList: "magenta"
+  VimwikiTag: "magenta"
+  VimwikiMarkers: "darker_gray"
