@@ -4,12 +4,12 @@ information:
   author: "Christian Chiarulli <chrisatmachine@gmail.com>"
 
 palette:
-  fg: "#D4D4D4"
+  fg: "#ABB2BF"
   bg: "#1E1E1E"
 
   red: "#D16969"
   error_red: "#F44747"
-  green: "#6A9955"
+  green: "#608B4E"
   light_green: "#B5CEA8"
   yellow: "#DCDCAA"
   dark_yellow: "#D7BA7D"
@@ -20,7 +20,7 @@ palette:
   vivid_blue: "#4FC1FF"
   purple: "#C586C0"
   cyan: "#4EC9B0"
-  white: "#BBBBBB"
+  white: "#ABB2BF"
   black: "#1E1E1E"
   line_grey: "#5C6370"
   gutter_fg_grey: "#858585"
@@ -31,7 +31,7 @@ palette:
   vertsplit: "#3E4452"
   warning_orange: "#ff8800"
   info_yellow: "#FFCC66"
-  search_blue: "#5e81ac"
+  search_blue: "#1da1f2"
   git_green: "#81B88B"
   symlink: "#29B8D8"
   executable: "#23D18B"
@@ -121,7 +121,7 @@ highlights:
   WarningMsg: "yellow"
   WildMenu: "black blue"
   EndOfBuffer: "black"
-  
+
 
   # -- Start Treesitter --
   # Misc
@@ -167,7 +167,7 @@ highlights:
   TSException: "purple"
   TSType: "cyan"
   TSTypeBuiltin: "blue"
-  TSStructure: "#cyan"
+  TSStructure: "cyan"
   TSInclude: "purple"
   # Variable
   TSVariable: "light_blue"
