@@ -26,7 +26,7 @@ This color scheme requires [treesitter](https://github.com/nvim-treesitter/nvim-
 With `Vim-plug`
 
 ```viml
-Plug 'christianchiarulli/nvcode-color-schemes.vim'
+Plug 'kakashi-69-xd/nvcode-color-schemes.vim'
 Plug 'nvim-treesitter/nvim-treesitter'
 ```
 
